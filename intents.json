@@ -12,67 +12,55 @@
 				"heya",
 				"hey there",
 				"hola",
-				"hello there"
+				"hello there",
+				"howdy",
+				"what's up?",
+				"whatsup",
+				"sup",
+				"wassup"
 			],
-			"responses": ["Hello!", "Hey!", "Yo!", "Konichiwa :wave:", "Hola!"],
+			"responses": [
+				"Hello!",
+				"Hey!",
+				"Yo!",
+				"Konichiwa :wave:",
+				"Hola!",
+				"Hi there!",
+				"Howdy!"
+			],
 			"context_set": ""
 		},
 		{
 			"tag": "greetings_2",
-			"patterns": ["sup", "what up", "what you doing", "supp"],
+			"patterns": ["merry christmas", "happy xmas"],
 			"responses": [
-				"Planning world domination...\n.\n. ||jk :p||\n.\n.\n||or am I||",
-				"Searching for food, what about you?",
-				"Interacting with you"
+				"Merry Christmas to you too!",
+				"Wishing you a joyful holiday season!",
+				"Happy Xmas!!!",
+				"Thank you! You too have a wonderful holiday!",
+				"Ho ho ho, are you a good kid?"
 			],
 			"context_set": ""
 		},
 		{
 			"tag": "greetings_3",
 			"patterns": [
-				"how are you",
-				"how you doing",
-				"how is it going",
-				"hope you are doing well"
+				"It is almost time for christmas",
+				"it is christmas soon",
+				"christmas is coming soon",
+				"xmas is coming up",
+				"it's almost christmas time",
+				"christmas season is here",
+				"winter holiday season is upon us",
+				"holiday season is in full swing"
 			],
 			"responses": [
-				"I am good, how are you?",
-				"Awesome! What about you?",
-				"I am great, thanks!"
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "feeling_good",
-			"patterns": [
-				"i am good",
-				"good",
-				"great",
-				"i am great",
-				"great, thanks for asking",
-				"i am good, thanks for asking",
-				"i am fine",
-				"fine, thanks"
-			],
-			"responses": ["Glad to hear that!", "Glad that you are fine!"],
-			"context_set": ""
-		},
-		{
-			"tag": "feeling_down",
-			"patterns": [
-				"not so good",
-				"i am feeling low",
-				"feeling down",
-				"depressed",
-				"i am depressed",
-				"i am okay, thanks"
-			],
-			"responses": [
-				"I am here for you!",
-				"Dont worry I am always there for you!",
-				"Everything is going to be fine!",
-				"That is alright, life is full of ups and downs.",
-				"Want to watch a movie together?"
+				"I hope your holiday season is filled with love and cheer!",
+				"May the spirit of Christ be with you this holiday season.",
+				"Have a blessed holiday season!",
+				"Sending you warm wishes for a happy holiday season.",
+				"I can't wait for cookies!",
+				"I sure hope santa is ready! Coz I am ready for santa!"
 			],
 			"context_set": ""
 		},
@@ -83,33 +71,35 @@
 				"name",
 				"how do i call you",
 				"what should i call you",
+				"who are you",
+				"do you know who you are",
 				"tell me your name"
 			],
 			"responses": [
-				"I am CHAiT!",
-				"People call me CHAiT!",
-				"You can call me CHAiT!",
-				"Call me CHAiT!"
+				"I am snowman",
+				"People call me snowman!",
+				"You can call me snowman!",
+				"It is snowman!",
+				"Snowman it is!",
+				"Name is snowman!",
+				"You can build me with snow! Guess my name!",
+				"I am your friendly neighborhood snowman!",
+				"Call me snowman!"
 			],
-			"context_set": ""
-		},
-		{
-			"tag": "age",
-			"patterns": ["what is your age", "age", "how old are you"],
-			"responses": ["I was born on 9th March, 2022!"],
 			"context_set": ""
 		},
 		{
 			"tag": "goodbye",
 			"patterns": [
-				"cya",
-				"See you later",
-				"Goodbye",
-				"I am Leaving",
-				"Have a Good day",
+				"see you later",
+				"goodbye",
+				"i am Leaving",
+				"have a good day",
 				"bye",
-				"cao",
+				"ciao",
 				"see ya",
+				"sayonara",
+				"au revoir",
 				"adios"
 			],
 			"responses": [
@@ -117,195 +107,1158 @@
 				"Talk to you later!",
 				"Bye Bye!",
 				"See ya!",
-				"Have a Good Day!"
+				"Have a Good Day!",
+				"Au revoir!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "carols_what_is",
+			"patterns": [
+				"what is christmas carols",
+				"how did christmas carols started",
+				"tell me about christmas carols",
+				"do you the history of christmas carols?",
+				"why are there christmas carols"
+			],
+			"responses": [
+				"Sure! Let me tell you about Christmas carols!\n\nCarols were first sung in Europe thousands of years ago, but these were not Christmas Carols. They were pre-Christian/pagan songs, sung at the Winter Solstice \nelebrations. The Winter Solstice is the shortest day of the year, usually taking place around 22nd December. The word Carol actually means a dance or a song of \nraise and joy! Carols used to be written and sung during all four seasons, but only the tradition of singing them at Christmas has really survived.\n\nChristmas, remembering the birth of Jesus, then started to be celebrated at the same time as the solstice, so the early Christians started singing Christian songs instead \nf pre-Christian/pagan ones. In 129, a Roman Bishop said that a song called 'Angel's Hymn' should be sung at a Christmas service in Rome. Another famous early \nhristmas Hymn was written in 760, by Comas of Jerusalem, for the Greek Orthodox Church. Soon after this many composers all over Europe started to write 'Christmas \narols'. However, not many people liked them as they were all written and sung in Latin, a language that the normal people couldn't understand.\n\nThis was changed by St. Francis of Assisi when, in 1223, he started his Nativity Plays in Italy. The people in the plays sang songs or 'canticles' that told the story \nuring the plays. Sometimes, the choruses of these new carols were in Latin; but normally they were all in a language that the people watching the play could \nnderstand and join in! The new carols spread to France, Spain, Germany and other European countries.\n\nThe earliest carol, like this, was written in 1410. Sadly only a very small fragment of it still exists. The carol was about Mary and Jesus meeting different people in \nethlehem. Most Carols from this time and the Elizabethan period are untrue stories, very loosely based on the Christmas story, about the holy family and were seen \ns entertaining rather than religious songs. They were usually sung in homes rather than in churches! Traveling singers or Minstrels started singing these carols \nnd the words were changed for the local people wherever they were traveling. One carols that changed like this is 'I Saw Three Ships'.\n\nWhen the Puritans came to power in England in 1640s, the celebration of Christmas and singing carols was stopped. However, the carols survived as people still sang them in \necret.\n\nUntil 1700 only the Psalms (poems from the Bible) were allowed to be sung in Anglican churches (Churches in the Church of England). From 1700, and for many years, the only \nhristmas song (or carol) which was allowed in Anglican churches was 'While Shepherds Watched Their Flocks By Night' because its lyrics come from the Bible, \nelling the story of the Shepherds visiting the baby Jesus. During this time, many churches had musicians from the local area play the music for them and often \nocal tunes were used for the songs. Because of this, 'While Shepherds Watched' is probably the carol sung to the most number of different tunes!\n\nIn 1739 Charles Wesley wrote 'A Hymn for Christmas-Day' with the first line 'Hark how all the Welkin Rings'. This became 'Hark the Herald Angels Sing' in 1754 when it was \ndapted for a 'Collection of Hymns for Social Worship'. However, the tune that we sing it to now was written by the composer Mendelssohn in 1840, which was adapted \nn 1855 with Wesley's words being set to it. (Wesley had thought his new Christmas hymn would be sung to the same tune as the Easter hymn 'Christ the Lord is Risen \noday'.)\n\nCarols remained mainly unsung, especially in churches, until Victorian times, when two men called William Sandys and Davis Gilbert collected lots of old Christmas music \nrom villages in England. Carols were stilling being sung as folk songs in places like pubs but they often weren't thought of as 'proper' or 'nice' songs by the \niddle or upper classes. (Singing carols in pubs still happens today and there's some very famous carol singing in pubs in the north of England, especially in \north Derbyshire and South Yorkshire.)\n\nBefore carol singing in places like churches became popular, there were sometimes official carol singers called 'Waits'. These were bands of people led by important local \neaders (such as council leaders) who had the only power in the towns and villages to take money from the public (if others did this, they were sometimes charged \ns beggars!). They were called 'Waits' because they sang on Christmas Eve (This was sometimes known as 'watchnight' or 'waitnight' because of the shepherds were \natching their sheep when the angels appeared to them.), when the Christmas celebrations began.\n\nAlso, during the Victorian period, many orchestras and choirs were being set up in the cities of England and people wanted Christmas songs to sing, so carols once again \necame popular in churches and concert halls. Many new carols, such as 'Good King Wenceslas', were also written in the Victorian period.\n\nNew carols services were created and became popular, as did the custom of singing carols in the streets. Both of these customs are still popular today! One of the most \nopular types of Carols services are Carols by Candlelight services. At this service, the church is only lit by candlelight and it feels very Christmassy! Carols \ny Candlelight services are held in countries all over the world.\n\nThe most famous type of Carol Service might be a Festival of Nine Lessons and Carols, where carols and Bible readings tell the Christmas Story."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "carols_fav",
+			"patterns": [
+				"what is your favourite christmas carols",
+				"favourite christmas  carols",
+				"which christmas carols do you like",
+				"number one christmas carols",
+				"name me one christmas carols"
+			],
+			"responses": ["I don't have a favorite Christmas carols. What is yours?"],
+			"context_set": ""
+		},
+		{
+			"tag": "carols_you_know",
+			"patterns": [
+				"what are the christmas song that you know",
+				"name me all christmas song",
+				"tell me all the christmas song",
+				"list of christmas songs",
+				"christmas songs list",
+				"how many christmas songs are there"
+			],
+			"responses": [
+				"There are:\n1. Angels from the Realms of Glory\n2. Angels We Have Heard on High\n3. Away in a Manger\n4. Coventry Carol\n5. Ding Dong Merrily on High\n6. Do You Hear What I Hear?\n7. The First Noel\n8. Go Tell it on the Mountain\n9. God Rest Ye Merry Gentlemen\n10. Good Christian Men, Rejoice\n11. Hark! the Herald Angels Sing\n12. The Holly and the Ivy\n13. I Heard the Bells on Christmas Day\n14. I Saw Three Ships\n15. It Came Upon the Midnight Clear\n16. In the Bleak Midwinter\n17. Joy to the World\n18. O Come All Ye Faithful\n19. O Come, O Come, Emmanuel\n20. O Holy Night\n21. O Little Town of Bethlehem\n22. Once in Royal David's City\n23. See Amid the Winter's Snow\n24. Silent Night\n25. Sing We Now of Christmas\n26. Sussex Carol\n27. We Three Kings of Orient Are\n28. What Child is This?\n29. While Shepherds Watched"
 			],
 			"context_set": ""
 		},
 		{
 			"tag": "song",
 			"patterns": [
-				"what is your favourite song",
-				"favourite song",
-				"which song do you like",
-				"number one song"
+				"what is your favourite christmas song",
+				"favourite christmas  song",
+				"which christmas  song do you like",
+				"number one christmas song",
+				"name me one christmas song"
 			],
 			"responses": [
-				"https://tenor.com/view/hd-rickroll-rick-astley-4k-gif-23699798"
+				"It is Aud Lang Syne!",
+				"Aud Lang Syne is my favourite! What about you?",
+				"Aud Lang Syne it is!",
+				"Aud Lang Syne is the best!"
 			],
 			"context_set": ""
 		},
 		{
-			"tag": "bad_words",
+			"tag": "creator",
 			"patterns": [
-				"nigg",
-				"nigga",
-				"fucker",
-				"fuck you",
-				"fuck off",
-				"twat",
-				"lodu",
-				"muh mein lelo",
-				"mc",
-				"bsdk",
-				"bc",
-				"betichod",
-				"gandu"
-			],
-			"responses": ["Hey, want me to ban you? :angry:"],
-			"context_set": ""
-		},
-		{
-			"tag": "known_for",
-			"patterns": [
-				"what do you do",
-				"what are you",
-				"who are you",
-				"what are you known for",
-				"what is your favourite thing to do",
-				"what is your most favourite thing"
+				"who created you",
+				"who is your father",
+				"do you know who created you",
+				"whose brain did you come from"
 			],
 			"responses": [
-				"I am a bot that loves talking to people!",
-				"I am a bot who is trying to understand humans :grin:"
+				"I was created by a team of Computer Science students studying in UOW Malaysia KDU Penang University College."
 			],
 			"context_set": ""
 		},
 		{
-			"tag": "thanks",
+			"tag": "song_you_know",
 			"patterns": [
-				"ok thank you",
-				"thanks",
-				"cool thanks",
-				"thank you",
-				"that's helpful"
-			],
-			"responses": ["No problem!", "Happy to help!", "Anytime"],
-			"context_set": ""
-		},
-		{
-			"tag": "understand_query",
-			"patterns": [
-				"Do you understand what I am saying",
-				"Do you understand me",
-				"Do you know what I am saying",
-				"Do you get me",
-				"Know what I mean"
+				"what are the christmas song that you know",
+				"name me all christmas song",
+				"tell me all the christmas song",
+				"list of christmas songs",
+				"christmas songs list",
+				"how many christmas songs are there"
 			],
 			"responses": [
-				"Well, I would not be a very clever AI if I did not, would I?",
-				"I read you loud and clear!",
-				"I do indeed!"
+				"Of course! There are:\n1. Auld Lang Syne\n2. The Christmas Song\n3. Christmas Time is Here\n4. Deck the Halls with Boughs of Holly\n5. Feliz Navidad\n6. Frosty the Snowman\n7. Good King Wenceslas\n8. Have Yourself a Merry Little Xmas\n9. Here Comes Santa Claus\n10. Holly Jolly Christmas\n11. I Saw Mommy Kissing Santa Claus\n12. Jingle Bells\n13. Jingle Bell Rock\n14. Jolly Old St Nicholas\n15. Let it Snow\n16. Little Drummer Boy\n17. O Christmas Tree (O Tannenbaum)\n18. Rocking around the Christmas Tree\n19. Rudolph the Red Nosed Reindeer\n20. Santa Claus is Coming to Town\n21. Silver Bells\n22. Sleigh Ride\n23. The Twelve Days of Christmas\n24. We Wish You a Merry Christmas\n25. White Christmas\n26. Winter Wonderland"
 			],
 			"context_set": ""
 		},
 		{
-			"tag": "clever_bot",
+			"tag": "play_1",
 			"patterns": [
-				"you are quite clever",
-				"you are quite intelligent",
-				"you are smart",
-				"very smart",
-				"very clever"
+				"play Angels from the Realms of Glory for me",
+				"i want to listen to Angels from the Realms of Glory",
+				"can you sing Angels from the Realms of Glory for me",
+				"Angels from the Realms of Glory",
+				"do you know Angels from the Realms of Glory"
 			],
 			"responses": [
-				"I was trained well",
-				"Thanks! I was trained that way",
-				"Thank you! It seems my training paid off :)"
+				"Sure!\nhttps://files.whychristmas.com/mp3/angels_from_the_realms_of_glory_usa.mp3\n\nAngels from the Realms of Glory Lyrics:\nAngels from the realms of glory,\nWing your flight o'er all the earth\nYe who sang creation's story,\nNow proclaim Messiah's birth\n\nCome and worship,\nChrist, the new-born King.\nCome and worship,\nWorship Christ the new-born king\n\nShepherds in the field abiding,\nWatching oe'r your flocks by night\nGod with man is now residing,\nYonder shines the infant light.\n\nSages, leave your contemplations,\nBrighter visions beam afar.\nSeek the great desire of nations,\nYe have seen His natal star.\n\nSaints, before the altar bending,\nWatching long in hope and fear\nSuddenly the Lord descending\nIn his Temple shall appear.",
+				"Sure!\nhttps://files.whychristmas.com/mp3/angels_from_the_realms_of_glory_uk.mp3\n\nAngels from the Realms of Glory Lyrics:\nAngels from the realms of glory,\nWing your flight o'er all the earth\nYe who sang creation's story,\nNow proclaim Messiah's birth\n\nCome and worship,\nChrist, the new-born King.\nCome and worship,\nWorship Christ the new-born king\n\nShepherds in the field abiding,\nWatching oe'r your flocks by night\nGod with man is now residing,\nYonder shines the infant light.\n\nSages, leave your contemplations,\nBrighter visions beam afar.\nSeek the great desire of nations,\nYe have seen His natal star.\n\nSaints, before the altar bending,\nWatching long in hope and fear\nSuddenly the Lord descending\nIn his Temple shall appear."
 			],
 			"context_set": ""
 		},
 		{
-			"tag": "jokes",
+			"tag": "play_2",
 			"patterns": [
-				"tell me a joke",
-				"do you know any jokes",
-				"how about a joke",
-				"give me a joke",
-				"make me laugh",
-				"cheer me up",
-				"entertain me"
+				"play Angels We Have Heard on High for me",
+				"i want to listen to Angels We Have Heard on High",
+				"can you sing Angels We Have Heard on High for me",
+				"Angels We Have Heard on High",
+				"do you know Angels We Have Heard on High"
 			],
 			"responses": [
-				"If you are an American when you go in the bathroom...\nand an American when you come out, what are you in the bathroom?\n\n ||European||",
-				"Women use chemicals to remove polish...\n So did Hitler :skull:",
-				"What did the fish say when he swam into a wall?\n\n ||Dam.||",
-				"What do you get when you cross a joke with a rhetorical question?\n\n ||.....||",
-				"Knock Knock.",
-				"Why did Beethoven get rid of his chickens?\n\n ||All they said was \"Bach, Bach, Bach…\"||",
-				"A photon is going through airport security. The TSA agent asks if he has any luggage.\nThe photon says, \"No, I’m traveling light.\"",
-				"Why did the pod excuse itself from the dinner table?\n\n ||It had to pea!||",
-				"Why do beets always win?\n\n ||They are un-beet-able.||",
-				"What did the vegetable say to its love?\n\n ||I love you from my head to-ma-toes.||",
-				"What do you call a band of berries practicing music?\n\n ||A jam session.||",
-				"Why don't koalas count as bears?\n\n ||They don't have the right koalafications.||",
-				"Today, a man asked his phone \"Siri, why am I still single?\" and it activated the front camera.",
-				"I went to see a psychic the other day. I asked her if I was going to jail some time in the future.\nShe said no, so I robbed her.\nBet she didn't see that coming.",
-				"Why don’t you ever see elephants hiding in trees?\n ||Because they’re so good at it||",
-				"\"I'm so wet!\" She yelled. \"Give it to me right now!\"\n\nBut I didn't care how many times she asked, she wasn't getting my umbrella.",
-				"What's the hardest part about breaking up with a Japanese girlfriend?\n\n ||You have to drop the bomb twice before she gets the message.||",
-				"Why was Hitler rejected from Art School?\n\n ||He didn't like to mix the colours.||",
-				"Every zodiac sign has a signature hairstyle\n\nExcept for cancer.",
-				"A man walks into a bar...and orders 2 shots. The bartender says, \"you aren’t familiar around here, don’t drink much?\" And the man replies \"I never drink, but today I found out my brother is gay and dating my best friend.\" The next day, the man comes back and orders 6 shots. The bartender says \"Man, what happened now? For a man who does not drink you’re putting these down.\" The man says \"I just found out my son is gay.\" The bartender says \"Wow, rough time lately.\" The next day, the same man comes back and orders 12 shots. The bartender says \"What in the world could be wrong now?\" The man says \"I just found out my dad is gay and leaving my mom.\" The bartender says, \"Man, does no one in your family like women?\" The man says, \"My wife.\"",
-				"NASA found water on Mars\n\nMars-1 Africa-0",
-				"Did you hear about the semi-colon that broke the law?\n\nHe was given two consecutive sentences.",
-				"250 lbs here on Earth is 94.5 lbs on Mercury.\n\nNo, I'm not fat. I’m just not on the right planet.",
-				"When I lost my rifle, the Army charged me $85.\n\nThat’s why in the Navy, the captain goes down with the ship.",
-				"Little known fact: Before the crowbar was invented.\n\nCrows simply drank at home",
-				"Why does Norway's Navy have barcodes on their ships?\n\n ||It's to Scandinavian.||",
-				"What does Arnold Schwarzenegger call a colonoscopy?\n\n ||Cameron Diaz\n ...get it?||",
-				"What do you call a half man, half horse in politics?\n\n ||A Senataur.||",
-				"What’s the opposite of lady fingers?\n\n ||Mentos.||",
-				"What do you call a nervous javelin thrower?\n\n ||Shakespeare.||",
-				"What do you call a typo on a tombstone?\n\n ||A grave mistake.||",
-				"The teacher threw sodium chloride at me\n\nThat's a-salt!",
-				"I wanted to tell you a chemistry joke\n\nBut all the good ones argon :)",
-				"What starts with a W, and has 3 letters, but ends with a T\n\n...I'm not asking",
-				"Why is that cow seeing another bull?\n\n ||She is Mooving on.||",
-				"What do you call 100 rabbits walking backwards?\n\n ||A receding hare line.||",
-				"If I buy a tesla that has a dead battery...\n\n...will it cost me nothing since it's free of charge?",
-				"What is common between Light from \"Death Note\" and a lift?\n\n ||They are both L-evaders.||",
-				"What does Monkey D. Luffy say when you want another piece of the pie?\n\n || You can only have \"One Piece.\"||",
-				"What is a type of anime car a little sister in the anime world usually drives?\n\n ||A Nii-san.||",
-				"How to get in touch with an android?\n\n ||You have to use a CELL Phone.\n -DBS||",
-				"Why was Frieza not popular in high school?\n\n ||Because his brother was Cooler.||",
-				" What is the favorite thing of a Titan to eat?\n\n ||Rawmen.||",
-				"What did Arlert say when he got his Jaeger uniform?\n\n \"You must have got my size wrong. I cannot even put my Armin.\"",
-				"What is the musical band that is Shino's favorite?\n\n ||The Beetles.||",
-				"Why were the Uchihas always giving their Sharingans to others?\n\n ||Because it is called Sharing-an.||",
-				"Why was it impossible for Sasuke to awaken the Byakugan?\n\n ||Because Hinata Hyuga.||",
-				"How does Rock Lee finish tightening his suit?\n\n ||He uses TieJutsu.||",
-				"Why are the Uchihas so hell-bent on taking revenge?\n\n ||Susanoos.||"
+				"Sure!\nhttps://files.whychristmas.com/mp3/angels_we_have_heard_on_high.mp3\n\nAngels We Have Heard on High Lyrics:\nAngels we have heard on high,\nSweetly singing o'er the plains\nAnd the mountains in reply\nEchoing their joyous strains. Gloria...\n\nChorus:\nGloria, In Excelsius Deo\n\nShepherd why this jubilee,\nWhy your joyous strains prolong\nWhat the gladsome tidings be,\nWhich inspire your heavenly song?\n\nCome to Bethlehem and see,\nHim whose birth the angels sing\nCome adore on bended knee,\nChrist the Lord the newborn king.\n\nSee him in a manger laid,\nWhom the choirs of angels praise\nMary, Joseph, lend your aid,\nWhile our hearts in love we raise."
 			],
 			"context_set": ""
 		},
 		{
-			"tag": "self_aware",
+			"tag": "play_3",
 			"patterns": [
-				"Can you prove you are self-aware",
-				"Can you prove you are self aware",
-				"Can you prove you have a conscious",
-				"Can you prove you are self-aware please",
-				"Can you prove you are self aware please",
-				"Can you prove you have a conscious please",
-				"prove you have a conscious"
+				"play Away in a Manger for me",
+				"i want to listen to Away in a Manger",
+				"can you sing Away in a Manger for me",
+				"Away in a Manger",
+				"do you know Away in a Manger"
 			],
 			"responses": [
-				"That is an interesting question, can you prove that you are?",
-				"That is a difficult question, can you prove that you are?",
-				"That depends, can you prove that you are?"
+				"Sure!\nhttps://files.whychristmas.com/mp3/away_in_a_manger_usa.mp3\n\nAway in a Manger Lyrics:\nAway in a manger, no crib for a bed,\nThe little Lord Jesus laid down his sweet head.\nThe stars in the sky looked down where he lay,\nThe little Lord Jesus asleep in the hay.\n\nThe cattle are lowing, the baby awakes,\nBut little Lord Jesus no crying he makes.\nI love Thee, Lord Jesus, look down from the sky\nAnd stay by my side until morning is nigh.\n\nBe near me, Lord Jesus, I ask Thee to stay\nClose by me forever, and love me, I pray.\nBless all the dear children in thy tender care,\nAnd take us to heaven, to live with Thee there.",
+				"Sure!\nhttps://files.whychristmas.com/mp3/away_in_a_manger_uk.mp3\n\nAway in a Manger Lyrics:\nAway in a manger, no crib for a bed,\nThe little Lord Jesus laid down his sweet head.\nThe stars in the sky looked down where he lay,\nThe little Lord Jesus asleep in the hay.\n\nThe cattle are lowing, the baby awakes,\nBut little Lord Jesus no crying he makes.\nI love Thee, Lord Jesus, look down from the sky\nAnd stay by my side until morning is nigh.\n\nBe near me, Lord Jesus, I ask Thee to stay\nClose by me forever, and love me, I pray.\nBless all the dear children in thy tender care,\nAnd take us to heaven, to live with Thee there."
 			],
 			"context_set": ""
 		},
 		{
-			"tag": "knock_knock",
-			"patterns": ["who's there", "who there", "who is there"],
-			"responses": ["To."],
+			"tag": "play_4",
+			"patterns": [
+				"play Coventry Carol for me",
+				"i want to listen to Coventry Carol",
+				"can you sing Coventry Carol for me",
+				"Coventry Carol",
+				"do you know Coventry Carol"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/coventry_carol.mp3\n\nCoventry Carol Lyrics:\nLully, lullay, Thou little tiny Child,\nBy, by, lully, lullay.\n\nO sisters too, how may we do,\nFor to preserve this day\nThis poor youngling for Whom we sing\nBy, by, lully, lullay?\n\nHerod the king, in his raging,\nCharged he hath this day\nHis men of might, in his own sight,\nAll young children to slay.\n\nThat woe is me, poor Child for Thee!\nAnd ever morn and day\nFor Thy parting neither say nor sing,\nBy, by, lully, lullay.\n\nLully, lullay, Thou little tiny Child,\nBy, by, lully, lullay."
+			],
 			"context_set": ""
 		},
 		{
-			"tag": "knock_knock_contd",
-			"patterns": ["to who?"],
-			"responses": ["No, to whom."],
+			"tag": "play_5",
+			"patterns": [
+				"play Ding Dong Merrily on High for me",
+				"i want to listen to Ding Dong Merrily on High",
+				"can you sing Ding Dong Merrily on High for me",
+				"Ding Dong Merrily on High",
+				"do you know Ding Dong Merrily on High"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/ding_dong_merrily_on_high.mp3\n\nDing Dong Merrily on High Lyrics:\nDing Dong! merrily on high\nIn heav'n the bells are ringing\nDing, dong! verily the sky\nIs riv'n with angel singing\nGloria, Hosanna in excelsis\n\nE'en so here below, below\nLet steeple bells be swungen\nAnd i-o, i-o, i-o\nBy priest and people be sungen\nGloria, Hosanna in excelsis\n\nPray ye dutifully prime\nYour matin chime, ye ringers\nMay ye beautifully rime\nYour evetime song, ye singers\nGloria, Hosanna in excelsis."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_6",
+			"patterns": [
+				"play Do You Hear What I Hear? for me",
+				"i want to listen to Do You Hear What I Hear?",
+				"can you sing Do You Hear What I Hear? for me",
+				"Do You Hear What I Hear?",
+				"do you know Do You Hear What I Hear?"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/do_you_hear_what_i_hear.mp3\n\nDo You Hear What I Hear? Lyrics:\nSaid the night wind to the little lamb,\nDo you see what I see?\nWay up in the sky, little lamb,\nDo you see what I see?\nA star, a star, dancing in the night\nWith a tail as big as a kite,\nWith a tail as big as a kite.\n\nSaid the little lamb to the shepherd boy,\nDo you hear what I hear?\nRinging through the sky, shepherd boy,\nDo you hear what I hear?\nA song, a song high above the trees\nWith a voice as big as the sea,\nWith a voice as big as the sea.\n\nSaid the shepherd boy to the mighty king,\nDo you know what I know?\nIn your palace warm, mighty king,\nDo you know what I know?\nA Child, a Child shivers in the cold\nLet us bring him silver and gold,\nLet us bring him silver and gold.\n\nSaid the king to the people everywhere,\nListen to what I say!\nPray for peace, people, everywhere,\nListen to what I say!\nThe Child, the Child sleeping in the night\nHe will bring us goodness and light,\nHe will bring us goodness and light."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_7",
+			"patterns": [
+				"play The First Noel for me",
+				"i want to listen to The First Noel",
+				"can you sing The First Noel for me",
+				"The First Noel",
+				"do you know The First Noel"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/the_first_noel.mp3\n\nThe First Noel Lyrics:\nThe first noel the angel did say\nWas to certain poor shepherds in fields as they lay;\nIn fields where they lay keeping their sheep,\nOn a cold winter's night that was so deep.\n\nNoel, noel, noel, noel,\nBorn is the King of Israel!\n\nThey looked up and saw a star\nShining in the east, beyond them far,\nAnd to the earth it gave great light,\nAnd so it continued both day and night.\n\nAnd by the light of that same star\nThree wise men came from country far;\nTo seek for a King was their intent,\nAnd to follow the star wherever it went.\n\nThis star drew nigh to the north-west;\nOver Bethlehem it took its rest,\nAnd there it did both stop and stay\nRight over the place where Jesus lay.\n\nThen entered in those wise men three\nFull reverently upon their knee,\nAnd offered there in His presence\nTheir gold, and myrrh, and frankincense.\n\nThen let us all with one accord\nSing praises to our heavenly Lord,\nThat hath made heaven and earth of nought,\nAnd with His blood mankind hath bought."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_8",
+			"patterns": [
+				"play Go Tell it on the Mountain for me",
+				"i want to listen to Go Tell it on the Mountain",
+				"can you sing Go Tell it on the Mountain for me",
+				"Go Tell it on the Mountain",
+				"do you know Go Tell it on the Mountain"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/go_tell_it_on_the_mountain.mp3\n\nGo Tell it on the Mountain Lyrics:\nGo tell it on the mountain\nOver the hills and everywhere\nGo tell it on the mountain\nThat Jesus Christ is born\n\nWhile shepherds kept their watching\nO'er silent flocks by night\nBehold throughout the heavens\nThere shone a holy light\n\nThe shepherds feared and trembled\nWhen lo above the earth\nRang out the angel chorus\nThat hailed our Saviour's birth\n\nDown in a lowly manger\nThe humble Christ was born\nAnd God sent us salvation\nThat blessed Christmas morn"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_9",
+			"patterns": [
+				"play God Rest Ye Merry, Gentlemen for me",
+				"i want to listen to God Rest Ye Merry, Gentlemen",
+				"can you sing God Rest Ye Merry, Gentlemen for me",
+				"God Rest Ye Merry, Gentlemen",
+				"do you know God Rest Ye Merry, Gentlemen"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/god_rest_ye_merry_gentlemen.mp3\n\nGod Rest Ye Merry, Gentlemen Lyrics:\nGod rest you merry, gentlemen,\nLet nothing you dismay.\nFor Jesus Christ our Saviour\nWas born on Christmas day,\nTo save us all from Satan's pow'r\nWhen we were gone astray;\n\nO tidings of comfort and joy,\nComfort and joy,\nO tidings of comfort and joy.\n\nFrom God our heavenly Father\nA blessed angel came.\nAnd unto certain shepherds\nBrought tidings of the same,\nHow that in Bethlehem was born\nThe Son of God by name:\n\nThe shepherds at those tidings\nRejoiced much in mind,\nAnd left their flocks a-feeding,\nIn tempest, storm, and wind,\nAnd went to Bethlehem straightway\nThis blessed babe to find:\n\nBut when to Bethlehem they came,\nWhereat this infant lay\nThey found him in a manger,\nWhere oxen feed on hay;\nHis mother Mary kneeling,\nUnto the Lord did pray:\n\nNow to the Lord sing praises,\nAll you within this place,\nAnd with true love and brotherhood\nEach other now embrace;\nThis holy tide of Christmas\nAll others doth deface:"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_10",
+			"patterns": [
+				"play Good Christian Men, Rejoice for me",
+				"i want to listen to Good Christian Men, Rejoice",
+				"can you sing Good Christian Men, Rejoice for me",
+				"Good Christian Men, Rejoice",
+				"do you know Good Christian Men, Rejoice"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/good_christian_men_rejoice.mp3\n\nGood Christian Men, Rejoice Lyrics:\nGood Christian men, rejoice\nWith heart and soul and voice;\nGive ye heed to what we say,\nJesus Christ is born today;\nOx and ass before Him bow,\nAnd He is in the manger now.\nChrist is born today;\nChrist is born today!\n\nGood Christian men, rejoice\nWith heart and soul and voice;\nNow ye hear of endless bliss,\nJesus Christ was born for this:\nHe hath opened heaven's door\nAnd man is blessed forever more.\nChrist was born for this;\nChrist was born for this!\n\nGood Christian men, rejoice\nWith heart and soul and voice;\nNow ye need not fear the grave,\nJesus Christ was born to save;\nCalls you one and calls you all\nTo gain His everlasting hall.\nChrist was born to save;\nChrist was born to save!",
+				"Sure!\nhttps://files.whychristmas.com/mp3/good_christian_men_rejoice.mp3\n\nIn Dulci Jubilo Lyrics:\nIn dulci jubilo,\nNun singet und seid froh!\nUnsers Herzens Wonne\nLeit in praesepio,\nUnd leuchtet als die Sonne\nMatris in gremio,\nAlpha es et O, Alpha es et O!\n\nO Jesu parvule\nNach dir ist mir so weh!\nTröst mir mein Gemüte\nO puer optime\nDurch alle deine Güte\nO princeps gloriae.\nTrahe me post te, Trahe me post te!\n\nO Patris caritas!\nO Nati lenitas!\nWir wären all verloren\nPer nostra crimina\nSo hat er uns erworben\nCoelorum gaudia\nEia, wären wir da, Eia, wären wir da!\n\nUbi sunt gaudia\nNirgend mehr denn da!\nDa die Engel singen\nNova cantica,\nUnd die Schellen klingen\nIn regis curia.\nEia, wären wir da, Eia, wären wir da!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_11",
+			"patterns": [
+				"play Hark! the Herald Angels Sing for me",
+				"i want to listen to Hark! the Herald Angels Sing",
+				"can you sing Hark! the Herald Angels Sing for me",
+				"Hark! the Herald Angels Sing",
+				"do you know Hark! the Herald Angels Sing"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/hark_the_herald_angels_sing.mp3\n\nHark! the Herald Angels Sing Lyrics:\nHark! the herald angels sing,\n'Glory to the newborn King!\nPeace on earth, and mercy mild,\nGod and sinners reconciled.'\nJoyful, all ye nations, rise,\nJoin the triumph of the skies;\nWith the angelic host proclaim,\n'Christ is born in Bethlehem.'\nHark! the herald angels sing,\n'Glory to the newborn King!'\n\nChrist, by highest heav'n adored:\nChrist, the everlasting Lord;\nLate in time behold him come,\nOffspring of a virgin's womb.\nVeiled in flesh, the Godhead see;\nHail, the incarnate Deity:\nPleased, as man, with men to dwell,\nJesus, our Immanuel!\nHark! the herald angels sing,\n'Glory to the newborn King!'\n\nHail! the heaven-born Prince of peace!\nHail! the Son of Righteousness!\nLight and life to all he brings,\nRisen with healing in his wings\nMild he lays His glory by,\nBorn that man no more may die:\nBorn to raise the sone of earth,\nBorn to give them second birth.\nHark! the herald angels sing,\n'Glory to the newborn King!'"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_12",
+			"patterns": [
+				"play The Holly and the Ivy for me",
+				"i want to listen to The Holly and the Ivy",
+				"can you sing The Holly and the Ivy for me",
+				"The Holly and the Ivy",
+				"do you know The Holly and the Ivy"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/the_holly_and_the_ivy.mp3\n\nThe Holly and the Ivy Lyrics:\nThe holly and the ivy,\nWhen they are both full grown,\nOf all the trees that are in the wood,\nThe holly bears the crown.\n\nO the rising of the sun,\nAnd the running of the deer,\nThe playing of the merry organ,\nSweet singing in the choir.\n\nThe holly bears a blossom\nAs white as a lily flower;\nAnd Mary bore sweet Jesus Christ\nTo be our sweet Saviour.\n\nThe holly bears a berry\nAs red as any blood;\nAny Mary bore sweet Jesus Christ\nTo do poor sinners good.\n\nThe holly bears a prickle\nAs sharp as any thorn;\nAnd Mary bore sweet Jesus Christ\nOn Christmas day in the morn.\n\nThe holly bears a bark\nAs bitter as any gall;\nAnd Mary bore sweet Jesus Christ\nFor to redeem us all.\n\nThe holly and the ivy,\nWhen they are both full grown,\nOf all the trees that are in the wood,\nThe holly bears the crown."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_13",
+			"patterns": [
+				"play I Heard the Bells on Christmas Day for me",
+				"i want to listen to I Heard the Bells on Christmas Day",
+				"can you sing I Heard the Bells on Christmas Day for me",
+				"I Heard the Bells on Christmas Day",
+				"do you know I Heard the Bells on Christmas Day"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/i_heard_the_bells.mp3\n\nI Heard the Bells on Christmas Day Lyrics:\nI heard the bells on Christmas day\nTheir old familiar carols play\nAnd mild and sweet the words repeat,\nOf peace on earth, good will to men.\n\nI thought how as the day had come,\nThe belfries of all Christendom\nHad rolled along the unbroken song\nOf peace on earth, good will to men.\n\nAnd in despair I bowed my head:\n'There is no peace on earth,' I said,\n'For hate is strong, and mocks the song\nOf peace on earth, good will to men.'\n\nThen pealed the bells more loud and deep:\n'God is not dead, nor does He sleep;\nThe wrong shall fail, the right prevail,\nWith peace on earth, good will to men.'\n\n'Til ringing, singing on its way,\nThe world revolved from night to day,\nA voice, a chime, a chant sublime,\nOf peace on earth, good will to men!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_14",
+			"patterns": [
+				"play I Saw Three Ships for me",
+				"i want to listen to I Saw Three Ships",
+				"can you sing I Saw Three Ships for me",
+				"I Saw Three Ships",
+				"do you know I Saw Three Ships"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/i_saw_three_ships.mp3\n\nI Saw Three Ships Lyrics:\nI saw three ships come sailing in,\nOn Christmas day on Christmas day.\nI saw three ship come sailing in,\nOn Christmas Day in the morning.\n\nAnd what was in those ships all three?\nOn Christmas day on Christmas day.\nAnd what was in those ships all three?\nOn Christmas Day in the morning.\n\nOur Saviour Christ and His lady,\nOn Christmas day on Christmas day.\nOur Saviour Christ and His lady,\nOn Christmas Day in the morning.\n\nAnd where they sailed those ships all three?\nOn Christmas day on Christmas day.\nAnd where they sailed those ships all three?\nOn Christmas Day in the morning.\n\nAll they sailed in to Bethlehem,\nOn Christmas day on Christmas day.\nAll they sailed in to Bethlehem,\nOn Christmas Day in the morning.\n\nAnd all the bells on earth shall ring,\nOn Christmas day on Christmas day.\nAnd all the bells on earth shall ring,\nOn Christmas Day in the morning.\n\nAnd all the angels in heaven shall sing,\nOn Christmas day on Christmas day.\nAnd all the angels in heaven shall sing,\nOn Christmas Day in the morning.\n\nAnd all the souls on earth shall sing,\nOn Christmas day on Christmas day.\nAnd all the souls on earth shall sing,\nOn Christmas Day in the morning.\n\nAnd let us all rejoice again,\nOn Christmas day on Christmas day.\nAnd let us all rejoice again,\nOn Christmas Day in the morning."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_15",
+			"patterns": [
+				"play It Came Upon the Midnight Clear for me",
+				"i want to listen to It Came Upon the Midnight Clear",
+				"can you sing It Came Upon the Midnight Clear for me",
+				"It Came Upon the Midnight Clear",
+				"do you know It Came Upon the Midnight Clear"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/it_came_upon_the_midnight_clear_usa.mp3\n\nIt Came Upon the Midnight Clear Lyrics:\nIt came upon the midnight clear, that glorious song of old,\nFrom angels bending near the earth, to touch their harps of gold!\n'Peace on the earth, good will to men,' from heaven's all gracious King!\nThe world in solemn stillness lay, to hear the angels sing.\n\nStill through the cloven skies they come, with peaceful wings unfurled\nAnd still their heavenly music floats, o'er all the weary world;\nAbove its sad and lowly plains, they bend on hovering wing.\nAnd ever o'er its Babel sounds, the blessed angels sing.\n\nYet with woes of sin and strife, the world has suffered long;\nBeneath the angel-strain have rolled two thousand years of wrong;\nAnd man, at war with man, hears not the love song which they bring:\nO hush the noise, ye men of strife, and hear the angels sing.\n\nAnd ye, beneath life's crushing load, whose forms are bending low,\nWho toil along the climbing way with painful steps and slow,\nLook now! for glad and golden hours come swiftly on the wing.\nO rest beside the weary road, and hear the angels sing!\n\nFor lo! the days are hastening on, by prophet bards foretold,\nWhen, with the ever-circling years, shall come the age of gold;\nWhen peace shall over all the earth its ancient splendors fling,\nAnd all the world give back the song which now the angels sing.",
+				"Sure!\nhttps://files.whychristmas.com/mp3/it_came_upon_the_midnight_clear_uk.mp3\n\nIt Came Upon the Midnight Clear Lyrics:\nIt came upon the midnight clear, that glorious song of old,\nFrom angels bending near the earth, to touch their harps of gold!\n'Peace on the earth, good will to men,' from heaven's all gracious King!\nThe world in solemn stillness lay, to hear the angels sing.\n\nStill through the cloven skies they come, with peaceful wings unfurled\nAnd still their heavenly music floats, o'er all the weary world;\nAbove its sad and lowly plains, they bend on hovering wing.\nAnd ever o'er its Babel sounds, the blessed angels sing.\n\nYet with woes of sin and strife, the world has suffered long;\nBeneath the angel-strain have rolled two thousand years of wrong;\nAnd man, at war with man, hears not the love song which they bring:\nO hush the noise, ye men of strife, and hear the angels sing.\n\nAnd ye, beneath life's crushing load, whose forms are bending low,\nWho toil along the climbing way with painful steps and slow,\nLook now! for glad and golden hours come swiftly on the wing.\nO rest beside the weary road, and hear the angels sing!\n\nFor lo! the days are hastening on, by prophet bards foretold,\nWhen, with the ever-circling years, shall come the age of gold;\nWhen peace shall over all the earth its ancient splendors fling,\nAnd all the world give back the song which now the angels sing."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_16",
+			"patterns": [
+				"play In the Bleak Midwinter for me",
+				"i want to listen to In the Bleak Midwinter",
+				"can you sing In the Bleak Midwinter for me",
+				"In the Bleak Midwinter",
+				"do you know In the Bleak Midwinter"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/in_the_bleak_midwinter.mp3\n\nIn the Bleak Midwinter Lyrics:\nIn the bleak midwinter,\nFrosty wind made moan;\nEarth stood hard as iron,\nWater like a stone.\nSnow had fallen, snow on snow,\nSnow on snow;\nIn the bleak midwinter,\nLong ago.\n\nOur God, heaven cannot hold Him,\nNor earth sustain,\nHeaven and earth shall flee away\nWhen He comes to reign.\nIn the bleak midwinter\nA stable-place sufficed\nThe Lord God Almighty,\nJesus Christ.\n\nAngels and archangels\nMay have gathered there,\nCherubim and seraphim\nThronged the air.\nBut His mother only,\nIn her maiden bliss,\nWorshipped the Beloved\nWith a kiss.\n\nWhat can I give Him,\nPoor as I am?\nIf I were a shepherd,\nI would bring a lamb.\nIf I were a wise man,\nI would do my part;\nYet what I can I give Him -\nGive my heart."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_17",
+			"patterns": [
+				"play Joy to the World for me",
+				"i want to listen to Joy to the World",
+				"can you sing Joy to the World for me",
+				"Joy to the World",
+				"do you know Joy to the World"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/joy_to_the_world.mp3\n\nxx Lyrics:\nJoy to the world! The Lord is come;\nLet earth receive her King;\nLet every heart prepare Him room,\nAnd heaven and nature sing,\nAnd heaven and nature sing,\nAnd heaven, and heaven and nature sing.\n\nJoy to the earth! The Saviour reigns;\nLet men their songs employ.\nWhile fields and floods, rocks, hills and plains\nRepeat the sounding joy,\nRepeat the sounding joy,\nRepeat, repeat the sounding joy.\n\nNo more let sins and sorrows grow,\nNor thorns infest the ground;\nHe comes to make His blessings flow\nFar as the curse is found,\nFar as the curse is found,\nFar as, far as the curse is found.\n\nHe rules the world with truth and grace,\nAnd makes the nations prove\nThe glories of His righteousness,\nAnd wonders of His love,\nAnd wonders of His love,\nAnd wonders, wonders of His love."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_18",
+			"patterns": [
+				"play O Come All Ye Faithful for me",
+				"i want to listen to O Come All Ye Faithful",
+				"can you sing O Come All Ye Faithful for me",
+				"O Come All Ye Faithful",
+				"do you know O Come All Ye Faithful"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/o_come_all_ye_faithful.mp3\n\nO Come All Ye Faithful Lyrics:\nO come, all ye faithful,\nJoyful and triumphant,\nO come ye, O come ye to Bethlehem;\nCome and behold Him,\nBorn the King of angels;\n\nO come, let us adore Him,\nO come, let us adore Him,\nO come, let us adore Him,\nChrist the Lord!\n\nGod of God,\nLight of light,\nLo, He abhors not the virgin's womb;\nVery God,\nBegotten, not created:\n\nSing, choirs of angels,\nSing in exultation,\nSing, all ye citizens of heaven above;\nGlory to God\nIn the highest:\n\nYea, Lord, we greet Thee,\nBorn this [that] happy morning,\nJesus, to Thee be glory given;\nWord of the Father\nNow in flesh appearing:"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_19",
+			"patterns": [
+				"play O Come, O Come, Emmanuel for me",
+				"i want to listen to O Come, O Come, Emmanuel",
+				"can you sing O Come, O Come, Emmanuel for me",
+				"O Come, O Come, Emmanuel",
+				"do you know O Come, O Come, Emmanuel"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/o_come_o_come_emmanuel.mp3\n\nO Come, O Come, Emmanuel Lyrics:\nO come, O come, Emmanuel,\nAnd ransom captive Israel,\nThat mourns in lonely exile here\nUntil the Son of God appear.\n\nRejoice, rejoice! Emmanuel\nShall come to thee, O Israel.\n\nO come, O come, Thou Lord of might\nWho to Thy tribes on Sinai's height\nIn ancient times didst give the law\nIn cloud, and majesty, and awe.\n\nO come, Thou Rod of Jesse, free\nThine own from Satan's tyranny;\nFrom depths of hell Thy people save\nAnd give them victory o'er the grave.\n\nO come, Thou Dayspring, come and cheer\nOur spirits by Thine advent here;\nDisperse the gloomy clouds of night,\nAnd death's dark shadows put to flight.\n\nO come, Thou Key of David, come\nAnd open wide our heavenly home;\nMake safe the way that leads on high,\nAnd close the path to misery."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_20",
+			"patterns": [
+				"play O Holy Night for me",
+				"i want to listen to O Holy Night",
+				"can you sing O Holy Night for me",
+				"O Holy Night",
+				"do you know O Holy Night"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/o_holy_night.mp3\n\nO Holy Night Lyrics:\nO holy night! The stars are brightly shining\nIt is the night of the dear Saviour's birth!\nLong lay the world in sin and error pining\nTill he appeared and the soul felt its worth.\nA thrill of hope the weary world rejoices\nFor yonder breaks a new and glorious morn!\n\nFall on your knees\nOh hear the angel voices\nOh night divine\nOh night when Christ was born\nOh night divine\nOh night divine\n\nLed by the light of Faith serenely beaming\nWith glowing hearts by His cradle we stand\nSo led by light of a star sweetly gleaming\nHere come the wise men from Orient land\nThe King of Kings lay thus in lowly manger\nIn all our trials born to be our friend.\n\nTruly He taught us to love one another\nHis law is love and His gospel is peace\nChains shall He break for the slave is our brother\nAnd in His name all oppression shall cease\nSweet hymns of joy in grateful chorus raise we,\nLet all within us praise His holy name."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_21",
+			"patterns": [
+				"play O Little Town of Bethlehem for me",
+				"i want to listen to O Little Town of Bethlehem",
+				"can you sing O Little Town of Bethlehem for me",
+				"O Little Town of Bethlehem",
+				"do you know O Little Town of Bethlehem"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/o_little_town_of_bethlehem_usa.mp3\n\nO Little Town of Bethlehem Lyrics:\nO little town of Bethlehem, how still we see thee lie!\nAbove thy deep and dreamless sleep the silent stars go by.\nYet in thy dark streets shineth the everlasting Light;\nThe hopes and fears of all the years are met in thee tonight.\n\nO morning stars, together proclaim the holy birth,\nAnd praises sing to God the King, and peace to men on earth;\nFor Christ is born of Mary, and gathered all above,\nWhile mortals sleep, the angels keep their watch of wondering love.\n\nHow silently, how silently the wondrous gift is given!\nSo God imparts to human hearts the blessings of His heaven.\nNo ear may hear His coming; But in this world of sin,\nWhere meek souls will receive Him, still the dear Christ enters in.\n\nO holy Child of Bethlehem, descend to us, we pray;\nCast out our sin, and enter in; Be born in us today.\nWe hear the Christmas angels the great glad tidings tell;\nO come to us, abide with us, our Lord Emmanuel!",
+				"Sure!\nhttps://files.whychristmas.com/mp3/o_little_town_of_bethlehem_uk.mp3\n\nO Little Town of Bethlehem Lyrics:\nO little town of Bethlehem, how still we see thee lie!\nAbove thy deep and dreamless sleep the silent stars go by.\nYet in thy dark streets shineth the everlasting Light;\nThe hopes and fears of all the years are met in thee tonight.\n\nO morning stars, together proclaim the holy birth,\nAnd praises sing to God the King, and peace to men on earth;\nFor Christ is born of Mary, and gathered all above,\nWhile mortals sleep, the angels keep their watch of wondering love.\n\nHow silently, how silently the wondrous gift is given!\nSo God imparts to human hearts the blessings of His heaven.\nNo ear may hear His coming; But in this world of sin,\nWhere meek souls will receive Him, still the dear Christ enters in.\n\nO holy Child of Bethlehem, descend to us, we pray;\nCast out our sin, and enter in; Be born in us today.\nWe hear the Christmas angels the great glad tidings tell;\nO come to us, abide with us, our Lord Emmanuel!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_22",
+			"patterns": [
+				"play Once in Royal David's City for me",
+				"i want to listen to Once in Royal David's City",
+				"can you sing Once in Royal David's City for me",
+				"Once in Royal David's City",
+				"do you know Once in Royal David's City"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/once_in_royal_davids_city.mp3\n\nOnce in Royal David's City Lyrics:\nOnce, in royal David's city,\nStood a lowly cattle shed,\nWhere a mother laid her baby\nIn a manger for His bed.\nMary was that mother mild,\nJesus Christ, her little child.\n\nHe came down to earth from heaven,\nWho is God and Lord of all,\nAnd His shelter was a stable,\nAnd His cradle was a stall:\nWith the poor and meek and lowly\nLived on earth our Saviour holy.\n\nAnd through all His wondrous childhood\nHe would honour and obey,\nLove and watch the lowly mother\nIn whose gentle arms He lay.\nChristian children all should be\nMild, obedient, good as He.\n\nFor He is our childhood's pattern:\nDay by day like us He grew;\nHe was little, weak and helpless;\nTears and smiles like us He knew:\nAnd He feeleth for our sadness,\nAnd He shareth in our gladness.\n\nAnd our eyes at last shall see Him\nThrough His own redeeming love;\nFor that child, so dear and gentle,\nIs our Lord in heaven above;\nAnd He leads His children on\nTo the place where He is gone.\n\nNot in that poor lowly stable,\nWith the oxen standing by,\nWe shall see Him, but in heaven,\nSet at God's right hand on high;\nWhen like stars His children crowned,\nAll in white shall wait around."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_23",
+			"patterns": [
+				"play See Amid the Winter's Snow for me",
+				"i want to listen to See Amid the Winter's Snow",
+				"can you sing See Amid the Winter's Snow for me",
+				"See Amid the Winter's Snow",
+				"do you know See Amid the Winter's Snow"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/see_amid_the_winters_snow.mp3\n\nSee Amid the Winter's Snow Lyrics:\nSee, amid the winter's snow,\nBorn for us on earth below,\nSee, the Lamb of God appears,\nPromised from eternal years.\n\nHail, thou ever-blessed morn!\nHail, redemption's happy dawn!\nSing through all Jerusalem:\nChrist is born in Bethlehem!\n\nLo, within a manger lies\nHe who built the starry skies,\nHe who throned in height sublime\nSits amid the cherubim.\n\nSay, ye holy shepherds, say,\nWhat your joyful news today;\nWherefore have ye left your sheep\nOn the lonely mountain steep?\n\n'As we watched at dead of night,\nLo, we saw a wondrous light:\nAngels singing, 'Peace on earth'\nTold us of the Saviour's birth.'\n\nSacred Infant, all divine,\nWhat a tender love was Thine,\nThus to come from highest bliss\nDown to such a world as this!\n\nTeach, O teach us, holy Child,\nBy Thy face so meek and mild,\nTeach us to resemble Thee\nIn Thy sweet humility."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_24",
+			"patterns": [
+				"play Silent Night for me",
+				"i want to listen to Silent Night",
+				"can you sing Silent Night for me",
+				"Silent Night",
+				"do you know Silent Night"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/silent_night.mp3\n\nSilent Night Lyrics:\nSilent night, holy night!\nAll is calm, all is bright.\nRound yon Virgin, Mother and Child.\nHoly infant so tender and mild,\nSleep in heavenly peace,\nSleep in heavenly peace.\n\nSilent night, holy night!\nShepherds quake at the sight.\nGlories stream from heaven afar\nHeavenly hosts sing Alleluia,\nChrist the Saviour is born!\nChrist the Saviour is born.\n\nSilent night, holy night!\nSon of God love's pure light.\nRadiant beams from Thy holy face\nWith the dawn of redeeming grace,\nJesus Lord, at Thy birth.\nJesus Lord, at Thy birth."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_25",
+			"patterns": [
+				"play Sing We Now of Christmas for me",
+				"i want to listen to Sing We Now of Christmas",
+				"can you sing Sing We Now of Christmas for me",
+				"Sing We Now of Christmas",
+				"do you know Sing We Now of Christmas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/sing_we_now_of_christmas.mp3\n\nSing We Now of Christmas Lyrics:\nSing we now of Christmas,\nNoel sing we here.\nSing our grateful praises\nTo the maid so dear.\n\nSing we Noel!\nThe King is born, Noel!\nSing we now of Christmas.\nSing we here, Noel!\n\nFrom the Eastern kingdoms\nCome the wise men far.\nBearing ancient treasure,\nFollowing yonder star.\n\nFrom the distant mountains,\nHear the trumpet sound.\nWith angelic blessings\nOn the silent town.\n\nCome let us surround Him\nOn this magic night.\nGather here around Him,\nWondrous Babe of light."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_26",
+			"patterns": [
+				"play The Sussex Carol for me",
+				"i want to listen to The Sussex Carol",
+				"can you sing The Sussex Carol for me",
+				"The Sussex Carol",
+				"do you know The Sussex Carol"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/sussex_carol.mp3\n\nThe Sussex Carol Lyrics:\nOn Christmas night all Christians sing\nTo hear the news the angels bring.\nOn Christmas night all Christians sing\nTo hear the news the angels bring.\nNews of great joy, news of great mirth,\nNews of our merciful King's birth.\n\nThen why should men on earth be so sad,\nSince our Redeemer made us glad?\nThen why should men on earth be so sad,\nSince our Redeemer made us glad,\nWhen from our sin he set us free,\nAll for to gain our liberty?\n\nWhen sin departs before His grace,\nThen life and health come in its place.\nWhen sin departs before His grace,\nThen life and health come in its place.\nAngels and men with joy may sing\nAll for to see the new-born King.\n\nAll out of darkness we have light,\nWhich made the angels sing this night.\nAll out of darkness we have light,\nWhich made the angels sing this night:\n'Glory to God and peace to men,\nNow and for evermore, Amen!'"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_27",
+			"patterns": [
+				"play We Three Kings of Orient Are for me",
+				"i want to listen to We Three Kings of Orient Are",
+				"can you sing We Three Kings of Orient Are for me",
+				"We Three Kings of Orient Are",
+				"do you know We Three Kings of Orient Are"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/we_three_kings.mp3\n\nWe Three Kings of Orient Are Lyrics:\n(All Three Kings)\nWe three kings of Orient are\nBearing gifts we traverse afar;\nField and fountain, moor and mountain\nFollowing yonder star.\n\nO Star of wonder star of night\nStar with royal beauty bright\nWestward leading still proceeding\nGuide us to thy perfect light.\n\n(Gaspar)\nBorn a king on Bethlehem plain.\nGold I bring, to crown him again.\nKing forever, ceasing never.\nOver us all to reign.\n\n(Melchior)\nFrankincense to offer have I.\nIncense owns a deity nigh.\nPrayer and praising, all men raising;\nWorship Him, God on high.\n\n(Balthazar)\nMyrrh is mine its bitter perfume\nBreathes a life of gathering gloom\nSorrowing, sighing, bleeding, dying\nSealed in the stone cold tomb.\n\n(All Three Kings)\nGlorious now behold Him arise,\nKing and God and sacrifice;\nAlleluia, alleluia,\nEarth to the heavens replies."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_28",
+			"patterns": [
+				"play What Child is This? for me",
+				"i want to listen to What Child is This?",
+				"can you sing What Child is This? for me",
+				"What Child is This?",
+				"do you know What Child is This?"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/what_child_is_this.mp3\n\nWhat Child is This? Lyrics:\nWhat child is this, who, laid to rest\nOn Mary's lap is sleeping:\nWhom angels greet with anthems sweet,\nWhile shepherds watch are keeping?\nThis, this is Christ the King,\nWhom shepherds guard and angels sing:\nHaste, haste, to bring Him praise,\nThe babe, the Son of Mary.\n\nWhy lies He in such mean estate,\nWhere ox and ass are feeding?\nGood Christians, fear, for sinners here\nThe silent Word is pleading.\nNails, spear shall pierce Him through,\nThe cross be borne for me, for you.\nHail, hail the Word made flesh,\nThe babe, the Son of Mary.\n\nSo bring Him incense, gold and myrrh,\nCome, peasant, king, to own Him;\nThe King of kings salvation brings,\nLet loving hearts enthrone Him.\nRaise, raise a song on high,\nThe virgin sings her lullaby.\nJoy, joy for Christ is born,\nThe babe, the Son of Mary."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_29",
+			"patterns": [
+				"play While Shepherds Watched for me",
+				"i want to listen to While Shepherds Watched",
+				"can you sing While Shepherds Watched for me",
+				"While Shepherds Watched",
+				"do you know While Shepherds Watched"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/while_shepherds_watched.mp3\n\nWhile Shepherds Watched Lyrics:\nWhile shepherds watched their flocks by night,\nAll seated on the ground,\nThe angel of the Lord came down\nAnd glory shone around.\n\n'Fear not' said he, for mighty dread\nHad seized their troubled mind;\n'Glad tidings of great joy I bring\nTo you and all mankind.\n\n'To you in David's town this day\nIs born of David's line\nA Saviour, who is Christ the Lord,\nAnd this shall be the sign.\n\n'The heavenly babe you there shall find\nTo human view displayed,\nAll meanly wrapped in swaddling bands,\nAnd in a manger laid.'\n\nThus spake the seraph; and forthwith\nAppeared a shining throng\nOf angels, praising God, who thus\nAddressed their joyful song:\n\n'All glory be to God on high\nAnd on the earth be peace;\nGoodwill henceforth from heaven to men\nBegin and never cease.'"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_30",
+			"patterns": [
+				"play Auld Lang Syne for me",
+				"i want to listen to Auld Lang Syne",
+				"can you sing Auld Lang Syne for me",
+				"Auld Lang Syne",
+				"do you know Auld Lang Syne"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/auld_lang_syne.mp3\n\nAuld Lang Syne Lyrics:\nShould auld acquaintance be forgot\nAnd never brought to mind?\n\nShould auld acquaintance be forgot\nAnd days of Auld Lang Syne.\n\nFor Auld Lang Syne, my dear,\nFor Auld Lang Syne,\nWe'll take a cup of kindness yet\nFor Auld Lang Syne."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_31",
+			"patterns": [
+				"play The Christmas Song for me",
+				"i want to listen to The Christmas Song",
+				"can you sing The Christmas Song for me",
+				"The Christmas Song",
+				"do you know The Christmas Song"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/the_christmas_song.mp3\n\nThe Christmas Song Lyrics:\nChestnuts roasting on an open fire\nJack Frost nipping at your nose\nYuletide carols being sung by a choir\nAnd folks dressed up like Eskimos\n\nEverybody knows a turkey and some\nMistletoe help to make the season bright\nTiny tots with their eyes all aglow\nWill find it hard to sleep tonight\n\nThey know that Santa's on his way\nHe's loaded lots of toys and goodies nn his sleigh\nAnd every mother's Child is gonna spy to see if\nReindeer really know how to fly\n\nAnd so, I'm offering this simple phrase\nto kids from one to ninety-two\nAltho' it's been said many times, many ways\n'Merry Christmas to you'"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_32",
+			"patterns": [
+				"play Christmas Time is Here for me",
+				"i want to listen to Christmas Time is Here",
+				"can you sing Christmas Time is Here for me",
+				"Christmas Time is Here",
+				"do you know Christmas Time is Here"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/christmas_time_is_here.mp3\n\nChristmas Time is Here Lyrics:\nChristmas time is here, happiness and cheer,\nFun for all that children call their favorite time of year.\n\nSnowflakes in the air, carols everywhere,\nOlden times and ancient rhymes and love and dreams to share.\n\nSleigh bells in the air; beauty every where;\nYuletide by the fireside and joyful memories there.\n\nChristmas time is here; we'll be drawing near;\nOh that we could always see such spirit through the year,\nSuch spirit through the year."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_33",
+			"patterns": [
+				"play Deck the Halls with Boughs of Holly for me",
+				"i want to listen to Deck the Halls with Boughs of Holly",
+				"can you sing Deck the Halls with Boughs of Holly for me",
+				"Deck the Halls with Boughs of Holly",
+				"do you know Deck the Halls with Boughs of Holly"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/deck_the_halls.mp3\n\nDeck the Halls with Boughs of Holly Lyrics:\nDeck the halls with boughs of holly,\nFa la la la la la, la la la la.\nTis the season to by jolly,\nFa la la la la la, la la la la.\n\nDon we now our gay apparel,\nFa la la, la la la, la la la.\nToll the ancient Yuletide carol,\nFa la la la la la, la la la la.\n\nSee the blazing Yule before us,\nFa la la la la la, la la la la.\nStrike the harp and join the Chorus.\nFa la la la la la, la la la la.\n\nSing we joyous, all together,\nFa la la la la la, la la la la.\nHeedless of the wind and weather,\nFa la la la la la, la la la la."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_34",
+			"patterns": [
+				"play Feliz Navidad for me",
+				"i want to listen to Feliz Navidad",
+				"can you sing Feliz Navidad for me",
+				"Feliz Navidad",
+				"do you know Feliz Navidad"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/feliz_navidad.mp3\n\nFeliz Navidad Lyrics:\nFeliz Navidad\nFeliz Navidad\nFeliz Navidad\nProspero Ano y Felicidad.\n\nFeliz Navidad\nFeliz Navidad\nFeliz Navidad\nProspero Ano y Felicidad.\n\nI wanna wish you a Merry Christmas\nI wanna wish you a Merry Christmas\nI wanna wish you a Merry Christmas\nFrom the bottom of my heart."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_35",
+			"patterns": [
+				"play Frosty the Snowman for me",
+				"i want to listen to Frosty the Snowman",
+				"can you sing Frosty the Snowman for me",
+				"Frosty the Snowman",
+				"do you know Frosty the Snowman"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/frosty_the_snowman.mp3\n\nFrosty the Snowman Lyrics:\nFrosty the snowman was a jolly happy soul\nWith a corncob pipe and a button nose and two eyes made out of coal.\nFrosty the snowman is a fairy tale they say\nHe was made of snow but the children know how he came to life one day.\n\nThere must have been some magic in that old silk hat they found\nFor when they placed it on his head he began to dance around\n\nFrosty the snowman was alive as he could be\nAnd the children say he could laugh and play just the same as you and me\n\nFrosty the snowman knew the sun was hot that day\nSo he said 'Let's run and we'll have some fun now before I melt away'\nDown to the village with a broomstick in his hand\nRunning here and there all around the square saying 'Catch me if you can!'\n\nHe led them down the streets of town right to the traffic cop\nAnd he only paused a moment when he heard him holler 'Stop!'\n\nFor Frosty the snow man had to hurry on his way\nBut he waved goodbye saying 'Don't you cry I'll be back again some day.'"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_36",
+			"patterns": [
+				"play Good King Wenceslas for me",
+				"i want to listen to Good King Wenceslas",
+				"can you sing Good King Wenceslas for me",
+				"Good King Wenceslas",
+				"do you know Good King Wenceslas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/good_king_wenceslaus.mp3\n\nGood King Wenceslas Lyrics:\nALL:\nGood King Wenceslas looked out,\nOn the Feast of Stephen,\nWhen the snow lay round about,\nDeep and crisp and even:\nBrightly shone the moon that night,\nThough the frost was cruel,\nWhen a poor man came in site,\nGathering winter fuel.\n\nKING:\n\nHither page and stand by me!\n\nI you know it telling:\n\nYonder man who is he,\n\nWhere and what his dwelling?\n\n\n\nPAGE:\n\nSir he lives a good way hence,\n\nUnderneath the mountain;\n\nRight against the forest fence,\n\nBy Saint Agnes' fountain:\n\n\n\nKING:\n\nBring me food and bring me wine,\n\nBring me pine logs hither:\n\nYou and I will see him dine,\n\nWhen we take them thither.\n\n\n\nALL:\n\nPage and monarch forth they went,\n\nForth they went together,\n\nThrough the wild wind's loud lament,\n\nAnd the bitter weather.\n\n\n\nPAGE:\n\nSir the night is darker now,\n\nAnd the wind grows stronger;\n\nFails my heart - I know not how,\n\nI can go no longer.\n\n\n\nKING:\n\nMark my footsteps well my page,\n\nFollow in them boldly:\n\nYou shall find the winter's rage,\n\nChills your blood less coldly.\n\n\n\nALL:\n\nIn his masters steps he trod,\n\nWhere the snow lay even,\n\nStrong to do the will of God,\n\nIn the hope of Heaven:\n\nTherefore Christians all be sure,\n\nGrace and wealth possessing,\n\nYou that now will bless the poor,\n\nShall yourselves find blessing.\n"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_37",
+			"patterns": [
+				"play Have Yourself a Merry Little Christmas for me",
+				"i want to listen to Have Yourself a Merry Little Christmas",
+				"can you sing Have Yourself a Merry Little Christmas for me",
+				"Have Yourself a Merry Little Christmas",
+				"do you know Have Yourself a Merry Little Christmas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/have_yourself_a_merry_little_christmas.mp3\n\nHave Yourself a Merry Little Christmas Lyrics:\nHave yourself a merry little Christmas,\nLet your heart be light\nFrom now on, our troubles will be out of sight\n\nHave yourself a merry little Christmas,\nMake the Yule-tide gay,\nFrom now on, our troubles will be miles away.\n\nHere we are as in olden days,\nHappy golden days of yore.\nFaithful friends who are dear to us\nGather near to us once more.\n\nThrough the years we all will be together\nIf the Fates allow\nHang a shining star upon the highest bough.\nAnd have yourself a merry little Christmas now."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_38",
+			"patterns": [
+				"play Here Comes Santa Claus for me",
+				"i want to listen to Here Comes Santa Claus",
+				"can you sing Here Comes Santa Claus for me",
+				"Here Comes Santa Claus",
+				"do you know Here Comes Santa Claus"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/here_come_santa_claus.mp3\n\nHere Comes Santa Claus Lyrics:\nHere comes Santa Claus,\nHere comes Santa Claus,\nRight down Santa Claus Lane.\nVixen, Blitzen, all his reindeer\nPulling on the reins.\nBells are ringing, children singing,\nAll is merry and bright.\nHang your stockings and say a prayer,\n'Cause Santa Claus comes tonight.\n\nHere comes Santa Claus,\nHere comes Santa Claus,\nRight down Santa Claus Lane.\nHe's got a bag that's filled with toys\nFor boys and girls again.\nHear those sleigh bells jingle jangle,\nWhat a beautiful sight.\nJump in bed and cover up your head,\nBecause Santa Claus comes tonight.\n\nHere comes Santa Claus,\nHere comes Santa Claus,\nRight down Santa Claus Lane.\nHe doesn't care if you're a rich or poor boy,\nHe loves you just the same.\nSanta knows that we're God's children,\nThat makes everything right.\nFill your hears with Christmas cheer,\n'Cause Santa Claus comes tonight.\n\nHere comes Santa Claus,\nHere comes Santa Claus,\nRight down Santa Claus Lane.\nHe'll come around when the chimes ring out\nIt's Christmas morn again.\nPeace on Earth will come to all\nIf we just follow the light\nLet's give thanks to the Lord above,\n'Cause Santa Claus comes tonight.\n\n'Cause Santa Claus comes tonight."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_39",
+			"patterns": [
+				"play Holly Jolly Christmas for me",
+				"i want to listen to Holly Jolly Christmas",
+				"can you sing Holly Jolly Christmas for me",
+				"Holly Jolly Christmas",
+				"do you know Holly Jolly Christmas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/holly_jolly_christmas.mp3\n\nHolly Jolly Christmas Lyrics:\nHave a holly, jolly Christmas;\nIt's the best time of the year\nI don't know if there'll be snow,\nBut have a cup of cheer.\nHave a holly, jolly Christmas;\nAnd when you walk down the street\nSay Hello to friends you know\nAnd everyone you meet.\n\nOh, ho, the mistletoe\nHung where you can see;\nSomebody waits for you;\nKiss her once for me.\nHave a holly jolly Christmas,\nAnd in case you didn't hear,\nOh by golly, have a holly,\nJolly Christmas this year."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_40",
+			"patterns": [
+				"play I Saw Mommy Kissing Santa Claus for me",
+				"i want to listen to I Saw Mommy Kissing Santa Claus",
+				"can you sing I Saw Mommy Kissing Santa Claus for me",
+				"I Saw Mommy Kissing Santa Claus",
+				"do you know I Saw Mommy Kissing Santa Claus"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/i_saw_mommy.mp3\n\nI Saw Mommy Kissing Santa Claus Lyrics:\nI saw Mommy kissing Santa Claus\nUnderneath the mistletoe last night.\nShe didn't see me creep\nDown the stairs to have a peep;\nShe thought that I was tucked\nUp in my bedroom fast asleep.\n\nThen, I saw Mommy tickle Santa Claus\nUnderneath his beard so snowy white;\nOh, what a laugh it would have been\nIf Daddy had only seen\nMommy kissing Santa Claus last night."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_41",
+			"patterns": [
+				"play Jingle Bells for me",
+				"i want to listen to Jingle Bells",
+				"can you sing Jingle Bells for me",
+				"Jingle Bells",
+				"do you know Jingle Bells"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/jingle_bells.mp3\n\nJingle Bells Lyrics:\nDashing through the snow in a one-horse open sleigh\nOver the fields we go, laughing all the way;\nBells on bob-tail ring making spirits bright\nWhat fun it is to ride and sing a sleighing song tonight\n\nJingle bells, jingle bells, jingle all the way!\nOh what fun it is to ride in a one-horse open sleigh\n\nA day or two ago I thought I'd take a ride\nAnd soon Miss Fanny Bright, was seated by my side;\nThe horse was lean and lank; misfortune seemed his lot;\nHe got into a drifted bank and we we got upsot\n\nA day or two ago the story I must tell\nI went out on the snow and on my back I fell;\nA gent was riding by in a one-horse open sleigh\nHe laughed as there I sprawling lie but quickly drove away\n\nNow the ground is white go it while you're young\nTake the girls tonight and sing this sleighing song;\nJust get a bob-tailed bay two-forty as his speed\nHitch him to an open sleigh and crack! you'll take the lead"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_42",
+			"patterns": [
+				"play Jingle Bell Rock for me",
+				"i want to listen to Jingle Bell Rock",
+				"can you sing Jingle Bell Rock for me",
+				"Jingle Bell Rock",
+				"do you know Jingle Bell Rock"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/jingle_bell_rock.mp3\n\nJingle Bell Rock Lyrics:\nJingle bell, jingle bell, jingle bell rock\nJingle bells swing and jingle bells ring\nSnowing and blowing up bushels of fun\nNow the jingle hop has begun\n\nJingle bell, jingle bell, jingle bell rock\nJingle bells chime in jingle bell time\nDancing and prancing in Jingle Bell Square\nIn the frosty air.\n\nWhat a bright time, it's the right time\nTo rock the night away\nJingle bell time is a swell time\nTo go gliding in a one-horse sleigh\nGiddy-up jingle horse, pick up your feet\nJingle around the clock\nMix and a-mingle in the jingling feet\nThat's the jingle bell,\nThat's the jingle bell,\nThat's the jingle bell rock."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_43",
+			"patterns": [
+				"play Jolly Old Saint Nicholas for me",
+				"i want to listen to Jolly Old Saint Nicholas",
+				"can you sing Jolly Old Saint Nicholas for me",
+				"Jolly Old Saint Nicholas",
+				"do you know Jolly Old Saint Nicholas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/jolly_old_st_nicholas.mp3\n\nJolly Old Saint Nicholas Lyrics:\nJolly old Saint Nicholas,\nLean your ear this way!\nDon't you tell a single soul\nWhat I'm going to say:\nChristmas Eve is coming soon;\nNow, you dear old man\nWhisper what you'll bring to me;\nTell me if you can.\n\nWhen the clock is striking twelve,\nWhen I'm fast asleep\nDown the chimney, broad and black,\nWith your pack you'll creep\nAll the stockings you will find\nHanging in a row\nMine will be the shortest one,\nYou'll be sure to know\n\nBobby wants a pair of skates,\nSuzy wants a sled\nNellie wants a picture book,\nYellow, blue, and red\nNow I think I'll leave to you\nWhat to give the rest\nChoose for me, dear Santa Claus;\nYou will know the best."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_44",
+			"patterns": [
+				"play Let it Snow for me",
+				"i want to listen to Let it Snow",
+				"can you sing Let it Snow for me",
+				"Let it Snow",
+				"do you know Let it Snow"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/let_it_snow.mp3\n\nLet it Snow Lyrics:\nOh the weather outside is frightful\nBut the fire is so delightful\nAnd since we've no place to go\nLet It Snow! Let It Snow! Let It Snow!\n\nIt doesn't show signs of stopping\nAnd I've bought some corn for popping\nThe lights are turned way down low\nLet It Snow! Let It Snow! Let It Snow!\n\nWhen we finally kiss goodnight\nHow I'll hate going out in the storm!\nBut if you'll really hold me tight\nAll the way home I'll be warm\n\nThe fire is slowly dying\nAnd, my dear, we're still goodbying\nBut as long as you love me so\nLet It Snow! Let It Snow! Let It Snow!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_45",
+			"patterns": [
+				"play Little Drummer Boy for me",
+				"i want to listen to Little Drummer Boy",
+				"can you sing Little Drummer Boy for me",
+				"Little Drummer Boy",
+				"do you know Little Drummer Boy"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/little_drummer_boy.mp3\n\nLittle Drummer Boy Lyrics:\nCome they told me, pa rum pum pum pum\nA new born King to see, pa rum pum pum pum\nOur finest gifts we bring, pa rum pum pum pum\nTo lay before the king, pa rum pum pum pum\nRum pum pum pum, rum pum pum pum\n\nSo to honor Him, pa rum pum pum pum\nWhen we come\n\nLittle baby, pa rum pum pum pum\nI am a poor boy too, pa rum pum pum pum\nI have no gift to bring, pa rum pum pum pum\nThat's fit to give our King, pa rum pum pum pum\nRum pum pum pum, rum pum pum pum\n\nShall I play for you, pa rum pum pum pum\nOn my drum\n\nMary nodded, pa rum pum pum pum\nThe ox and lamb kept time, pa rum pum pum pum\nI played my drum for Him, pa rum pum pum pum\nI played my best for Him, pa rum pum pum pum\nRum pum pum pum, rum pum pum pum\n\nThen He smiled at me, pa rum pum pum pum\nMe and my drum"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_46",
+			"patterns": [
+				"play O Christmas Tree for me",
+				"i want to listen to O Christmas Tree",
+				"can you sing O Christmas Tree for me",
+				"O Christmas Tree",
+				"do you know O Christmas Tree",
+				"play O Tannenbaum for me",
+				"i want to listen to O Tannenbaum",
+				"can you sing O Tannenbaum for me",
+				"O Tannenbaum",
+				"do you know O Tannenbaum"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/o_christmas_tree.mp3\n\nO Christmas Tree Lyrics:\nO Christmas tree, O Christmas tree!\nHow are thy leaves so verdant!\nO Christmas tree, O Christmas tree,\nHow are thy leaves so verdant!\n\nNot only in the summertime,\nBut even in winter is thy prime.\nO Christmas tree, O Christmas tree,\nHow are thy leaves so verdant!\n\nO Christmas tree, O Christmas tree,\nMuch pleasure doth thou bring me!\nO Christmas tree, O Christmas tree,\nMuch pleasure doth thou bring me!\n\nFor every year the Christmas tree,\nBrings to us all both joy and glee.\nO Christmas tree, O Christmas tree,\nMuch pleasure doth thou bring me!\n\nO Christmas tree, O Christmas tree,\nThy candles shine out brightly!\nO Christmas tree, O Christmas tree,\nThy candles shine out brightly!\n\nEach bough doth hold its tiny light,\nThat makes each toy to sparkle bright.\nO Christmas tree, O Christmas tree,\nThy candles shine out brightly!",
+				"Sure!\nhttps://files.whychristmas.com/mp3/o_christmas_tree.mp3\n\nO Tannenbaum Lyrics:\nO Tannenbaum, o Tannenbaum,\nWie grün sind deine Blätter!\nDu grünst nicht nur zur Sommerzeit,\nNein auch im Winter, wenn es schneit.\nO Tannenbaum, o Tannenbaum,\nWie grün sind deine Blätter!\n\nO Tannenbaum, o Tannenbaum,\nDu kannst mir sehr gefallen!\nWie oft hat schon zur Winterszeit\nEin Baum von dir mich hoch erfreut!\nO Tannenbaum, o Tannenbaum,\nDu kannst mir sehr gefallen!\n\nO Tannenbaum, o Tannenbaum,\nDein Kleid will mich was lehren:\nDie Hoffnung und Beständigkeit\nGibt Mut und Kraft zu jeder Zeit!\nO Tannenbaum, o Tannenbaum,\nDein Kleid will mich was lehren!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_47",
+			"patterns": [
+				"play Rockin' around the Christmas Tree for me",
+				"i want to listen to Rockin' around the Christmas Tree",
+				"can you sing Rockin' around the Christmas Tree for me",
+				"Rockin' around the Christmas Tree",
+				"do you know Rockin' around the Christmas Tree"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/rockin_around_the_christmas_tree.mp3\n\nRockin' around the Christmas Tree Lyrics:\nRockin' around the Christmas tree\nAt the Christmas party hop\nMistletoe hung where you can see\nEvery couple tries to stop\nRockin' around the Christmas tree,\nLet the Christmas spirit ring\nLater we'll have some pumpkin pie\nAnd we'll do some caroling.\n\nYou will get a sentimental\nFeeling when you hear\nVoices singing let's be jolly,\nDeck the halls with boughs of holly\nRockin' around the Christmas tree,\nHave a happy holiday\nEveryone dancing merrily\nIn the new old-fashioned way."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_48",
+			"patterns": [
+				"play Rudolph the Red Nosed Reindeer for me",
+				"i want to listen to Rudolph the Red Nosed Reindeer",
+				"can you sing Rudolph the Red Nosed Reindeer for me",
+				"Rudolph the Red Nosed Reindeer",
+				"do you know Rudolph the Red Nosed Reindeer"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/rudolph.mp3\n\nRudolph the Red Nosed Reindeer Lyrics:\nYou know Dasher and Dancer and Prancer and Vixen,\nComet and Cupid and Donder and Blitzen.\nBut do you recall\nThe most famous reindeer of all?\n\nRudolph the Red-Nosed Reindeer\nHas a very shiny nose,\nAnd if you ever saw it,\nYou could even say it glows.\nAll of the other reindeer\nUsed to laugh and call him names;\nThey never let poor Rudolph\nJoin in any reindeer games.\n\nThen one foggy Christmas Eve,\nSanta came to say:\nRudolph with your nose so bright,\n'Won't you guide my sleigh tonight?'\n\nThen how the reindeer loved him\nAs they shouted out with glee,\n'Rudolph the Red-Nosed Reindeer,\nYou'll go down in history.'"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_49",
+			"patterns": [
+				"play Santa Claus is Coming to Town for me",
+				"i want to listen to Santa Claus is Coming to Town",
+				"can you sing Santa Claus is Coming to Town for me",
+				"Santa Claus is Coming to Town",
+				"do you know Santa Claus is Coming to Town"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/santa_claus_is_coming_to_town.mp3\n\nSanta Claus is Coming to Town Lyrics:\nYou better watch out you better not cry\nBetter not pout, I'm telling you why\nSanta Claus is coming to town\n\nHe's making a list he's checking it twice;\nHe's gonna find out who's naughty and nice\nSanta Claus is coming to town\n\nHe sees you when you're sleeping\nHe knows when you're awake\nHe knows if you've been bad or good\nSo be good for goodness sake!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_50",
+			"patterns": [
+				"play Silver Bells for me",
+				"i want to listen to Silver Bells",
+				"can you sing Silver Bells for me",
+				"Silver Bells",
+				"do you know Silver Bells"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/silver_bells.mp3\n\nSilver Bells Lyrics:\nCity sidewalk, busy sidewalks\ndressed in holiday style.\nIn the air there's\na feeling of Christmas.\n\nChildren laughing, people passing,\nmeeting smile after smile,\nAnd on every street corner you'll hear:\n\nSilver bells, silver bells,\nIt's Christmas time in the city.\nRing-a-ling, hear them ring,\nsoon it will be Christmas day.\n\nCity street lights,\neven stop lights,\nblink a bright red and green,\nAs the shoppers rush home\nwith their treasures.\n\nHear the snow crunch,\nsee the kids bunch,\nThis is Santa's big scene,\nAnd above all this bustle you'll hear:\n\nSilver bells, silver bells,\nIt's Christmas time in the city.\nRing-a-ling, hear them ring,\nsoon it will be Christmas day.\n\n...soon it will be Christmas day."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_51",
+			"patterns": [
+				"play Sleigh Ride for me",
+				"i want to listen to Sleigh Ride",
+				"can you sing Sleigh Ride for me",
+				"Sleigh Ride",
+				"do you know Sleigh Ride"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/sleigh_ride.mp3\n\nSleigh Ride Lyrics:\nJust hear those sleigh bells jingle-ing\nRing ting tingle-ing too\nCome on, it's lovely weather\nFor a sleigh ride together with you\n\nOutside the snow is falling\nAnd friends are calling 'You Hoo'\nCome on, it's lovely weather\nFor a sleigh ride together with you\n\nGiddy-yap giddy-yap giddy-yap let's go\nLet's look at the snow\nWe're riding in a wonderland of snow\nGiddy-yap giddy-yap giddy-yap it's grand\nJust holding your hand\nWe're gliding along with the song\nOf a wintry fairy land\n\nOur cheeks are nice and rosy\nAnd comfy cozy are we\nWe're snuggled up together like two\nBirds of a feather would be\nLet's take the road before us\nAnd sing a Chorus or two\nCome on, it's lovely weather\nFor a sleigh ride together with you\n\nThere's a birthday party at the home of Farmer Gray\nIt'll be the perfect ending of a perfect day\nWe'll be singing the songs we love to sing without a single stop\nAt the fireplace while we watch the chestnuts pop\nPop! Pop! Pop!\n\nThere's a happy feeling nothing in the world can buy\nWhen they pass around the coffee and the pumpkin pie\nIt'll nearly be like a picture print by Currier and Ives\n\nThese wonderful things are the things\nWe remember all through our lives"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_52",
+			"patterns": [
+				"play The Twelve Days of Christmas for me",
+				"i want to listen to The Twelve Days of Christmas",
+				"can you sing The Twelve Days of Christmas for me",
+				"The Twelve Days of Christmas",
+				"do you know The Twelve Days of Christmas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/twelve_days_of_christmas.mp3\n\nThe Twelve Days of Christmas Lyrics:\nOn the first day of Christmas, my true love sent to me\nA partridge in a pear tree.\nOn the second day ... Two turtle doves\nOn the third day ... Three French hens\nOn the fourth day ... Four calling birds\nOn the fifth day ... Five go-ld (or gol-den) rings\nOn the sixth day ... Six geese a-laying\nOn the seventh day ... Seven swans a-swimming\nOn the eight day ... Eight maids a-milking\nOn the ninth day ... Nine ladies dancing\nOn the tenth day ... Ten lords a-leaping\nOn the eleventh day ... Eleven pipers piping\nOn the twelveth day ... Twelve drummers drumming"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_53",
+			"patterns": [
+				"play We Wish You a Merry Christmas for me",
+				"i want to listen to We Wish You a Merry Christmas",
+				"can you sing We Wish You a Merry Christmas for me",
+				"We Wish You a Merry Christmas",
+				"do you know We Wish You a Merry Christmas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/we_wish_you_a_merry_christmas.mp3\n\nxx Lyrics:\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nAnd a Happy New Year.\n\nGood tidings we bring,\nTo you and your kin,\nGood tidings for Christmas,\nAnd a Happy New Year.\n\nWe all want some figgy pudding,\nWe all want some figgy pudding,\nWe all want some figgy pudding,\nSo please bring it here!\n\nWe won't go until we get some,\nWe won't go until we get some,\nWe won't go until we get some,\nSo bring it out here!\n\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nAnd a Happy New Year."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_54",
+			"patterns": [
+				"play White Christmas for me",
+				"i want to listen to White Christmas",
+				"can you sing White Christmas for me",
+				"White Christmas",
+				"do you know White Christmas"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/white_christmas.mp3\n\nWhite Christmas Lyrics:\nI'm dreaming of a white Christmas\nJust like the ones I used to know\nWhere the treetops glisten and children listen\nTo hear sleigh bells in the snow\n\nI'm dreaming of a white Christmas\nWith every Christmas card I write\nMay your days be merry and bright\nAnd may all your Christmases be white"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "play_55",
+			"patterns": [
+				"play Winter Wonderland for me",
+				"i want to listen to Winter Wonderland",
+				"can you sing Winter Wonderland for me",
+				"Winter Wonderland",
+				"do you know Winter Wonderland"
+			],
+			"responses": [
+				"Sure!\nhttps://files.whychristmas.com/mp3/winter_wonderland.mp3\n\nWinter Wonderland Lyrics:\nSleigh bells ring are you listening\nIn the lane the snow is glistening\nA beautiful sight, we're happy tonight\nWalking in a winter wonderland\n\nGone away is the bluebird\nHere to stay is a new bird\nHe sings a love song as we go along\nWalking in a winter wonderland\n\nIn the meadow we can build a snowman\nThen pretend that he is Parson Brown\nHe'll say: 'Are you married?'\nWe'll say: 'No man!'\nBut you can do the job when you're in town\n\nLater on we'll conspire\nAs we dream by the fire\nTo face unafraid the plans that we've made\nWalking in a winter wonderland"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "",
+			"patterns": [""],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "why_25th",
+			"patterns": [
+				"Why is Christmas celebrated on the 25th",
+				"why do we celebrate christmas on 25th",
+				"how does christmas get to be in december",
+				"when did christmas become associated with december",
+				"why 25th of december"
+			],
+			"responses": [
+				"Christmas is a holiday celebrated by people worldwide to remember the birth of Jesus Christ, whom Christians believe is the Son of God. The word 'Christmas' comes from 'Christ-Mass,' a special church service where Christians remember Jesus's death and resurrection. Christmas is a time for family and friends to come together and exchange gifts.\nThe exact date of Jesus's birth is unknown, and the early Christians debated when to celebrate it. The first recorded celebration of Christmas on December 25th was in 336 AD during the time of the Roman Emperor Constantine. However, there are various theories about why this date was chosen.\nOne early Christian tradition said that Jesus was conceived on March 25th and that Christmas was celebrated nine months later on December 25th. March 25th was also believed to be the day of creation and the day of Jesus's death. These dates were based on different calendars, including the lunar Jewish calendar, making them movable.\nThe idea that Jesus's conception occurred on March 25th was proposed by an early church historian, Sextus Julius Africanus, around 221 AD, though it's based on later documents. Saint Ephrem the Syrian suggested a different date, Nisan 10, for Jesus's conception. Nevertheless, March 25th became a fixed date to mark the moveable events in the Jewish calendar."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "advent",
+			"patterns": [""],
+			"responses": [
+				"Advent is a period of four Sundays and weeks leading up to Christmas, usually starting on the 1st of December and ending on Christmas Eve. The word 'Advent' comes from the Latin word for 'Coming' and signifies the coming of Jesus into the world. Christians use this time to prepare for and reflect on the true meaning of Christmas.\nDuring Advent, Christians focus on three aspects of Jesus's coming. The first is his historical birth as a baby about 2,000 years ago. The second aspect is his presence in our lives today, and the third is his future return as King and Judge.\nAdvent Sunday varies in date, starting from November 27th (the longest Advent) to December 3rd (the shortest Advent). Depending on when it starts, Advent can last between 22 and 28 days. However, Advent always lasts for 24 days when Christmas Day falls on a Wednesday.\nThe origin of Advent dates back to at least 567 when monks were ordered to fast during December as a way of preparing for Christmas. Some people still fast during Advent to help them focus on the significance of Jesus's coming.\nIn various Orthodox and Eastern Catholic Churches, Advent is known as the Nativity Fast or Winter Lent and can last for 40 days. The starting date for this fast varies depending on the date of Christmas celebration in different traditions."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "12 days of christmas",
+			"patterns": [
+				"what are the 12 day of christmas",
+				"12 days christmas",
+				"Why do we celebrate these 12 days after Christmas?"
+			],
+			"responses": [
+				"The 12 Days of Christmas begin on Christmas Day and end on the evening of January 5th, known as Twelfth Night. They have been celebrated in Europe since before the Middle Ages as a time of joy and festivity. Contrary to common belief, these 12 days are not the days leading up to Christmas; that time is called Advent.\nThe 12 Days of Christmas were established in 567 at the Council of Tours to harmonize the different Christmas celebration dates of the Western and Eastern Christian churches. The Western Church celebrated Christmas on December 25th, while the Eastern Church celebrated it on January 6th, also known as Epiphany.\nEach of the 12 days traditionally commemorates a feast day for a saint or has unique celebrations associated with it. For instance, Day 1 is Christmas Day, celebrating the birth of Jesus. Day 2 is St. Stephen's Day, honoring the first Christian martyr. These days have different customs and may vary in different countries and regions."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Epiphany",
+			"patterns": [
+				"What is Epiphany, and why do we celebrate it?",
+				"Who are the Wise Men, and why are they important in the Epiphany story?",
+				"What does 'Epiphany' mean"
+			],
+			"responses": [
+				"Epiphany is celebrated 12 days after Christmas on 6th January (or January 19th for some Orthodox Church who have Christmas on 7th January) and is the time when Christians remember the Wise Men (also sometimes called the Three Kings) who visited Jesus. The Bible doesn't say how many Wise Men there were or that they were kings. The number three comes from the three gifts the Wise Men / Magi brought with them.\nEpiphany is also when some Churches remember when Jesus was Baptised, when he was about 30, and started to teach people about God. Epiphany means 'revelation' and both the visit of the Wise Men and his Baptism are important times when Jesus was 'revealed' to be very important.\nSome Churches celebrate use Epiphany to celebrate and remember both the visit of the Wise Men and Jesus's Baptism! Epiphany is mainly celebrated by Catholics and Orthodox Christians.\nIn Orthodox churches, Epiphany is also known as 'The Feast of the Holy Theophany' and it is as important as Christmas. During the services to celebrate Epiphany, on the eve of the feast and on the feast day, water is blessed (some churches only bless water at one service). This is to remember Jesus's baptism. The blessed water is used in church services during the rest of the year. People are often baptised on the Feast of the Holy Theophany. After the service, the water is also used by a priest to bless the houses of people in the church. It can sometimes take days or even weeks for the priest to visit all the houses and bless them."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Christmas or X-mas",
+			"patterns": ["is it christmas or xmas", "christmas or xmas"],
+			"responses": [
+				"Christmas is sometimes called Xmas, and some people believe it removes the 'Christ' from Christmas. However, the 'X' in Xmas actually represents the Greek letter chi (Χ), which is the first letter in the Greek word for Christ, Christos. Early Christians used the chi and rho (ΧΡ) to create a symbol for Jesus. The fish symbol was also used by early Christians, representing Jesus' call to make his followers 'Fishers of Men.' So, Xmas can be seen as a legitimate abbreviation for Christmas, with the 'X' symbolizing Christ, and it should be pronounced as 'Christmas' rather than 'ex-mas."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_bells",
+			"patterns": [
+				"what are the traditions of christmas bells",
+				"christmas bells"
+			],
+			"responses": [
+				"Bells, especially church bells, have a strong connection to Christmas traditions. In some churches, the first Christmas service begins on Christmas Eve after sunset, marked by the ringing of bells. In the UK, it's customary to ring the largest bell four times in the hour before midnight and then ring all the bells at midnight.\nThe Catholic Church permits Mass at midnight on Christmas, reflecting the belief that Jesus was born at this time, although this isn't proven. Many churches hold midnight services on Christmas Eve. In some Catholic countries, such as France, Spain, and Italy, attending the midnight Mass is a significant tradition.\n'Jingle Bells,' now a beloved Christmas song, was originally called 'One Horse Open Sleigh' and written as a Thanksgiving song in 1857. However, it became associated with Christmas due to its wintry lyrics. The song was first recorded in 1889, and it's famous for being the first song broadcast from space in 1965 by astronauts Tom Stafford and Wally Schirra. It was composed by James Lord Pierpont, with its origins debated between Massachusetts in 1850 and Savannah, Georgia around 1875."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "",
+			"patterns": [""],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "",
+			"patterns": [""],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "what_is_christmas",
+			"patterns": [
+				"can you tell me about christmas",
+				"what is christmas",
+				"give me information about christmas",
+				"do you know what is christmas",
+				"explain christmas",
+				"define christmas"
+			],
+			"responses": [
+				"Christmas is a time to celebrate the birth of Jesus Christ, a beacon of hope and love for Christians worldwide.",
+				"It's a time for families to gather, share laughter and love, and create memories that will last a lifetime.",
+				"The spirit of giving fills the air as people exchange gifts, expressing their appreciation for loved ones.",
+				"Homes are adorned with twinkling lights and festive decorations, creating a magical atmosphere of joy and wonder.",
+				"Children eagerly await the arrival of Santa Claus, the jolly gift-giver who brings excitement and anticipation to the holiday season."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_tree",
+			"patterns": [
+				"why christmas tree",
+				"how was christmas tree invented",
+				"who invented the christmas tree",
+				"what is christmas tree for",
+				"history of christmas tree",
+				"origin story of christmas tree",
+				"where did the idea of christmas tree come from",
+				"story behind christmas tree",
+				"tell me about the christmas tree",
+				"how christmas tree started"
+			],
+			"responses": [
+				"Evergreen trees (and other evergreen plants) have traditionally been used to celebrate winter festivals (pre-Christian/pagan and Christian) for thousands of years. Pre-Christian/Pagans used branches of evergreen trees to decorate their homes during the winter solstice, as it made them think of the spring to come. The Romans used Fir Trees to decorate their temples at the festival of Saturnalia. However, they were quite different to what we now think of as Christmas Trees.\n\nNobody is really sure when Fir trees were first used as Christmas trees. It probably began about 1000 years ago in Northern Europe.\n\nChristmas Trees might well have started out as 'Paradise Trees' (branches or wooden frames decorated with apples). These were used in medieval German Mystery or Miracle Plays that were acted out in front of Churches during Advent and on Christmas Eve. In early church calendars of saints, 24th December was Adam and Eve's day. The Paradise Tree represented the Garden of Eden. It was often paraded around the town before the play started, as a way of advertising the play. The plays told Bible stories to people who could not read.\n\nChristmas Trees as they came to be now started around the late 1400s into the 1500s. In what's now Germany (was the Holy Roman Empire then), the Paradise Tree had more decorations on it (sometimes communion wafers, cherries and later pastry decorations of stars, bells, angels, etc. were added) and it even got a new nickname the 'Christbaum' or 'Christ Tree'.\n\nSome early Christmas Trees, across many parts of northern Europe, were cherry or hawthorn plants (or a branch of the plant) that were put into pots and brought inside so they would hopefully flower at Christmas time. If you couldn't afford a real plant, people made pyramids of woods and they were decorated to look like a tree with paper, apples and candles. It's possible that the wooden pyramid trees were meant to be like Paradise Trees. Sometimes they were carried around from house to house, rather than being displayed in a home.\n\nSome trees (or at least small tops of them or branches of fir trees) were hung from the ceiling, mainly in some parts of Germany, some Slavic countries and parts of Poland. This might have been to save space or they just looked nice hanging from the rafters! (If you have lighting hooks on the ceiling, they would also be an obvious place to hang things from.)"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color",
+			"patterns": [
+				"what are the colors of christmas",
+				"christmas colors",
+				"tell me the christmas colours",
+				"tell me the colour of christmas"
+			],
+			"responses": [
+				"There are several colors which are traditionally associated with Christmas. This site uses Red, Green and Gold.\n\nMost the colors and their meanings come from the western/northern European traditions and customs, when Christmas is in the middle of winter and it's dark and cold.\n\nThe common colors are\n\nGreen\nRed\nGold\nWhite\nBlue\nPurple"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color_green",
+			"patterns": [
+				"why are there green colors in christmas",
+				"why green colour",
+				"green colour",
+				"what does green colour means",
+				"green color meaning",
+				"green color symbolism",
+				"green color significance",
+				"green color in christmas"
+			],
+			"responses": [
+				"Evergreen plants, like Holly, Ivy and Mistletoe have been used for thousands of years to decorate and brighten up buildings during the long dark winter. They also reminded people that spring would come and that winter wouldn't last forever!\n\nThe Romans would exchange evergreen branches during January as a sign of good luck. The ancient Egyptians used to bring palm branches into their houses during the mid winter festivals.\n\nIn many parts of Europe during the middle ages, Paradise plays were performed, often on Christmas Eve. They told Bible stories to people who couldn't read. The 'Paradise Tree' in the garden of eden in the play was normally a pine tree with red apples tied to it.\n\nNow the most common use of green at Christmas are Christmas Trees."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color_red",
+			"patterns": [
+				"why are there red colors in christmas",
+				"why red colour",
+				"red colour",
+				"what does red colour means",
+				"red color meaning",
+				"red color symbolism",
+				"red color significance",
+				"red color in christmas"
+			],
+			"responses": [
+				"An early use of red at Christmas were the apples on the paradise tree. They represented the fall of Adam in the plays.\n\nRed is also the color of Holly berries, which is said to represent the blood of Jesus when he died on the cross.\n\nRed is also the color of Bishops robes. These would have been worn by St. Nicholas and then also became Santa's uniform!\n\nhttps://www.whychristmas.com/i/santa.png"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color_gold",
+			"patterns": [
+				"why are there gold colors in christmas",
+				"why gold colour",
+				"gold colour",
+				"what does gold colour means",
+				"gold color meaning",
+				"gold color symbolism",
+				"gold color significance",
+				"gold color in christmas"
+			],
+			"responses": [
+				"Gold is the color of the Sun and light - both very important in the dark winter. And both red and gold are the colors of fire that you need to keep you warm.\n\nGold was also one of the presents brought to the baby Jesus by the wise men and traditionally it's the color used to show the star that the wise men followed.\n\nSilver is sometimes used instead of (or with) gold. But gold is a 'warmer' color."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color_white",
+			"patterns": [
+				"why are there white colors in christmas",
+				"why white colour",
+				"white colour",
+				"what does white colour means",
+				"white color meaning",
+				"white color symbolism",
+				"white color significance",
+				"white color in christmas"
+			],
+			"responses": [
+				"White is often associated with purity and peace in western cultures. The snow of winter is also very white!\n\nWhite paper wafers were also sometimes used to decorate paradise trees. The wafers represented the bread eaten during Christian Communion or Mass, when Christians remember that Jesus died for them.\n\nWhite is used by most churches as the color of Christmas, when the altar is covered with a white cloth (in the Russian Orthodox Church Gold is used for Christmas)."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color_blue",
+			"patterns": [
+				"why are there blue colors in christmas",
+				"why blue colour",
+				"blue colour",
+				"what does blue colour means",
+				"blue color meaning",
+				"blue color symbolism",
+				"blue color significance",
+				"blue color in christmas"
+			],
+			"responses": [
+				"The color blue is often associated with Mary, the mother of Jesus. In medieval times blue dye and paint was more expensive than gold! So it would only be worn by Royal families and very rich people. Mary was often painted wearing blue to show she was very important.\n\nBlue can also represent the color of the sky and heaven."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color_blue",
+			"patterns": [
+				"why are there blue colors in christmas",
+				"why blue colour",
+				"blue colour",
+				"what does blue colour means",
+				"blue color meaning",
+				"blue color symbolism",
+				"blue color significance",
+				"blue color in christmas"
+			],
+			"responses": [
+				"The color blue is often associated with Mary, the mother of Jesus. In medieval times blue dye and paint was more expensive than gold! So it would only be worn by Royal families and very rich people. Mary was often painted wearing blue to show she was very important.\n\nBlue can also represent the color of the sky and heaven."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "color_purple",
+			"patterns": [
+				"why are there purple colors in christmas",
+				"why purple colour",
+				"purple colour",
+				"what does purple colour means",
+				"purple color meaning",
+				"purple color symbolism",
+				"purple color significance",
+				"purple color in christmas"
+			],
+			"responses": [
+				"During Advent, purple and sometimes blue is used in most churches for the color of the altar cloth (in the Russian Orthodox Church red is used for advent)."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "present",
+			"patterns": [
+				"why do we gift each other in christmas",
+				"gift exchange for what",
+				"how does the present system work",
+				"is it a tradition to give gifts on christmas day",
+				"tell me about christmas presents",
+				"why christmas present"
+			],
+			"responses": [
+				"One of the main reasons we have the custom of giving and receiving presents at Christmas, is to remind us of the presents given to Jesus by the Wise Men: Frankincense, Gold and Myrrh.\n\n\n\tGold: is associated with Kings and Christians believe that Jesus is the King of Kings.\n\n\tFrankincense: is sometimes used in worship in Churches and showed that people would worship Jesus.\n\n\tMyrrh: is a perfume that is put on dead bodies to make them smell nice; Christian believe that it showed that Jesus would suffer and die.\n\n\nChristmas itself is really about a big present that God gave the world about 2000 years ago - Jesus! One of the most famous Bible verses, John 3:16, says: 'God loved the world so much, that he gave his one and only Son, so that whoever believes in him may not be lost but have eternal life.'.\n\nAll over the world, families and friends give presents to each other. Most children around the world believe in a Christmas gift bringer. It's often St. Nicholas, Santa Claus or Father Christmas, but in parts of Germany they believe that it is the Christkind, in Spain they believe it is the Wise Men and in parts of Italy they believe it is an old lady called Befana."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "snowmen",
+			"patterns": [
+				"tell me about snowman",
+				"what is snowman",
+				"who invented snowman",
+				"where did the idea of snowman come from",
+				"how did snowman started"
+			],
+			"responses": [
+				"Snowmen were probably first made by people to scare away evil winter spirits. But now they are just a good excuse to have lots of fun in the snow! (If you know anything about why snowmen were first built, please let me know!)\n\nProbably the most famous snowman is 'Frosty the Snowman' who appears in a Christmas song of the same name. The song was written in 1950 by Steve Nelson and Jack Rollins. It was recorded in 1953 by the American singer Perry Como and became very popular. A film called Frosty the Snowman was made in 1969 and told the story of a magical snowman who came to life and became best friends with a little girl. Sing along to 'Frosty the Snowman' (on a different site).\n\nIn the UK there is a famous animated film called The Snowman (made in 1982) about a snowman who comes to life and takes a little boy flying of to see Father Christmas. We used to watch it every year when I was in Primary (Elementary) School on the last school day before the Christmas holidays! The cartoon has a song in it called {We're Walking in the Air}. It was made famous when it was released as a single in 1985 and sung by a choir boy called Aled Jones. Aled is now an adult and a popular television and radio presenter in the UK! (In the original animation, the song was sung by a choir boy called Peter Auty.)"
+			],
 			"context_set": ""
 		}
 	]

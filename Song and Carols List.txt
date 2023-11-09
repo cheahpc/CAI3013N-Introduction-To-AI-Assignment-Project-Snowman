@@ -1,0 +1,55 @@
+' 1. Angels from the Realms of Glory
+' 2. Angels We Have Heard on High
+' 3. Away in a Manger
+' 4. Coventry Carol
+' 5. Ding Dong Merrily on High
+' 6. Do You Hear What I Hear?
+' 7. The First Noel
+' 8. Go Tell it on the Mountain
+' 9. God Rest Ye Merry Gentlemen
+' 10. Good Christian Men, Rejoice
+' 11. Hark! the Herald Angels Sing
+' 12. The Holly and the Ivy
+' 13. I Heard the Bells on Christmas Day
+' 14. I Saw Three Ships
+' 15. It Came Upon the Midnight Clear
+' 16. In the Bleak Midwinter
+' 17. Joy to the World
+' 18. O Come All Ye Faithful
+' 19. O Come, O Come, Emmanuel
+' 20. O Holy Night
+' 21. O Little Town of Bethlehem
+' 22. Once in Royal David's City
+' 23. See Amid the Winter's Snow
+' 24. Silent Night
+' 25. Sing We Now of Christmas
+' 26. Sussex Carol
+' 27. We Three Kings of Orient Are
+' 28. What Child is This?
+' 29. While Shepherds Watched
+' 1. Auld Lang Syne
+' 2. The Christmas Song
+' 3. Christmas Time is Here
+' 4. Deck the Halls with Boughs of Holly
+' 5. Feliz Navidad
+' 6. Frosty the Snowman
+' 7. Good King Wenceslas
+' 8. Have Yourself a Merry Little Xmas
+' 9. Here Comes Santa Claus
+' 10. Holly Jolly Christmas
+' 11. I Saw Mommy Kissing Santa Claus
+' 12. Jingle Bells
+' 13. Jingle Bell Rock
+' 14. Jolly Old St Nicholas
+' 15. Let it Snow
+' 16. Little Drummer Boy
+' 17. O Christmas Tree (O Tannenbaum)
+' 18. Rocking around the Christmas Tree
+' 19. Rudolph the Red Nosed Reindeer
+' 20. Santa Claus is Coming to Town
+' 21. Silver Bells
+' 22. Sleigh Ride
+' 23. The Twelve Days of Christmas
+' 24. We Wish You a Merry Christmas
+' 25. White Christmas
+' 26. Winter Wonderland
