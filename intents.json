@@ -1001,7 +1001,7 @@
 		},
 		{
 			"tag": "advent",
-			"patterns": [""],
+			"patterns": ["what is advent during Christmas", "definition of advent"],
 			"responses": [
 				"Advent is a period of four Sundays and weeks leading up to Christmas, usually starting on the 1st of December and ending on Christmas Eve. The word 'Advent' comes from the Latin word for 'Coming' and signifies the coming of Jesus into the world. Christians use this time to prepare for and reflect on the true meaning of Christmas.\nDuring Advent, Christians focus on three aspects of Jesus's coming. The first is his historical birth as a baby about 2,000 years ago. The second aspect is his presence in our lives today, and the third is his future return as King and Judge.\nAdvent Sunday varies in date, starting from November 27th (the longest Advent) to December 3rd (the shortest Advent). Depending on when it starts, Advent can last between 22 and 28 days. However, Advent always lasts for 24 days when Christmas Day falls on a Wednesday.\nThe origin of Advent dates back to at least 567 when monks were ordered to fast during December as a way of preparing for Christmas. Some people still fast during Advent to help them focus on the significance of Jesus's coming.\nIn various Orthodox and Eastern Catholic Churches, Advent is known as the Nativity Fast or Winter Lent and can last for 40 days. The starting date for this fast varies depending on the date of Christmas celebration in different traditions."
 			],
@@ -1020,7 +1020,7 @@
 			"context_set": ""
 		},
 		{
-			"tag": "Epiphany",
+			"tag": "epiphany",
 			"patterns": [
 				"What is Epiphany, and why do we celebrate it?",
 				"Who are the Wise Men, and why are they important in the Epiphany story?",
@@ -1032,7 +1032,7 @@
 			"context_set": ""
 		},
 		{
-			"tag": "Christmas or X-mas",
+			"tag": "christmas or X-mas",
 			"patterns": ["is it christmas or xmas", "christmas or xmas"],
 			"responses": [
 				"Christmas is sometimes called Xmas, and some people believe it removes the 'Christ' from Christmas. However, the 'X' in Xmas actually represents the Greek letter chi (Χ), which is the first letter in the Greek word for Christ, Christos. Early Christians used the chi and rho (ΧΡ) to create a symbol for Jesus. The fish symbol was also used by early Christians, representing Jesus' call to make his followers 'Fishers of Men.' So, Xmas can be seen as a legitimate abbreviation for Christmas, with the 'X' symbolizing Christ, and it should be pronounced as 'Christmas' rather than 'ex-mas."
@@ -1047,6 +1047,63 @@
 			],
 			"responses": [
 				"Bells, especially church bells, have a strong connection to Christmas traditions. In some churches, the first Christmas service begins on Christmas Eve after sunset, marked by the ringing of bells. In the UK, it's customary to ring the largest bell four times in the hour before midnight and then ring all the bells at midnight.\nThe Catholic Church permits Mass at midnight on Christmas, reflecting the belief that Jesus was born at this time, although this isn't proven. Many churches hold midnight services on Christmas Eve. In some Catholic countries, such as France, Spain, and Italy, attending the midnight Mass is a significant tradition.\n'Jingle Bells,' now a beloved Christmas song, was originally called 'One Horse Open Sleigh' and written as a Thanksgiving song in 1857. However, it became associated with Christmas due to its wintry lyrics. The song was first recorded in 1889, and it's famous for being the first song broadcast from space in 1965 by astronauts Tom Stafford and Wally Schirra. It was composed by James Lord Pierpont, with its origins debated between Massachusetts in 1850 and Savannah, Georgia around 1875."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "candy_canes",
+			"patterns": [
+				"what are candy canes for",
+				"whats the meaning of candy canes",
+				"why do chirstmas has candy canes",
+				"candy canes"
+			],
+			"responses": [
+				"Candy canes originated in 1837 as straight white sugar sticks, gaining red stripes a few years later. The term 'candy canes' was first used in 1866, and they became associated with Christmas in 1874. Originally with a simple sugar flavor, they are now commonly flavored with peppermint or wintergreen.\nAround 1920, Bob McCormack from Georgia began making candy canes, leading to his company, Bob's Candies. His brother-in-law, a Catholic priest named Gregory Harding Keller, invented the 'Keller Machine' for automatic cane shaping. Despite being acquired in 2005, Bob's Candies still produces candy canes.\nA charming, likely untrue, story suggests a German choirmaster in 1670 created the candy cane to keep children quiet during a Christmas nativity service, shaping them like a 'J' for a shepherd's crook.\nSome ascribe Christian meanings to candy canes, such as the 'J' representing Jesus, white for Christ's purity, and red stripes for his blood on the cross. These meanings were added later. Candy canes are often seen in Christmas stockings."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "mistletoe",
+			"patterns": [
+				"why do people kiss under the mistletoe",
+				"why is mistletoe so popular"
+			],
+			"responses": [
+				"The tradition of kissing under the mistletoe has its roots in ancient Norse mythology. Mistletoe was considered a symbol of love and fertility, and it became a custom for enemies to declare a truce when they encountered it. Over time, this evolved into the tradition of kissing under the mistletoe during the Christmas season as a symbol of love and goodwill."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "santa_claus",
+			"patterns": [
+				"fat guy in red suit",
+				"the face of christmas",
+				"who is santa claus",
+				"santa claus",
+				"tell me about santa claus",
+				"who is santa claus"
+			],
+			"responses": [
+				"The modern image of Santa Claus was popularized by Coca-Cola in the 1930s through its festive advertising. Although Santa's character has earlier origins in folklore and various cultures, Coca-Cola's depiction of a jolly, red-suited Santa with a white beard became an iconic representation that is widely recognized today."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "",
+			"patterns": [""],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas weather",
+			"patterns": [
+				"what is the weather like during christmas",
+				"weahther during christmas",
+				"chrsitmas weather"
+			],
+			"responses": [
+				"In regions with a winter season, Christmas often brings a festive atmosphere enhanced by cold temperatures and, ideally, a blanket of snow for a 'White Christmas.' This weather creates a picturesque setting, with snow-covered landscapes, cozy fireside scenes, and the opportunity for winter sports and activities. In contrast, regions with warmer climates may experience a milder Christmas, inspiring unique traditions like beach celebrations or outdoor gatherings under clear skies. Despite the weather differences, the spirit of Christmas remains universal, marked by joy, festive decorations, and a sense of togetherness."
 			],
 			"context_set": ""
 		},
@@ -1098,6 +1155,154 @@
 			"responses": [
 				"Evergreen trees (and other evergreen plants) have traditionally been used to celebrate winter festivals (pre-Christian/pagan and Christian) for thousands of years. Pre-Christian/Pagans used branches of evergreen trees to decorate their homes during the winter solstice, as it made them think of the spring to come. The Romans used Fir Trees to decorate their temples at the festival of Saturnalia. However, they were quite different to what we now think of as Christmas Trees.\n\nNobody is really sure when Fir trees were first used as Christmas trees. It probably began about 1000 years ago in Northern Europe.\n\nChristmas Trees might well have started out as 'Paradise Trees' (branches or wooden frames decorated with apples). These were used in medieval German Mystery or Miracle Plays that were acted out in front of Churches during Advent and on Christmas Eve. In early church calendars of saints, 24th December was Adam and Eve's day. The Paradise Tree represented the Garden of Eden. It was often paraded around the town before the play started, as a way of advertising the play. The plays told Bible stories to people who could not read.\n\nChristmas Trees as they came to be now started around the late 1400s into the 1500s. In what's now Germany (was the Holy Roman Empire then), the Paradise Tree had more decorations on it (sometimes communion wafers, cherries and later pastry decorations of stars, bells, angels, etc. were added) and it even got a new nickname the 'Christbaum' or 'Christ Tree'.\n\nSome early Christmas Trees, across many parts of northern Europe, were cherry or hawthorn plants (or a branch of the plant) that were put into pots and brought inside so they would hopefully flower at Christmas time. If you couldn't afford a real plant, people made pyramids of woods and they were decorated to look like a tree with paper, apples and candles. It's possible that the wooden pyramid trees were meant to be like Paradise Trees. Sometimes they were carried around from house to house, rather than being displayed in a home.\n\nSome trees (or at least small tops of them or branches of fir trees) were hung from the ceiling, mainly in some parts of Germany, some Slavic countries and parts of Poland. This might have been to save space or they just looked nice hanging from the rafters! (If you have lighting hooks on the ceiling, they would also be an obvious place to hang things from.)"
 			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_activity_malaysia",
+			"patterns": [
+				"tell me christmas activities in malaysia",
+				"how do malaysia celebrate christmas",
+				"how is christmas in malaysia",
+				"malaysia christmas",
+				"do you know how malaysia celebrate christmas",
+				"christmas events in malaysia"
+			],
+			"responses": [
+				"You will see biggest and impressive decorations and large Christmas displays in the shopping malls, such as lights, santas, reindeer, fake snow and huge christmas tree. Some large malls will have attractions like indoor ice rinks and carol singers. \n\nRestaurants often offers special Christmas menus. Roast or fried chicken is one of the most popular Christmas dish in Malaysia. \n\nAs well as giving gifts, many Malaysians give and receive money in red packets known as 'Ang Paus'. There are normally sales in shops around Christmas and the new year, so they like to spend their Ang Paus after Christmas in the sales! \n\nAt Midnight on Christmas Eve, there are huge firework displays. They are normally organised in towns and cities and people like to go and watch the fireworks after their Christmas meal."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_activity_usa",
+			"patterns": [
+				"tell me christmas activities in usa",
+				"how do usa celebrate christmas",
+				"how is christmas in usa",
+				"usa christmas",
+				"do you know how usa celebrate christmas",
+				"christmas events in usa"
+			],
+			"responses": [
+				"In the USA, Christmas meals vary across cultural backgrounds. Western European families often enjoy turkey or ham with cranberry sauce. Eastern European traditions favor kielbasa, cabbage dishes, and soups, while Italian-Americans celebrate Christmas Eve with a feast of seven fish dishes. \n\nFestive decorations are a key part of American Christmas traditions. Homes are adorned with popcorn-threaded strings, gingerbread houses, and lights featuring Santa, Snowmen, and Reindeer statues. Some families even leave cookies and milk for Santa on Christmas Eve. \n\nReligious celebrations, including carol services, add depth to the holiday spirit. Unique customs, like the Christmas Pickle, contribute to the diverse tapestry of traditions. Street decorations, iconic landmarks like the Rockefeller Center Christmas Tree, and parades, such as Mumming in Philadelphia, enhance the festive atmosphere. In the Southwest USA, luminarias symbolize the guiding light on Christmas Eve, and tamales add a special touch to festive feasts."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_activity_japan",
+			"patterns": [
+				"tell me christmas activities in japan",
+				"how do japan celebrate christmas",
+				"how is christmas in japan",
+				"japan christmas",
+				"do you know how japan celebrate christmas",
+				"christmas events in japan"
+			],
+			"responses": [
+				"In Japan, Christmas, though not a religious celebration due to a small Christian population, has become popular in recent decades. Influenced by American customs, activities like sending cards and exchanging presents are now widely embraced. \n\nChristmas in Japan emphasizes spreading happiness, especially on Christmas Eve, which holds a romantic significance akin to Valentine's Day. Couples engage in walks, admiring Christmas lights, and share romantic meals. Fried chicken, notably from KFC, is a common Christmas meal inspired by a successful 1974 advertising campaign. While not a national holiday, schools may close around Christmas Day, aligning with the start of the New Year school break. \n\nUnique Christmas traditions in Japan include the widespread popularity of Beethoven's Ninth Symphony, known as 'daiku,' sung by choirs across the country. Additionally, Tokyo Disneyland attracts visitors during the Christmas season with festive decorations and parades. The Japanese New Year, 'o shogatsu,' is a family-focused celebration lasting from December 31st to January 4th, contrasting with the festive and romantic atmosphere of Christmas in Japan."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_activity_china",
+			"patterns": [
+				"tell me christmas activities in china",
+				"how do china celebrate christmas",
+				"how is christmas in china",
+				"china christmas",
+				"do you know how china celebrate christmas",
+				"christmas events in china"
+			],
+			"responses": [
+				"In China, where only about one percent of the population is Christian, Christmas is primarily celebrated in major cities. Urban areas showcase festive decorations like Christmas Trees, lights, and Santa Claus grottos in shops, bringing a touch of holiday spirit. Even postmen may dress up as Santa when delivering letters before Christmas. Christmas parties are gaining traction among young city dwellers, resembling Valentine's Day celebrations with the exchange of gifts. \n\nThe Mandarin greeting 'Sheng Dan Kuai Le' and Cantonese equivalent 'Seng Dan Fai Lok' mark the Christmas festivities in China. While Christmas Trees are not widespread, those who have them often opt for plastic ones adorned with paper chains, flowers, and lanterns. Interestingly, China manufactures a significant portion of the world's plastic Christmas Trees and decorations, despite these items not being prevalent in the homes of the producers. A unique tradition involves giving apples on Christmas Eve, as the Mandarin word for apple, (píngguǒ) sounds like the word for peace. Additionally, some engage in carol singing, with (Jingle Bells) being a popular Christmas song in China. \n\nWhile Christmas may not hold religious significance for many in China, the festive atmosphere, decorations, and emerging traditions contribute to the celebration of this holiday in urban areas, especially among the younger generation."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_activity_portugal",
+			"patterns": [
+				"tell me christmas activities in portugal",
+				"how do portugal celebrate christmas",
+				"how is christmas in portugal",
+				"portugal christmas",
+				"do you know how portugal celebrate christmas",
+				"christmas events in portugal"
+			],
+			"responses": [
+				"In Portugal, the traditional Christmas meal, known as 'Consoada,' is enjoyed on Christmas Eve, featuring salted cod with vegetables, boiled potatoes, and eggs. This festive feast is followed by indulgent foods like shellfish, wild meats, and assorted treats, including roast Turkey, cakes, fried cookies, and nuts. \n\nChristmas traditions in Portugal involve unique desserts from different regions, such as the rich 'Lampreia de ovos' in the north and the popular 'Bolo Rei' (King Cake) placed at the center of the table. A fun tradition involves hiding a broad bean and a gift in the cake, with finding the broad bean requiring the finder to pay for the next year's cake. The celebration continues with porto wine, traditional liquors, and 'azevias' and 'felhozes' as people attend the 'Missa do Galo' service before returning home to open presents. \n\nChristmas Trees have become common, but the traditional Nativity Scene (Presépio) remains a staple decoration. The festive season extends to Epiphany on January 6th, marked by the 'Janeiras' tradition, where groups visit homes singing songs and enjoying snacks, creating a lively atmosphere of celebration and gratitude."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_malaysia_2",
+			"patterns": [
+				"activity in malaysia",
+				"suggest christmas activity in malaysia",
+				"recommend christmas activity in malaysia"
+			],
+			"responses": [
+				"Explore local Christmas markets or bazaars, where you can find festive decorations, holiday-themed crafts, and unique gifts. These events often feature live performances, food stalls, and a lively atmosphere."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_malaysia_3",
+			"patterns": [
+				"more activities in malaysia",
+				"suggest more christmas activities in malaysia",
+				"recommend more christmas activities in malaysia"
+			],
+			"responses": [
+				"Visit shopping malls that go all out with Christmas decorations. Enjoy dazzling light displays, beautifully adorned Christmas trees, and festive storefronts. Some malls may organize special events, such as tree lighting ceremonies or live performances."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_malaysia_4",
+			"patterns": [
+				"other activities in malaysia",
+				"suggest other christmas activities in malaysia",
+				"recommend other christmas activities in malaysia"
+			],
+			"responses": [
+				"Look for Christmas carol performances in public spaces, malls, or community centers. Enjoy the melodious tunes of classic Christmas songs performed by local choirs or musicians, creating a festive ambiance."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_malaysia_5",
+			"patterns": [
+				"christmas offer in malaysia",
+				"christmas promotion in malaysia",
+				"christmas activity for restaurant in malaysia",
+				"christmas a for restaurant in malaysia"
+			],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "",
+			"patterns": [""],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "",
+			"patterns": [""],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_feast",
+			"patterns": ["what do we eat during Christmas"],
+			"responses": [
+				"The Christmas feast, marked by a festive and elaborate meal, varies in its specifics across different cultures and regions. Here's a more detailed look at some common elements of the Christmas feast:\n\nMain Course:\nRoasted Turkey: In many Western countries, particularly in the United States, Canada, and the UK, roasted turkey is a staple for Christmas dinner. It's often accompanied by stuffing, gravy, and cranberry sauce.\nRoast Ham: In some cultures, including parts of the United States and Europe, a glazed and roasted ham takes center stage on the Christmas table.\n\nSide Dishes:\nStuffing/Dressing: Made with a mix of bread, herbs, and various ingredients, stuffing is a flavorful side dish often cooked inside the bird.\nMashed Potatoes: Creamy mashed potatoes are a classic accompaniment to the main course.\nVegetables: Roasted or steamed vegetables such as carrots, Brussels sprouts, and green beans add color and nutritional balance to the meal.\nGravy: A rich and savory gravy is commonly drizzled over the main course and side dishes.\n\nDesserts:\nChristmas Pudding: In the UK and some Commonwealth countries, Christmas pudding, a steamed or boiled dessert with dried fruits and spices, is a traditional treat.\nFruitcake: A dense cake containing candied or dried fruits and nuts, often soaked in alcohol, is a popular Christmas dessert in many countries.\nCookies and Treats: Christmas-themed cookies, gingerbread houses, and various sweets are enjoyed as festive treats during the holiday season."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "",
+			"patterns": [""],
+			"responses": [""],
 			"context_set": ""
 		},
 		{
