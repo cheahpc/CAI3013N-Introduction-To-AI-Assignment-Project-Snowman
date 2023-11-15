@@ -1,6 +1,23 @@
 {
 	"intents": [
 		{
+			"tag": "action",
+			"patterns": [
+				"guess what am i doing now",
+				"do you know what i am doing",
+				"what is my action",
+				"what am i doing",
+				"what am i doing now",
+				"what is my action now"
+			],
+			"responses": [
+				"HO HO HO! I may not be able to see but I know what you are doing!",
+				"Hmmmm, that is a tricky question, but I know what you are doing!",
+				"You don't know what you are doing? Let me tell you then!"
+			],
+			"context_set": ""
+		},
+		{
 			"tag": "greetings_1",
 			"patterns": [
 				"hello",
@@ -947,7 +964,7 @@
 				"do you know We Wish You a Merry Christmas"
 			],
 			"responses": [
-				"Sure!\nhttps://files.whychristmas.com/mp3/we_wish_you_a_merry_christmas.mp3\n\nxx Lyrics:\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nAnd a Happy New Year.\n\nGood tidings we bring,\nTo you and your kin,\nGood tidings for Christmas,\nAnd a Happy New Year.\n\nWe all want some figgy pudding,\nWe all want some figgy pudding,\nWe all want some figgy pudding,\nSo please bring it here!\n\nWe won't go until we get some,\nWe won't go until we get some,\nWe won't go until we get some,\nSo bring it out here!\n\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nAnd a Happy New Year."
+				"Sure!\nhttps://files.whychristmas.com/mp3/we_wish_you_a_merry_christmas.mp3\n\nWe Wish You a Merry Christmas Lyrics:\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nAnd a Happy New Year.\n\nGood tidings we bring,\nTo you and your kin,\nGood tidings for Christmas,\nAnd a Happy New Year.\n\nWe all want some figgy pudding,\nWe all want some figgy pudding,\nWe all want some figgy pudding,\nSo please bring it here!\n\nWe won't go until we get some,\nWe won't go until we get some,\nWe won't go until we get some,\nSo bring it out here!\n\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nWe wish you a Merry Christmas,\nAnd a Happy New Year."
 			],
 			"context_set": ""
 		},
@@ -977,12 +994,6 @@
 			"responses": [
 				"Sure!\nhttps://files.whychristmas.com/mp3/winter_wonderland.mp3\n\nWinter Wonderland Lyrics:\nSleigh bells ring are you listening\nIn the lane the snow is glistening\nA beautiful sight, we're happy tonight\nWalking in a winter wonderland\n\nGone away is the bluebird\nHere to stay is a new bird\nHe sings a love song as we go along\nWalking in a winter wonderland\n\nIn the meadow we can build a snowman\nThen pretend that he is Parson Brown\nHe'll say: 'Are you married?'\nWe'll say: 'No man!'\nBut you can do the job when you're in town\n\nLater on we'll conspire\nAs we dream by the fire\nTo face unafraid the plans that we've made\nWalking in a winter wonderland"
 			],
-			"context_set": ""
-		},
-		{
-			"tag": "",
-			"patterns": [""],
-			"responses": [""],
 			"context_set": ""
 		},
 		{
@@ -1089,12 +1100,7 @@
 			],
 			"context_set": ""
 		},
-		{
-			"tag": "",
-			"patterns": [""],
-			"responses": [""],
-			"context_set": ""
-		},
+
 		{
 			"tag": "christmas weather",
 			"patterns": [
@@ -1105,18 +1111,6 @@
 			"responses": [
 				"In regions with a winter season, Christmas often brings a festive atmosphere enhanced by cold temperatures and, ideally, a blanket of snow for a 'White Christmas.' This weather creates a picturesque setting, with snow-covered landscapes, cozy fireside scenes, and the opportunity for winter sports and activities. In contrast, regions with warmer climates may experience a milder Christmas, inspiring unique traditions like beach celebrations or outdoor gatherings under clear skies. Despite the weather differences, the spirit of Christmas remains universal, marked by joy, festive decorations, and a sense of togetherness."
 			],
-			"context_set": ""
-		},
-		{
-			"tag": "",
-			"patterns": [""],
-			"responses": [""],
-			"context_set": ""
-		},
-		{
-			"tag": "",
-			"patterns": [""],
-			"responses": [""],
 			"context_set": ""
 		},
 		{
@@ -1280,18 +1274,6 @@
 			"context_set": ""
 		},
 		{
-			"tag": "",
-			"patterns": [""],
-			"responses": [""],
-			"context_set": ""
-		},
-		{
-			"tag": "",
-			"patterns": [""],
-			"responses": [""],
-			"context_set": ""
-		},
-		{
 			"tag": "christmas_feast",
 			"patterns": ["what do we eat during Christmas"],
 			"responses": [
@@ -1299,12 +1281,7 @@
 			],
 			"context_set": ""
 		},
-		{
-			"tag": "",
-			"patterns": [""],
-			"responses": [""],
-			"context_set": ""
-		},
+
 		{
 			"tag": "color",
 			"patterns": [
