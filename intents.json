@@ -18,7 +18,32 @@
 			"context_set": ""
 		},
 		{
-			"tag": "greetings_1",
+			"tag": "wish",
+			"patterns": [
+				"give me a christmas wish",
+				"i want a christmas wish",
+				"can you give me a christmas wish",
+				"christmas wish",
+				"i want a wish",
+				"give me a wish",
+				"can you give me a wish",
+				"tell me a christmas wish",
+				"tell me a wish",
+				"i want a christmas wish from you",
+				"i want a wish from you",
+				"wish me",
+				"christmas wish me"
+			],
+			"responses": [
+				"Of course my friend!",
+				"Sure!",
+				"Definitely!",
+				"Of course!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "greetings",
 			"patterns": [
 				"hello",
 				"hey",
@@ -44,23 +69,6 @@
 				"Hola! ich bin Snowman!",
 				"NiHao! I am Snowman!",
 				"XinCiao! Tôi là Snowman!"
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "greetings_2",
-			"patterns": [
-				"wish you merry christmas",
-				"happy xmas to you",
-				"happy holiday to you",
-				"merry christmas to you"
-			],
-			"responses": [
-				"Merry Christmas to you too!",
-				"Wishing you a joyful holiday season!",
-				"Happy Xmas!!!",
-				"Thank you! You too have a wonderful holiday!",
-				"Ho ho ho, are you a good kid?"
 			],
 			"context_set": ""
 		},
@@ -117,64 +125,6 @@
 			"context_set": ""
 		},
 		{
-			"tag": "carols_what_is",
-			"patterns": [
-				"what is christmas carols",
-				"how did christmas carols started",
-				"tell me about christmas carols",
-				"do you the history of christmas carols?",
-				"why are there christmas carols"
-			],
-			"responses": [
-				"Sure! Let me tell you about Christmas carols!\n\nCarols were first sung in Europe thousands of years ago, but these were not Christmas Carols. They were pre-Christian/pagan songs, sung at the Winter Solstice \nelebrations. The Winter Solstice is the shortest day of the year, usually taking place around 22nd December. The word Carol actually means a dance or a song of \nraise and joy! Carols used to be written and sung during all four seasons, but only the tradition of singing them at Christmas has really survived.\n\nChristmas, remembering the birth of Jesus, then started to be celebrated at the same time as the solstice, so the early Christians started singing Christian songs instead \nf pre-Christian/pagan ones. In 129, a Roman Bishop said that a song called 'Angel's Hymn' should be sung at a Christmas service in Rome. Another famous early \nhristmas Hymn was written in 760, by Comas of Jerusalem, for the Greek Orthodox Church. Soon after this many composers all over Europe started to write 'Christmas \narols'. However, not many people liked them as they were all written and sung in Latin, a language that the normal people couldn't understand.\n\nThis was changed by St. Francis of Assisi when, in 1223, he started his Nativity Plays in Italy. The people in the plays sang songs or 'canticles' that told the story \nuring the plays. Sometimes, the choruses of these new carols were in Latin; but normally they were all in a language that the people watching the play could \nnderstand and join in! The new carols spread to France, Spain, Germany and other European countries.\n\nThe earliest carol, like this, was written in 1410. Sadly only a very small fragment of it still exists. The carol was about Mary and Jesus meeting different people in \nethlehem. Most Carols from this time and the Elizabethan period are untrue stories, very loosely based on the Christmas story, about the holy family and were seen \ns entertaining rather than religious songs. They were usually sung in homes rather than in churches! Traveling singers or Minstrels started singing these carols \nnd the words were changed for the local people wherever they were traveling. One carols that changed like this is 'I Saw Three Ships'.\n\nWhen the Puritans came to power in England in 1640s, the celebration of Christmas and singing carols was stopped. However, the carols survived as people still sang them in \necret.\n\nUntil 1700 only the Psalms (poems from the Bible) were allowed to be sung in Anglican churches (Churches in the Church of England). From 1700, and for many years, the only \nhristmas song (or carol) which was allowed in Anglican churches was 'While Shepherds Watched Their Flocks By Night' because its lyrics come from the Bible, \nelling the story of the Shepherds visiting the baby Jesus. During this time, many churches had musicians from the local area play the music for them and often \nocal tunes were used for the songs. Because of this, 'While Shepherds Watched' is probably the carol sung to the most number of different tunes!\n\nIn 1739 Charles Wesley wrote 'A Hymn for Christmas-Day' with the first line 'Hark how all the Welkin Rings'. This became 'Hark the Herald Angels Sing' in 1754 when it was \ndapted for a 'Collection of Hymns for Social Worship'. However, the tune that we sing it to now was written by the composer Mendelssohn in 1840, which was adapted \nn 1855 with Wesley's words being set to it. (Wesley had thought his new Christmas hymn would be sung to the same tune as the Easter hymn 'Christ the Lord is Risen \noday'.)\n\nCarols remained mainly unsung, especially in churches, until Victorian times, when two men called William Sandys and Davis Gilbert collected lots of old Christmas music \nrom villages in England. Carols were stilling being sung as folk songs in places like pubs but they often weren't thought of as 'proper' or 'nice' songs by the \niddle or upper classes. (Singing carols in pubs still happens today and there's some very famous carol singing in pubs in the north of England, especially in \north Derbyshire and South Yorkshire.)\n\nBefore carol singing in places like churches became popular, there were sometimes official carol singers called 'Waits'. These were bands of people led by important local \neaders (such as council leaders) who had the only power in the towns and villages to take money from the public (if others did this, they were sometimes charged \ns beggars!). They were called 'Waits' because they sang on Christmas Eve (This was sometimes known as 'watchnight' or 'waitnight' because of the shepherds were \natching their sheep when the angels appeared to them.), when the Christmas celebrations began.\n\nAlso, during the Victorian period, many orchestras and choirs were being set up in the cities of England and people wanted Christmas songs to sing, so carols once again \necame popular in churches and concert halls. Many new carols, such as 'Good King Wenceslas', were also written in the Victorian period.\n\nNew carols services were created and became popular, as did the custom of singing carols in the streets. Both of these customs are still popular today! One of the most \nopular types of Carols services are Carols by Candlelight services. At this service, the church is only lit by candlelight and it feels very Christmassy! Carols \ny Candlelight services are held in countries all over the world.\n\nThe most famous type of Carol Service might be a Festival of Nine Lessons and Carols, where carols and Bible readings tell the Christmas Story."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "carols_fav",
-			"patterns": [
-				"what is your favourite christmas carols",
-				"favourite christmas  carols",
-				"which christmas carols do you like",
-				"number one christmas carols",
-				"name me one christmas carols"
-			],
-			"responses": ["I don't have a favorite Christmas carols. What is yours?"],
-			"context_set": ""
-		},
-		{
-			"tag": "carols_you_know",
-			"patterns": [
-				"what are the christmas song that you know",
-				"name me all christmas song",
-				"tell me all the christmas song",
-				"list of christmas songs",
-				"christmas songs list",
-				"how many christmas songs are there"
-			],
-			"responses": [
-				"There are:\n1. Angels from the Realms of Glory\n2. Angels We Have Heard on High\n3. Away in a Manger\n4. Coventry Carol\n5. Ding Dong Merrily on High\n6. Do You Hear What I Hear?\n7. The First Noel\n8. Go Tell it on the Mountain\n9. God Rest Ye Merry Gentlemen\n10. Good Christian Men, Rejoice\n11. Hark! the Herald Angels Sing\n12. The Holly and the Ivy\n13. I Heard the Bells on Christmas Day\n14. I Saw Three Ships\n15. It Came Upon the Midnight Clear\n16. In the Bleak Midwinter\n17. Joy to the World\n18. O Come All Ye Faithful\n19. O Come, O Come, Emmanuel\n20. O Holy Night\n21. O Little Town of Bethlehem\n22. Once in Royal David's City\n23. See Amid the Winter's Snow\n24. Silent Night\n25. Sing We Now of Christmas\n26. Sussex Carol\n27. We Three Kings of Orient Are\n28. What Child is This?\n29. While Shepherds Watched"
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "song_fav",
-			"patterns": [
-				"what is your favourite christmas song",
-				"favourite christmas  song",
-				"which christmas  song do you like",
-				"number one christmas song",
-				"name me one christmas song"
-			],
-			"responses": [
-				"It is Aud Lang Syne!",
-				"Aud Lang Syne is my favourite! What about you?",
-				"Aud Lang Syne it is!",
-				"Aud Lang Syne is the best!"
-			],
-			"context_set": ""
-		},
-		{
 			"tag": "creator",
 			"patterns": [
 				"who created you",
@@ -194,7 +144,22 @@
 			"context_set": ""
 		},
 		{
-			"tag": "song_you_know",
+			"tag": "carols_list",
+			"patterns": [
+				"what are the christmas carols that you know",
+				"name me all christmas carols",
+				"tell me all the christmas carols",
+				"list of christmas carols",
+				"christmas carols list",
+				"how many christmas carols are there"
+			],
+			"responses": [
+				"Here is the carols list:\n1. Angels from the Realms of Glory\n2. Angels We Have Heard on High\n3. Away in a Manger\n4. Coventry Carol\n5. Ding Dong Merrily on High\n6. Do You Hear What I Hear?\n7. The First Noel\n8. Go Tell it on the Mountain\n9. God Rest Ye Merry Gentlemen\n10. Good Christian Men, Rejoice\n11. Hark! the Herald Angels Sing\n12. The Holly and the Ivy\n13. I Heard the Bells on Christmas Day\n14. I Saw Three Ships\n15. It Came Upon the Midnight Clear\n16. In the Bleak Midwinter\n17. Joy to the World\n18. O Come All Ye Faithful\n19. O Come, O Come, Emmanuel\n20. O Holy Night\n21. O Little Town of Bethlehem\n22. Once in Royal David's City\n23. See Amid the Winter's Snow\n24. Silent Night\n25. Sing We Now of Christmas\n26. Sussex Carol\n27. We Three Kings of Orient Are\n28. What Child is This?\n29. While Shepherds Watched"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "song_list",
 			"patterns": [
 				"what are the christmas song that you know",
 				"name me all christmas song",
@@ -204,7 +169,7 @@
 				"how many christmas songs are there"
 			],
 			"responses": [
-				"Of course! There are:\n1. Auld Lang Syne\n2. The Christmas Song\n3. Christmas Time is Here\n4. Deck the Halls with Boughs of Holly\n5. Feliz Navidad\n6. Frosty the Snowman\n7. Good King Wenceslas\n8. Have Yourself a Merry Little Xmas\n9. Here Comes Santa Claus\n10. Holly Jolly Christmas\n11. I Saw Mommy Kissing Santa Claus\n12. Jingle Bells\n13. Jingle Bell Rock\n14. Jolly Old St Nicholas\n15. Let it Snow\n16. Little Drummer Boy\n17. O Christmas Tree (O Tannenbaum)\n18. Rocking around the Christmas Tree\n19. Rudolph the Red Nosed Reindeer\n20. Santa Claus is Coming to Town\n21. Silver Bells\n22. Sleigh Ride\n23. The Twelve Days of Christmas\n24. We Wish You a Merry Christmas\n25. White Christmas\n26. Winter Wonderland"
+				"Here is the song list:\n1. Auld Lang Syne\n2. The Christmas Song\n3. Christmas Time is Here\n4. Deck the Halls with Boughs of Holly\n5. Feliz Navidad\n6. Frosty the Snowman\n7. Good King Wenceslas\n8. Have Yourself a Merry Little Xmas\n9. Here Comes Santa Claus\n10. Holly Jolly Christmas\n11. I Saw Mommy Kissing Santa Claus\n12. Jingle Bells\n13. Jingle Bell Rock\n14. Jolly Old St Nicholas\n15. Let it Snow\n16. Little Drummer Boy\n17. O Christmas Tree (O Tannenbaum)\n18. Rocking around the Christmas Tree\n19. Rudolph the Red Nosed Reindeer\n20. Santa Claus is Coming to Town\n21. Silver Bells\n22. Sleigh Ride\n23. The Twelve Days of Christmas\n24. We Wish You a Merry Christmas\n25. White Christmas\n26. Winter Wonderland"
 			],
 			"context_set": ""
 		},
@@ -996,7 +961,8 @@
 				"why do we celebrate christmas on 25th",
 				"how does christmas get to be in december",
 				"when did christmas become associated with december",
-				"why 25th of december"
+				"why 25th of december",
+				"why is christmas fall on 25th of december"
 			],
 			"responses": [
 				"Christmas is a holiday celebrated by people worldwide to remember the birth of Jesus Christ, whom Christians believe is the Son of God. The word 'Christmas' comes from 'Christ-Mass,' a special church service where Christians remember Jesus's death and resurrection. Christmas is a time for family and friends to come together and exchange gifts.\nThe exact date of Jesus's birth is unknown, and the early Christians debated when to celebrate it. The first recorded celebration of Christmas on December 25th was in 336 AD during the time of the Roman Emperor Constantine. However, there are various theories about why this date was chosen.\nOne early Christian tradition said that Jesus was conceived on March 25th and that Christmas was celebrated nine months later on December 25th. March 25th was also believed to be the day of creation and the day of Jesus's death. These dates were based on different calendars, including the lunar Jewish calendar, making them movable.\nThe idea that Jesus's conception occurred on March 25th was proposed by an early church historian, Sextus Julius Africanus, around 221 AD, though it's based on later documents. Saint Ephrem the Syrian suggested a different date, Nisan 10, for Jesus's conception. Nevertheless, March 25th became a fixed date to mark the moveable events in the Jewish calendar."
@@ -1004,40 +970,17 @@
 			"context_set": ""
 		},
 		{
-			"tag": "advent",
-			"patterns": ["what is advent during Christmas", "definition of advent"],
-			"responses": [
-				"Advent is a period of four Sundays and weeks leading up to Christmas, usually starting on the 1st of December and ending on Christmas Eve. The word 'Advent' comes from the Latin word for 'Coming' and signifies the coming of Jesus into the world. Christians use this time to prepare for and reflect on the true meaning of Christmas.\nDuring Advent, Christians focus on three aspects of Jesus's coming. The first is his historical birth as a baby about 2,000 years ago. The second aspect is his presence in our lives today, and the third is his future return as King and Judge.\nAdvent Sunday varies in date, starting from November 27th (the longest Advent) to December 3rd (the shortest Advent). Depending on when it starts, Advent can last between 22 and 28 days. However, Advent always lasts for 24 days when Christmas Day falls on a Wednesday.\nThe origin of Advent dates back to at least 567 when monks were ordered to fast during December as a way of preparing for Christmas. Some people still fast during Advent to help them focus on the significance of Jesus's coming.\nIn various Orthodox and Eastern Catholic Churches, Advent is known as the Nativity Fast or Winter Lent and can last for 40 days. The starting date for this fast varies depending on the date of Christmas celebration in different traditions."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "12 days of christmas",
+			"tag": "christmas_or_xmas",
 			"patterns": [
-				"what are the 12 day of christmas",
-				"12 days christmas",
-				"Why do we celebrate these 12 days after Christmas?"
+				"is it christmas or xmas",
+				"christmas or xmas",
+				"why do some people say xmas",
+				"what is xmas",
+				"is xmas correct",
+				"what is the meaning of xmas",
+				"what is the difference between christmas and xmas",
+				"xmas and christmas different"
 			],
-			"responses": [
-				"The 12 Days of Christmas begin on Christmas Day and end on the evening of January 5th, known as Twelfth Night. They have been celebrated in Europe since before the Middle Ages as a time of joy and festivity. Contrary to common belief, these 12 days are not the days leading up to Christmas; that time is called Advent.\nThe 12 Days of Christmas were established in 567 at the Council of Tours to harmonize the different Christmas celebration dates of the Western and Eastern Christian churches. The Western Church celebrated Christmas on December 25th, while the Eastern Church celebrated it on January 6th, also known as Epiphany.\nEach of the 12 days traditionally commemorates a feast day for a saint or has unique celebrations associated with it. For instance, Day 1 is Christmas Day, celebrating the birth of Jesus. Day 2 is St. Stephen's Day, honoring the first Christian martyr. These days have different customs and may vary in different countries and regions."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "epiphany",
-			"patterns": [
-				"What is Epiphany, and why do we celebrate it?",
-				"Who are the Wise Men, and why are they important in the Epiphany story?",
-				"What does 'Epiphany' mean"
-			],
-			"responses": [
-				"Epiphany is celebrated 12 days after Christmas on 6th January (or January 19th for some Orthodox Church who have Christmas on 7th January) and is the time when Christians remember the Wise Men (also sometimes called the Three Kings) who visited Jesus. The Bible doesn't say how many Wise Men there were or that they were kings. The number three comes from the three gifts the Wise Men / Magi brought with them.\nEpiphany is also when some Churches remember when Jesus was Baptised, when he was about 30, and started to teach people about God. Epiphany means 'revelation' and both the visit of the Wise Men and his Baptism are important times when Jesus was 'revealed' to be very important.\nSome Churches celebrate use Epiphany to celebrate and remember both the visit of the Wise Men and Jesus's Baptism! Epiphany is mainly celebrated by Catholics and Orthodox Christians.\nIn Orthodox churches, Epiphany is also known as 'The Feast of the Holy Theophany' and it is as important as Christmas. During the services to celebrate Epiphany, on the eve of the feast and on the feast day, water is blessed (some churches only bless water at one service). This is to remember Jesus's baptism. The blessed water is used in church services during the rest of the year. People are often baptised on the Feast of the Holy Theophany. After the service, the water is also used by a priest to bless the houses of people in the church. It can sometimes take days or even weeks for the priest to visit all the houses and bless them."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas or X-mas",
-			"patterns": ["is it christmas or xmas", "christmas or xmas"],
 			"responses": [
 				"Christmas is sometimes called Xmas, and some people believe it removes the 'Christ' from Christmas. However, the 'X' in Xmas actually represents the Greek letter chi (Χ), which is the first letter in the Greek word for Christ, Christos. Early Christians used the chi and rho (ΧΡ) to create a symbol for Jesus. The fish symbol was also used by early Christians, representing Jesus' call to make his followers 'Fishers of Men.' So, Xmas can be seen as a legitimate abbreviation for Christmas, with the 'X' symbolizing Christ, and it should be pronounced as 'Christmas' rather than 'ex-mas."
 			],
@@ -1047,7 +990,14 @@
 			"tag": "christmas_bells",
 			"patterns": [
 				"what are the traditions of christmas bells",
-				"christmas bells"
+				"christmas bells",
+				"what do you know about christmas bells",
+				"tell me about christmas bells",
+				"what are christmas bells",
+				"what is the meaning of christmas bells",
+				"what is the history of christmas bells",
+				"what is the origin of christmas bells",
+				"tell me about christmas bells"
 			],
 			"responses": [
 				"Bells, especially church bells, have a strong connection to Christmas traditions. In some churches, the first Christmas service begins on Christmas Eve after sunset, marked by the ringing of bells. In the UK, it's customary to ring the largest bell four times in the hour before midnight and then ring all the bells at midnight.\nThe Catholic Church permits Mass at midnight on Christmas, reflecting the belief that Jesus was born at this time, although this isn't proven. Many churches hold midnight services on Christmas Eve. In some Catholic countries, such as France, Spain, and Italy, attending the midnight Mass is a significant tradition.\n'Jingle Bells,' now a beloved Christmas song, was originally called 'One Horse Open Sleigh' and written as a Thanksgiving song in 1857. However, it became associated with Christmas due to its wintry lyrics. The song was first recorded in 1889, and it's famous for being the first song broadcast from space in 1965 by astronauts Tom Stafford and Wally Schirra. It was composed by James Lord Pierpont, with its origins debated between Massachusetts in 1850 and Savannah, Georgia around 1875."
@@ -1069,21 +1019,7 @@
 			],
 			"context_set": ""
 		},
-		{
-			"tag": "mistletoe",
-			"patterns": [
-				"why do people kiss under the mistletoe",
-				"why is mistletoe so popular",
-				"tell me about mistletoe",
-				"what is the tradition of mustletoe",
-				"what is mistletoe about",
-				"what do you know about mistletoe"
-			],
-			"responses": [
-				"The tradition of kissing under the mistletoe has its roots in ancient Norse mythology. Mistletoe was considered a symbol of love and fertility, and it became a custom for enemies to declare a truce when they encountered it. Over time, this evolved into the tradition of kissing under the mistletoe during the Christmas season as a symbol of love and goodwill."
-			],
-			"context_set": ""
-		},
+		
 		{
 			"tag": "santa_claus",
 			"patterns": [
@@ -1092,35 +1028,31 @@
 				"who is santa claus",
 				"santa claus",
 				"tell me about santa claus",
-				"who is santa claus"
+				"who is santa claus",
+				"do you know santa claus",
+				"what is santa claus",
+				"what is the meaning of santa claus",
+				"tell me about santa claus",
+				"what is the history of santa claus",
+				"what is the origin of santa claus",
+				"what is the story of santa claus"
 			],
 			"responses": [
 				"The modern image of Santa Claus was popularized by Coca-Cola in the 1930s through its festive advertising. Although Santa's character has earlier origins in folklore and various cultures, Coca-Cola's depiction of a jolly, red-suited Santa with a white beard became an iconic representation that is widely recognized today."
 			],
 			"context_set": ""
 		},
-
-		{
-			"tag": "christmas weather",
-			"patterns": [
-				"what is the weather like during christmas",
-				"weahther during christmas",
-				"chrsitmas weather"
-			],
-			"responses": [
-				"In regions with a winter season, Christmas often brings a festive atmosphere enhanced by cold temperatures and, ideally, a blanket of snow for a 'White Christmas.' This weather creates a picturesque setting, with snow-covered landscapes, cozy fireside scenes, and the opportunity for winter sports and activities. In contrast, regions with warmer climates may experience a milder Christmas, inspiring unique traditions like beach celebrations or outdoor gatherings under clear skies. Despite the weather differences, the spirit of Christmas remains universal, marked by joy, festive decorations, and a sense of togetherness."
-			],
-			"context_set": ""
-		},
 		{
 			"tag": "what_is_christmas",
 			"patterns": [
-				"can you tell me about christmas",
 				"what is christmas",
 				"give me information about christmas",
 				"do you know what is christmas",
 				"explain christmas",
-				"define christmas"
+				"define christmas",
+				"what is christmas",
+				"tell me about christmas",
+				"what do you know about christmas"
 			],
 			"responses": [
 				"Christmas is a time to celebrate the birth of Jesus Christ, a beacon of hope and love for Christians worldwide.",
@@ -1150,137 +1082,6 @@
 			],
 			"context_set": ""
 		},
-		{
-			"tag": "christmas_activity_malaysia",
-			"patterns": [
-				"tell me christmas activities in malaysia",
-				"how do malaysia celebrate christmas",
-				"how is christmas in malaysia",
-				"malaysia christmas",
-				"do you know how malaysia celebrate christmas",
-				"christmas events in malaysia"
-			],
-			"responses": [
-				"You will see biggest and impressive decorations and large Christmas displays in the shopping malls, such as lights, santas, reindeer, fake snow and huge christmas tree. Some large malls will have attractions like indoor ice rinks and carol singers. \n\nRestaurants often offers special Christmas menus. Roast or fried chicken is one of the most popular Christmas dish in Malaysia. \n\nAs well as giving gifts, many Malaysians give and receive money in red packets known as 'Ang Paus'. There are normally sales in shops around Christmas and the new year, so they like to spend their Ang Paus after Christmas in the sales! \n\nAt Midnight on Christmas Eve, there are huge firework displays. They are normally organised in towns and cities and people like to go and watch the fireworks after their Christmas meal."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_activity_usa",
-			"patterns": [
-				"tell me christmas activities in usa",
-				"how do usa celebrate christmas",
-				"how is christmas in usa",
-				"usa christmas",
-				"do you know how usa celebrate christmas",
-				"christmas events in usa"
-			],
-			"responses": [
-				"In the USA, Christmas meals vary across cultural backgrounds. Western European families often enjoy turkey or ham with cranberry sauce. Eastern European traditions favor kielbasa, cabbage dishes, and soups, while Italian-Americans celebrate Christmas Eve with a feast of seven fish dishes. \n\nFestive decorations are a key part of American Christmas traditions. Homes are adorned with popcorn-threaded strings, gingerbread houses, and lights featuring Santa, Snowmen, and Reindeer statues. Some families even leave cookies and milk for Santa on Christmas Eve. \n\nReligious celebrations, including carol services, add depth to the holiday spirit. Unique customs, like the Christmas Pickle, contribute to the diverse tapestry of traditions. Street decorations, iconic landmarks like the Rockefeller Center Christmas Tree, and parades, such as Mumming in Philadelphia, enhance the festive atmosphere. In the Southwest USA, luminarias symbolize the guiding light on Christmas Eve, and tamales add a special touch to festive feasts."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_activity_japan",
-			"patterns": [
-				"tell me christmas activities in japan",
-				"how do japan celebrate christmas",
-				"how is christmas in japan",
-				"japan christmas",
-				"do you know how japan celebrate christmas",
-				"christmas events in japan"
-			],
-			"responses": [
-				"In Japan, Christmas, though not a religious celebration due to a small Christian population, has become popular in recent decades. Influenced by American customs, activities like sending cards and exchanging presents are now widely embraced. \n\nChristmas in Japan emphasizes spreading happiness, especially on Christmas Eve, which holds a romantic significance akin to Valentine's Day. Couples engage in walks, admiring Christmas lights, and share romantic meals. Fried chicken, notably from KFC, is a common Christmas meal inspired by a successful 1974 advertising campaign. While not a national holiday, schools may close around Christmas Day, aligning with the start of the New Year school break. \n\nUnique Christmas traditions in Japan include the widespread popularity of Beethoven's Ninth Symphony, known as 'daiku,' sung by choirs across the country. Additionally, Tokyo Disneyland attracts visitors during the Christmas season with festive decorations and parades. The Japanese New Year, 'o shogatsu,' is a family-focused celebration lasting from December 31st to January 4th, contrasting with the festive and romantic atmosphere of Christmas in Japan."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_activity_china",
-			"patterns": [
-				"tell me christmas activities in china",
-				"how do china celebrate christmas",
-				"how is christmas in china",
-				"china christmas",
-				"do you know how china celebrate christmas",
-				"christmas events in china"
-			],
-			"responses": [
-				"In China, where only about one percent of the population is Christian, Christmas is primarily celebrated in major cities. Urban areas showcase festive decorations like Christmas Trees, lights, and Santa Claus grottos in shops, bringing a touch of holiday spirit. Even postmen may dress up as Santa when delivering letters before Christmas. Christmas parties are gaining traction among young city dwellers, resembling Valentine's Day celebrations with the exchange of gifts. \n\nThe Mandarin greeting 'Sheng Dan Kuai Le' and Cantonese equivalent 'Seng Dan Fai Lok' mark the Christmas festivities in China. While Christmas Trees are not widespread, those who have them often opt for plastic ones adorned with paper chains, flowers, and lanterns. Interestingly, China manufactures a significant portion of the world's plastic Christmas Trees and decorations, despite these items not being prevalent in the homes of the producers. A unique tradition involves giving apples on Christmas Eve, as the Mandarin word for apple, (píngguǒ) sounds like the word for peace. Additionally, some engage in carol singing, with (Jingle Bells) being a popular Christmas song in China. \n\nWhile Christmas may not hold religious significance for many in China, the festive atmosphere, decorations, and emerging traditions contribute to the celebration of this holiday in urban areas, especially among the younger generation."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_activity_portugal",
-			"patterns": [
-				"tell me christmas activities in portugal",
-				"how do portugal celebrate christmas",
-				"how is christmas in portugal",
-				"portugal christmas",
-				"do you know how portugal celebrate christmas",
-				"christmas events in portugal"
-			],
-			"responses": [
-				"In Portugal, the traditional Christmas meal, known as 'Consoada,' is enjoyed on Christmas Eve, featuring salted cod with vegetables, boiled potatoes, and eggs. This festive feast is followed by indulgent foods like shellfish, wild meats, and assorted treats, including roast Turkey, cakes, fried cookies, and nuts. \n\nChristmas traditions in Portugal involve unique desserts from different regions, such as the rich 'Lampreia de ovos' in the north and the popular 'Bolo Rei' (King Cake) placed at the center of the table. A fun tradition involves hiding a broad bean and a gift in the cake, with finding the broad bean requiring the finder to pay for the next year's cake. The celebration continues with porto wine, traditional liquors, and 'azevias' and 'felhozes' as people attend the 'Missa do Galo' service before returning home to open presents. \n\nChristmas Trees have become common, but the traditional Nativity Scene (Presépio) remains a staple decoration. The festive season extends to Epiphany on January 6th, marked by the 'Janeiras' tradition, where groups visit homes singing songs and enjoying snacks, creating a lively atmosphere of celebration and gratitude."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_malaysia_2",
-			"patterns": [
-				"activity in malaysia",
-				"suggest christmas activity in malaysia",
-				"recommend christmas activity in malaysia"
-			],
-			"responses": [
-				"Explore local Christmas markets or bazaars, where you can find festive decorations, holiday-themed crafts, and unique gifts. These events often feature live performances, food stalls, and a lively atmosphere."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_malaysia_3",
-			"patterns": [
-				"more activities in malaysia",
-				"suggest more christmas activities in malaysia",
-				"recommend more christmas activities in malaysia"
-			],
-			"responses": [
-				"Visit shopping malls that go all out with Christmas decorations. Enjoy dazzling light displays, beautifully adorned Christmas trees, and festive storefronts. Some malls may organize special events, such as tree lighting ceremonies or live performances."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_malaysia_4",
-			"patterns": [
-				"other activities in malaysia",
-				"suggest other christmas activities in malaysia",
-				"recommend other christmas activities in malaysia"
-			],
-			"responses": [
-				"Look for Christmas carol performances in public spaces, malls, or community centers. Enjoy the melodious tunes of classic Christmas songs performed by local choirs or musicians, creating a festive ambiance."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_malaysia_5",
-			"patterns": [
-				"christmas offer in malaysia",
-				"christmas promotion in malaysia",
-				"christmas activity for restaurant in malaysia",
-				"christmas a for restaurant in malaysia"
-			],
-			"responses": [""],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_feast",
-			"patterns": ["what do we eat during Christmas"],
-			"responses": [
-				"The Christmas feast, marked by a festive and elaborate meal, varies in its specifics across different cultures and regions. Here's a more detailed look at some common elements of the Christmas feast:\n\nMain Course:\nRoasted Turkey: In many Western countries, particularly in the United States, Canada, and the UK, roasted turkey is a staple for Christmas dinner. It's often accompanied by stuffing, gravy, and cranberry sauce.\nRoast Ham: In some cultures, including parts of the United States and Europe, a glazed and roasted ham takes center stage on the Christmas table.\n\nSide Dishes:\nStuffing/Dressing: Made with a mix of bread, herbs, and various ingredients, stuffing is a flavorful side dish often cooked inside the bird.\nMashed Potatoes: Creamy mashed potatoes are a classic accompaniment to the main course.\nVegetables: Roasted or steamed vegetables such as carrots, Brussels sprouts, and green beans add color and nutritional balance to the meal.\nGravy: A rich and savory gravy is commonly drizzled over the main course and side dishes.\n\nDesserts:\nChristmas Pudding: In the UK and some Commonwealth countries, Christmas pudding, a steamed or boiled dessert with dried fruits and spices, is a traditional treat.\nFruitcake: A dense cake containing candied or dried fruits and nuts, often soaked in alcohol, is a popular Christmas dessert in many countries.\nCookies and Treats: Christmas-themed cookies, gingerbread houses, and various sweets are enjoyed as festive treats during the holiday season."
-			],
-			"context_set": ""
-		},
-
 		{
 			"tag": "color",
 			"patterns": [
@@ -1421,10 +1222,14 @@
 				"how does the present system work",
 				"is it a tradition to give gifts on christmas day",
 				"tell me about christmas presents",
-				"why christmas present"
+				"why christmas present",
+				"what is the meaning of gift exchagne in christmas",
+				"tell me about christmas gift exchange",
+				"what is the meaning of christmas gift exchange",
+				"what is the history of christmas gift exchange"
 			],
 			"responses": [
-				"One of the main reasons we have the custom of giving and receiving presents at Christmas, is to remind us of the presents given to Jesus by the Wise Men: Frankincense, Gold and Myrrh.\n\n\n\tGold: is associated with Kings and Christians believe that Jesus is the King of Kings.\n\n\tFrankincense: is sometimes used in worship in Churches and showed that people would worship Jesus.\n\n\tMyrrh: is a perfume that is put on dead bodies to make them smell nice; Christian believe that it showed that Jesus would suffer and die.\n\n\nChristmas itself is really about a big present that God gave the world about 2000 years ago - Jesus! One of the most famous Bible verses, John 3:16, says: 'God loved the world so much, that he gave his one and only Son, so that whoever believes in him may not be lost but have eternal life.'.\n\nAll over the world, families and friends give presents to each other. Most children around the world believe in a Christmas gift bringer. It's often St. Nicholas, Santa Claus or Father Christmas, but in parts of Germany they believe that it is the Christkind, in Spain they believe it is the Wise Men and in parts of Italy they believe it is an old lady called Befana."
+				"Well, one of the main reasons we have the custom of giving and receiving presents at Christmas, is to remind us of the presents given to Jesus by the Wise Men: Frankincense, Gold and Myrrh.\n\n\n\tGold: is associated with Kings and Christians believe that Jesus is the King of Kings.\n\n\tFrankincense: is sometimes used in worship in Churches and showed that people would worship Jesus.\n\n\tMyrrh: is a perfume that is put on dead bodies to make them smell nice; Christian believe that it showed that Jesus would suffer and die.\n\n\nChristmas itself is really about a big present that God gave the world about 2000 years ago - Jesus! One of the most famous Bible verses, John 3:16, says: 'God loved the world so much, that he gave his one and only Son, so that whoever believes in him may not be lost but have eternal life.'.\n\nAll over the world, families and friends give presents to each other. Most children around the world believe in a Christmas gift bringer. It's often St. Nicholas, Santa Claus or Father Christmas, but in parts of Germany they believe that it is the Christkind, in Spain they believe it is the Wise Men and in parts of Italy they believe it is an old lady called Befana."
 			],
 			"context_set": ""
 		},
@@ -1435,7 +1240,12 @@
 				"what is snowman",
 				"who invented snowman",
 				"where did the idea of snowman come from",
-				"how did snowman started"
+				"how did snowman started",
+				"what is the history of snowman",
+				"what is the origin of snowman",
+				"what do you know about snowman",
+				"can you tell me about snowman",
+				"i want to know about snowman"
 			],
 			"responses": [
 				"Snowmen were probably first made by people to scare away evil winter spirits. But now they are just a good excuse to have lots of fun in the snow! (If you know anything about why snowmen were first built, please let me know!)\n\nProbably the most famous snowman is 'Frosty the Snowman' who appears in a Christmas song of the same name. The song was written in 1950 by Steve Nelson and Jack Rollins. It was recorded in 1953 by the American singer Perry Como and became very popular. A film called Frosty the Snowman was made in 1969 and told the story of a magical snowman who came to life and became best friends with a little girl. Sing along to 'Frosty the Snowman' (on a different site).\n\nIn the UK there is a famous animated film called The Snowman (made in 1982) about a snowman who comes to life and takes a little boy flying of to see Father Christmas. We used to watch it every year when I was in Primary (Elementary) School on the last school day before the Christmas holidays! The cartoon has a song in it called {We're Walking in the Air}. It was made famous when it was released as a single in 1985 and sung by a choir boy called Aled Jones. Aled is now an adult and a popular television and radio presenter in the UK! (In the original animation, the song was sung by a choir boy called Peter Auty.)"

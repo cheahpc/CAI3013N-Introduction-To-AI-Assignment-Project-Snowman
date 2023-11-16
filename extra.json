@@ -1,0 +1,52 @@
+{
+	"intents": [
+		{
+			"tag": "advent",
+			"patterns": [
+				"what is advent during Christmas",
+				"definition of advent",
+				"do you know what is advent",
+				"tell me about christmas advent"
+			],
+			"responses": [
+				"Advent is a period of four Sundays and weeks leading up to Christmas, usually starting on the 1st of December and ending on Christmas Eve. The word 'Advent' comes from the Latin word for 'Coming' and signifies the coming of Jesus into the world. Christians use this time to prepare for and reflect on the true meaning of Christmas.\nDuring Advent, Christians focus on three aspects of Jesus's coming. The first is his historical birth as a baby about 2,000 years ago. The second aspect is his presence in our lives today, and the third is his future return as King and Judge.\nAdvent Sunday varies in date, starting from November 27th (the longest Advent) to December 3rd (the shortest Advent). Depending on when it starts, Advent can last between 22 and 28 days. However, Advent always lasts for 24 days when Christmas Day falls on a Wednesday.\nThe origin of Advent dates back to at least 567 when monks were ordered to fast during December as a way of preparing for Christmas. Some people still fast during Advent to help them focus on the significance of Jesus's coming.\nIn various Orthodox and Eastern Catholic Churches, Advent is known as the Nativity Fast or Winter Lent and can last for 40 days. The starting date for this fast varies depending on the date of Christmas celebration in different traditions."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "12_days",
+			"patterns": [
+				"what are the 12 day of christmas",
+				"12 days christmas",
+				"Why do we celebrate these 12 days after Christmas",
+				"what is the 12 days about in christmas",
+				"what do you know about the christmas 12 days",
+				"tell me about the 12 days of christmas"
+			],
+			"responses": [
+				"The 12 Days of Christmas begin on Christmas Day and end on the evening of January 5th, known as Twelfth Night. They have been celebrated in Europe since before the Middle Ages as a time of joy and festivity. Contrary to common belief, these 12 days are not the days leading up to Christmas; that time is called Advent.\nThe 12 Days of Christmas were established in 567 at the Council of Tours to harmonize the different Christmas celebration dates of the Western and Eastern Christian churches. The Western Church celebrated Christmas on December 25th, while the Eastern Church celebrated it on January 6th, also known as Epiphany.\nEach of the 12 days traditionally commemorates a feast day for a saint or has unique celebrations associated with it. For instance, Day 1 is Christmas Day, celebrating the birth of Jesus. Day 2 is St. Stephen's Day, honoring the first Christian martyr. These days have different customs and may vary in different countries and regions."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "epiphany",
+			"patterns": [
+				"what is Epiphany and why do we celebrate it",
+				"who are the Wise Men, and why are they important in the Epiphany story",
+				"What does 'Epiphany' mean"
+			],
+			"responses": [
+				"Epiphany is celebrated 12 days after Christmas on 6th January (or January 19th for some Orthodox Church who have Christmas on 7th January) and is the time when Christians remember the Wise Men (also sometimes called the Three Kings) who visited Jesus. The Bible doesn't say how many Wise Men there were or that they were kings. The number three comes from the three gifts the Wise Men / Magi brought with them.\nEpiphany is also when some Churches remember when Jesus was Baptised, when he was about 30, and started to teach people about God. Epiphany means 'revelation' and both the visit of the Wise Men and his Baptism are important times when Jesus was 'revealed' to be very important.\nSome Churches celebrate use Epiphany to celebrate and remember both the visit of the Wise Men and Jesus's Baptism! Epiphany is mainly celebrated by Catholics and Orthodox Christians.\nIn Orthodox churches, Epiphany is also known as 'The Feast of the Holy Theophany' and it is as important as Christmas. During the services to celebrate Epiphany, on the eve of the feast and on the feast day, water is blessed (some churches only bless water at one service). This is to remember Jesus's baptism. The blessed water is used in church services during the rest of the year. People are often baptised on the Feast of the Holy Theophany. After the service, the water is also used by a priest to bless the houses of people in the church. It can sometimes take days or even weeks for the priest to visit all the houses and bless them."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_feast",
+			"patterns": ["what do we eat during Christmas"],
+			"responses": [
+				"The Christmas feast, marked by a festive and elaborate meal, varies in its specifics across different cultures and regions. Here's a more detailed look at some common elements of the Christmas feast:\n\nMain Course:\nRoasted Turkey: In many Western countries, particularly in the United States, Canada, and the UK, roasted turkey is a staple for Christmas dinner. It's often accompanied by stuffing, gravy, and cranberry sauce.\nRoast Ham: In some cultures, including parts of the United States and Europe, a glazed and roasted ham takes center stage on the Christmas table.\n\nSide Dishes:\nStuffing/Dressing: Made with a mix of bread, herbs, and various ingredients, stuffing is a flavorful side dish often cooked inside the bird.\nMashed Potatoes: Creamy mashed potatoes are a classic accompaniment to the main course.\nVegetables: Roasted or steamed vegetables such as carrots, Brussels sprouts, and green beans add color and nutritional balance to the meal.\nGravy: A rich and savory gravy is commonly drizzled over the main course and side dishes.\n\nDesserts:\nChristmas Pudding: In the UK and some Commonwealth countries, Christmas pudding, a steamed or boiled dessert with dried fruits and spices, is a traditional treat.\nFruitcake: A dense cake containing candied or dried fruits and nuts, often soaked in alcohol, is a popular Christmas dessert in many countries.\nCookies and Treats: Christmas-themed cookies, gingerbread houses, and various sweets are enjoyed as festive treats during the holiday season."
+			],
+			"context_set": ""
+		}
+	]
+}
