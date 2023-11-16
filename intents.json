@@ -37,19 +37,24 @@
 				"wassup"
 			],
 			"responses": [
-				"Hello!",
-				"Hey!",
-				"Yo!",
-				"Konichiwa :wave:",
-				"Hola!",
-				"Hi there!",
-				"Howdy!"
+				"Hello! How can I help you?",
+				"Hey! I am snowman! How can I help you?",
+				"Yo! I am your snowman!",
+				"Konichiwa :wave:, Snowman desu! 4649!",
+				"Hola! ich bin Snowman!",
+				"NiHao! I am Snowman!",
+				"XinCiao! Tôi là Snowman!"
 			],
 			"context_set": ""
 		},
 		{
 			"tag": "greetings_2",
-			"patterns": ["merry christmas", "happy xmas"],
+			"patterns": [
+				"wish you merry christmas",
+				"happy xmas to you",
+				"happy holiday to you",
+				"merry christmas to you"
+			],
 			"responses": [
 				"Merry Christmas to you too!",
 				"Wishing you a joyful holiday season!",
@@ -60,37 +65,19 @@
 			"context_set": ""
 		},
 		{
-			"tag": "greetings_3",
-			"patterns": [
-				"It is almost time for christmas",
-				"it is christmas soon",
-				"christmas is coming soon",
-				"xmas is coming up",
-				"it's almost christmas time",
-				"christmas season is here",
-				"winter holiday season is upon us",
-				"holiday season is in full swing"
-			],
-			"responses": [
-				"I hope your holiday season is filled with love and cheer!",
-				"May the spirit of Christ be with you this holiday season.",
-				"Have a blessed holiday season!",
-				"Sending you warm wishes for a happy holiday season.",
-				"I can't wait for cookies!",
-				"I sure hope santa is ready! Coz I am ready for santa!"
-			],
-			"context_set": ""
-		},
-		{
 			"tag": "name",
 			"patterns": [
 				"what is your name",
-				"name",
+				"your name",
+				"do you know your name",
 				"how do i call you",
 				"what should i call you",
 				"who are you",
 				"do you know who you are",
-				"tell me your name"
+				"tell me your name",
+				"what do i call you",
+				"how to address you",
+				"what do people call you"
 			],
 			"responses": [
 				"I am snowman",
@@ -171,7 +158,7 @@
 			"context_set": ""
 		},
 		{
-			"tag": "song",
+			"tag": "song_fav",
 			"patterns": [
 				"what is your favourite christmas song",
 				"favourite christmas  song",
@@ -193,7 +180,13 @@
 				"who created you",
 				"who is your father",
 				"do you know who created you",
-				"whose brain did you come from"
+				"whose brain did you come from",
+				"who is your creator",
+				"who is your maker",
+				"who made you",
+				"how were you born",
+				"who invented snowman",
+				"who is your inventor"
 			],
 			"responses": [
 				"I was created by a team of Computer Science students studying in UOW Malaysia KDU Penang University College."
@@ -1067,7 +1060,9 @@
 				"what are candy canes for",
 				"whats the meaning of candy canes",
 				"why do chirstmas has candy canes",
-				"candy canes"
+				"candy canes",
+				"what do you know about candy canes",
+				"tell me about candy canes"
 			],
 			"responses": [
 				"Candy canes originated in 1837 as straight white sugar sticks, gaining red stripes a few years later. The term 'candy canes' was first used in 1866, and they became associated with Christmas in 1874. Originally with a simple sugar flavor, they are now commonly flavored with peppermint or wintergreen.\nAround 1920, Bob McCormack from Georgia began making candy canes, leading to his company, Bob's Candies. His brother-in-law, a Catholic priest named Gregory Harding Keller, invented the 'Keller Machine' for automatic cane shaping. Despite being acquired in 2005, Bob's Candies still produces candy canes.\nA charming, likely untrue, story suggests a German choirmaster in 1670 created the candy cane to keep children quiet during a Christmas nativity service, shaping them like a 'J' for a shepherd's crook.\nSome ascribe Christian meanings to candy canes, such as the 'J' representing Jesus, white for Christ's purity, and red stripes for his blood on the cross. These meanings were added later. Candy canes are often seen in Christmas stockings."
@@ -1078,7 +1073,11 @@
 			"tag": "mistletoe",
 			"patterns": [
 				"why do people kiss under the mistletoe",
-				"why is mistletoe so popular"
+				"why is mistletoe so popular",
+				"tell me about mistletoe",
+				"what is the tradition of mustletoe",
+				"what is mistletoe about",
+				"what do you know about mistletoe"
 			],
 			"responses": [
 				"The tradition of kissing under the mistletoe has its roots in ancient Norse mythology. Mistletoe was considered a symbol of love and fertility, and it became a custom for enemies to declare a truce when they encountered it. Over time, this evolved into the tradition of kissing under the mistletoe during the Christmas season as a symbol of love and goodwill."
