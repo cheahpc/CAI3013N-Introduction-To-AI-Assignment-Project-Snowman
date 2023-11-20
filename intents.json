@@ -150,6 +150,7 @@
 				"name me all christmas carols",
 				"tell me all the christmas carols",
 				"list of christmas carols",
+				"carols list",
 				"christmas carols list",
 				"how many christmas carols are there"
 			],
@@ -165,6 +166,7 @@
 				"name me all christmas song",
 				"tell me all the christmas song",
 				"list of christmas songs",
+				"song list",
 				"christmas songs list",
 				"how many christmas songs are there"
 			],
@@ -1252,5 +1254,6 @@
 			],
 			"context_set": ""
 		}
+		
 	]
 }
