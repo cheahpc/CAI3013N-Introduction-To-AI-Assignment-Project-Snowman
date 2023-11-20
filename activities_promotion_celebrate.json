@@ -1,96 +1,6 @@
 {
 	"intents": [
-		{
-			"tag": "christmas_celebrate_malaysia",
-			"patterns": [
-				"tell me christmas celebration in malaysia",
-				"how do malaysia celebrate christmas",
-				"how is christmas in malaysia celebrated",
-				"malaysia christmas celebration",
-				"do you know how malaysia celebrate christmas"
-			],
-			"responses": [
-				"You will see biggest and impressive decorations and large Christmas displays in the shopping malls, such as lights, santas, reindeer, fake snow and huge christmas tree. Some large malls will have attractions like indoor ice rinks and carol singers. \n\nRestaurants often offers special Christmas menus. Roast or fried chicken is one of the most popular Christmas dish in Malaysia. \n\nAs well as giving gifts, many Malaysians give and receive money in red packets known as 'Ang Paus'. There are normally sales in shops around Christmas and the new year, so they like to spend their Ang Paus after Christmas in the sales! \n\nAt Midnight on Christmas Eve, there are huge firework displays. They are normally organised in towns and cities and people like to go and watch the fireworks after their Christmas meal."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_celebrate_usa",
-			"patterns": [
-				"tell me christmas celebration in usa",
-				"how do usa celebrate christmas",
-				"how is christmas in usa celebrated",
-				"usa christmas",
-				"do you know how usa celebrate christmas",
-				"christmas celebration in usa"
-			],
-			"responses": [
-				"In the USA, Christmas meals vary across cultural backgrounds. Western European families often enjoy turkey or ham with cranberry sauce. Eastern European traditions favor kielbasa, cabbage dishes, and soups, while Italian-Americans celebrate Christmas Eve with a feast of seven fish dishes. \n\nFestive decorations are a key part of American Christmas traditions. Homes are adorned with popcorn-threaded strings, gingerbread houses, and lights featuring Santa, Snowmen, and Reindeer statues. Some families even leave cookies and milk for Santa on Christmas Eve. \n\nReligious celebrations, including carol services, add depth to the holiday spirit. Unique customs, like the Christmas Pickle, contribute to the diverse tapestry of traditions. Street decorations, iconic landmarks like the Rockefeller Center Christmas Tree, and parades, such as Mumming in Philadelphia, enhance the festive atmosphere. In the Southwest USA, luminarias symbolize the guiding light on Christmas Eve, and tamales add a special touch to festive feasts."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_celebrate_japan",
-			"patterns": [
-				"tell me christmas celebration in japan",
-				"how do japan celebrate christmas",
-				"how is christmas in japan celebrated",
-				"japan christmas celebration",
-				"do you know how japan celebrate christmas"
-			],
-			"responses": [
-				"In Japan, Christmas, though not a religious celebration due to a small Christian population, has become popular in recent decades. Influenced by American customs, activities like sending cards and exchanging presents are now widely embraced. \n\nChristmas in Japan emphasizes spreading happiness, especially on Christmas Eve, which holds a romantic significance akin to Valentine's Day. Couples engage in walks, admiring Christmas lights, and share romantic meals. Fried chicken, notably from KFC, is a common Christmas meal inspired by a successful 1974 advertising campaign. While not a national holiday, schools may close around Christmas Day, aligning with the start of the New Year school break. \n\nUnique Christmas traditions in Japan include the widespread popularity of Beethoven's Ninth Symphony, known as 'daiku,' sung by choirs across the country. Additionally, Tokyo Disneyland attracts visitors during the Christmas season with festive decorations and parades. The Japanese New Year, 'o shogatsu,' is a family-focused celebration lasting from December 31st to January 4th, contrasting with the festive and romantic atmosphere of Christmas in Japan."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_celebrate_china",
-			"patterns": [
-				"tell me christmas celebration in china",
-				"how do china celebrate christmas",
-				"how is christmas in china celebrated",
-				"china christmas",
-				"do you know how china celebrate christmas",
-				"christmas celebration in china"
-			],
-			"responses": [
-				"In China, where only about one percent of the population is Christian, Christmas is primarily celebrated in major cities. Urban areas showcase festive decorations like Christmas Trees, lights, and Santa Claus grottos in shops, bringing a touch of holiday spirit. Even postmen may dress up as Santa when delivering letters before Christmas. Christmas parties are gaining traction among young city dwellers, resembling Valentine's Day celebrations with the exchange of gifts. \n\nThe Mandarin greeting 'Sheng Dan Kuai Le' and Cantonese equivalent 'Seng Dan Fai Lok' mark the Christmas festivities in China. While Christmas Trees are not widespread, those who have them often opt for plastic ones adorned with paper chains, flowers, and lanterns. Interestingly, China manufactures a significant portion of the world's plastic Christmas Trees and decorations, despite these items not being prevalent in the homes of the producers. A unique tradition involves giving apples on Christmas Eve, as the Mandarin word for apple, (píngguǒ) sounds like the word for peace. Additionally, some engage in carol singing, with (Jingle Bells) being a popular Christmas song in China. \n\nWhile Christmas may not hold religious significance for many in China, the festive atmosphere, decorations, and emerging traditions contribute to the celebration of this holiday in urban areas, especially among the younger generation."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_celebrate_portugal",
-			"patterns": [
-				"tell me christmas activities in portugal",
-				"how do portugal celebrate christmas",
-				"how is christmas in portugal celebrated",
-				"portugal christmas celebration",
-				"do you know how portugal celebrate christmas"
-			],
-			"responses": [
-				"In Portugal, the traditional Christmas meal, known as 'Consoada,' is enjoyed on Christmas Eve, featuring salted cod with vegetables, boiled potatoes, and eggs. This festive feast is followed by indulgent foods like shellfish, wild meats, and assorted treats, including roast Turkey, cakes, fried cookies, and nuts. \n\nChristmas traditions in Portugal involve unique desserts from different regions, such as the rich 'Lampreia de ovos' in the north and the popular 'Bolo Rei' (King Cake) placed at the center of the table. A fun tradition involves hiding a broad bean and a gift in the cake, with finding the broad bean requiring the finder to pay for the next year's cake. The celebration continues with porto wine, traditional liquors, and 'azevias' and 'felhozes' as people attend the 'Missa do Galo' service before returning home to open presents. \n\nChristmas Trees have become common, but the traditional Nativity Scene (Presépio) remains a staple decoration. The festive season extends to Epiphany on January 6th, marked by the 'Janeiras' tradition, where groups visit homes singing songs and enjoying snacks, creating a lively atmosphere of celebration and gratitude."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "christmas_promotion_malaysia",
-			"patterns": [
-				"any suggestion on promotion",
-				"show me christmas promotion",
-				"tell me christmas promotion",
-				"recommend promotion for christmas",
-				"promotions",
-				"christmas promotion",
-				"promo"
-			],
-			"responses": [
-				"Here are some christmas promotions you can get from Lazada through this link \nhttps://pages.lazada.com.my/wow/gcp/route/lazada/my/upr_1000345_lazada/channel/my/upr-router/my?spm=a2o4k.home-my.9451080930.1.3e6f4065yNV26U&hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/my/Daily-Sales/Br4GCFiz2n",
-				"There are many things to buy under christmas promotions in Shopee, you can have a look from the following link \nhttps://shopee.com.my/m/christmas-sale-2023",
-				"Grab offers many christmas promotions and deals in 'The Grab Christmas Store', check it from the link below \nhttps://www.grab.com/sg/xmasrewards/",
-				"Ebay have limited time deals and promotions for christmas and you can even get free shipping on it. There are also many christmas decoration with discount. Check the promotions and deals from the following link \nhttps://www.ebay.com/b/Holiday-Seasonal-Decor/170090/bn_1849734"
-			],
-			"context_set": ""
-		},
+		
 		{
 			"tag": "christmas_activities",
 			"patterns": [
@@ -108,26 +18,6 @@
 			],
 			"context_set": ""
 		},
-		{
-			"tag": "christmas_events",
-			"patterns": [
-				"is there any events happening",
-				"any christmas event",
-				"what christmas events are happening",
-				"what events are happening during christmas",
-				"any events during christmas",
-				"events during christmas",
-				"events",
-				"giveaways",
-				"lucky draws"
-			],
-			"responses": [
-				"There is a Christmas concert at Wesley Methodist School Penang International. The event starts at 9th December 2023 7.00PM\n To join ,go to this link and press 'going': https://www.facebook.com/events/299174062935197/",
-				"There is a Christmas Giveaway happening right now at Renu Hair House \nTo go in the draw you MUST: \n- Like this photo on fb & insta \n- Be following our page (Renu Hair House) on Facebook & Instagram\n- Tag 1 friend down below in comments ⬇️ (1 Comment = 1 entry) More comments means more entries\nHere is their Facebook post- https://www.facebook.com/LisaDilsen/posts/876056704521230 ",
-				"There is a Christmas Get together hosted by Church of Divine Mercy Sg Ara \nHere are the details: CDM Christmas Party on Sat, 16 Dec 2023. Sunset Mass at 5.30pm followed by the party thereafter. Weekly Advent-themed activities (Advent-ure to the Manger) for you to fully immerse yourself in the spirit of the season. \nFor more information here is the link :https://fb.me/e/1tMPg36hA",
-				"There is a Christmas Lucky Draw created by Bonjour - Fashion • Beauty.For this Christmas, they have prepared A Big Lucky Draw Event for you\nGrand Prize🥇 : RM 1000\nSecond Prize🥈 : RM 300\nThird Prize🥉 : RM 200\nConsolation Prize🏅 : An Extraordinary Gift x 10\nPurchases any RM199 to get a ticket for Lucky Draw Event\nPurchases any RM398 to get two ticket for Lucky Draw Event And so on……\nEvent will be beginning from 15-11-2023 until 23-12-2023.\nThey will be undergoing the Lucky Draw Event at 24-12-2023 through their FB Live.\n\n For more information click on their Facebook post: https://www.facebook.com/permalink.php?story_fbid=331471339528361&id=100079964918478"
-			],
-			"context_set": ""
-		}
+		
 	]
 }

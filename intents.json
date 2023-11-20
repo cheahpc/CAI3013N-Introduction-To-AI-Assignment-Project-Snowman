@@ -1021,7 +1021,6 @@
 			],
 			"context_set": ""
 		},
-		
 		{
 			"tag": "santa_claus",
 			"patterns": [
@@ -1041,27 +1040,6 @@
 			],
 			"responses": [
 				"The modern image of Santa Claus was popularized by Coca-Cola in the 1930s through its festive advertising. Although Santa's character has earlier origins in folklore and various cultures, Coca-Cola's depiction of a jolly, red-suited Santa with a white beard became an iconic representation that is widely recognized today."
-			],
-			"context_set": ""
-		},
-		{
-			"tag": "what_is_christmas",
-			"patterns": [
-				"what is christmas",
-				"give me information about christmas",
-				"do you know what is christmas",
-				"explain christmas",
-				"define christmas",
-				"what is christmas",
-				"tell me about christmas",
-				"what do you know about christmas"
-			],
-			"responses": [
-				"Christmas is a time to celebrate the birth of Jesus Christ, a beacon of hope and love for Christians worldwide.",
-				"It's a time for families to gather, share laughter and love, and create memories that will last a lifetime.",
-				"The spirit of giving fills the air as people exchange gifts, expressing their appreciation for loved ones.",
-				"Homes are adorned with twinkling lights and festive decorations, creating a magical atmosphere of joy and wonder.",
-				"Children eagerly await the arrival of Santa Claus, the jolly gift-giver who brings excitement and anticipation to the holiday season."
 			],
 			"context_set": ""
 		},
@@ -1253,7 +1231,144 @@
 				"Snowmen were probably first made by people to scare away evil winter spirits. But now they are just a good excuse to have lots of fun in the snow! (If you know anything about why snowmen were first built, please let me know!)\n\nProbably the most famous snowman is 'Frosty the Snowman' who appears in a Christmas song of the same name. The song was written in 1950 by Steve Nelson and Jack Rollins. It was recorded in 1953 by the American singer Perry Como and became very popular. A film called Frosty the Snowman was made in 1969 and told the story of a magical snowman who came to life and became best friends with a little girl. Sing along to 'Frosty the Snowman' (on a different site).\n\nIn the UK there is a famous animated film called The Snowman (made in 1982) about a snowman who comes to life and takes a little boy flying of to see Father Christmas. We used to watch it every year when I was in Primary (Elementary) School on the last school day before the Christmas holidays! The cartoon has a song in it called {We're Walking in the Air}. It was made famous when it was released as a single in 1985 and sung by a choir boy called Aled Jones. Aled is now an adult and a popular television and radio presenter in the UK! (In the original animation, the song was sung by a choir boy called Peter Auty.)"
 			],
 			"context_set": ""
+		},
+		{
+			"tag": "christmas_activities",
+			"patterns": [
+				"activities during christmas",
+				"what activities can i do in christmas",
+				"suggest me christmas activiy",
+				"is there any activites to do during christmas",
+				"what can i do during christmas"
+			],
+			"responses": [
+				"There are a lot of things you can do. Here are the activities:-\nCaroling: Caroling is a communal activity, and it is usually done in groups. People gather together, often in festive attire, and sing the chosen songs in harmony. The group dynamic adds to the joy and spirit of the occasion. \nOpen house: Guests have the opportunity to socialize, mingle, and connect with the hosts and other visitors. It's a time for conversation, sharing stories, and building community bonds.\nSecret Santa: Secret Santa is a festive tradition where participants draw names to exchange gifts. The giver's identity remains a secret until the gift is revealed. Participants can individually buy gifts, contribute to a shared budget, or exchange gift cards.It adds an element of surprise and joy to holiday celebrations.\nShopping: Many people engage in Christmas shopping to purchase gifts for their loved ones, friends, and colleagues. The festive atmosphere, holiday decorations, and special sales make shopping during Christmas a unique and enjoyable experience for many. Additionally, shopping for decorations, festive attire, and holiday-themed items is also a common part of the Christmas season."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_celebrate_malaysia",
+			"patterns": [
+				"tell me christmas celebration in malaysia",
+				"how do malaysia celebrate christmas",
+				"how is christmas in malaysia celebrated",
+				"malaysia christmas celebration",
+				"do you know how malaysia celebrate christmas"
+			],
+			"responses": [
+				"You will see biggest and impressive decorations and large Christmas displays in the shopping malls, such as lights, santas, reindeer, fake snow and huge christmas tree. Some large malls will have attractions like indoor ice rinks and carol singers. \n\nRestaurants often offers special Christmas menus. Roast or fried chicken is one of the most popular Christmas dish in Malaysia. \n\nAs well as giving gifts, many Malaysians give and receive money in red packets known as 'Ang Paus'. There are normally sales in shops around Christmas and the new year, so they like to spend their Ang Paus after Christmas in the sales! \n\nAt Midnight on Christmas Eve, there are huge firework displays. They are normally organised in towns and cities and people like to go and watch the fireworks after their Christmas meal."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_celebrate_usa",
+			"patterns": [
+				"tell me christmas celebration in usa",
+				"how do usa celebrate christmas",
+				"how is christmas in usa celebrated",
+				"usa christmas",
+				"do you know how usa celebrate christmas",
+				"christmas celebration in usa"
+			],
+			"responses": [
+				"In the USA, Christmas meals vary across cultural backgrounds. Western European families often enjoy turkey or ham with cranberry sauce. Eastern European traditions favor kielbasa, cabbage dishes, and soups, while Italian-Americans celebrate Christmas Eve with a feast of seven fish dishes. \n\nFestive decorations are a key part of American Christmas traditions. Homes are adorned with popcorn-threaded strings, gingerbread houses, and lights featuring Santa, Snowmen, and Reindeer statues. Some families even leave cookies and milk for Santa on Christmas Eve. \n\nReligious celebrations, including carol services, add depth to the holiday spirit. Unique customs, like the Christmas Pickle, contribute to the diverse tapestry of traditions. Street decorations, iconic landmarks like the Rockefeller Center Christmas Tree, and parades, such as Mumming in Philadelphia, enhance the festive atmosphere. In the Southwest USA, luminarias symbolize the guiding light on Christmas Eve, and tamales add a special touch to festive feasts."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_celebrate_japan",
+			"patterns": [
+				"tell me christmas celebration in japan",
+				"how do japan celebrate christmas",
+				"how is christmas in japan celebrated",
+				"japan christmas celebration",
+				"do you know how japan celebrate christmas"
+			],
+			"responses": [
+				"In Japan, Christmas, though not a religious celebration due to a small Christian population, has become popular in recent decades. Influenced by American customs, activities like sending cards and exchanging presents are now widely embraced. \n\nChristmas in Japan emphasizes spreading happiness, especially on Christmas Eve, which holds a romantic significance akin to Valentine's Day. Couples engage in walks, admiring Christmas lights, and share romantic meals. Fried chicken, notably from KFC, is a common Christmas meal inspired by a successful 1974 advertising campaign. While not a national holiday, schools may close around Christmas Day, aligning with the start of the New Year school break. \n\nUnique Christmas traditions in Japan include the widespread popularity of Beethoven's Ninth Symphony, known as 'daiku,' sung by choirs across the country. Additionally, Tokyo Disneyland attracts visitors during the Christmas season with festive decorations and parades. The Japanese New Year, 'o shogatsu,' is a family-focused celebration lasting from December 31st to January 4th, contrasting with the festive and romantic atmosphere of Christmas in Japan."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_celebrate_china",
+			"patterns": [
+				"tell me christmas celebration in china",
+				"how do china celebrate christmas",
+				"how is christmas in china celebrated",
+				"china christmas",
+				"do you know how china celebrate christmas",
+				"christmas celebration in china"
+			],
+			"responses": [
+				"In China, where only about one percent of the population is Christian, Christmas is primarily celebrated in major cities. Urban areas showcase festive decorations like Christmas Trees, lights, and Santa Claus grottos in shops, bringing a touch of holiday spirit. Even postmen may dress up as Santa when delivering letters before Christmas. Christmas parties are gaining traction among young city dwellers, resembling Valentine's Day celebrations with the exchange of gifts. \n\nThe Mandarin greeting 'Sheng Dan Kuai Le' and Cantonese equivalent 'Seng Dan Fai Lok' mark the Christmas festivities in China. While Christmas Trees are not widespread, those who have them often opt for plastic ones adorned with paper chains, flowers, and lanterns. Interestingly, China manufactures a significant portion of the world's plastic Christmas Trees and decorations, despite these items not being prevalent in the homes of the producers. A unique tradition involves giving apples on Christmas Eve, as the Mandarin word for apple, (píngguǒ) sounds like the word for peace. Additionally, some engage in carol singing, with (Jingle Bells) being a popular Christmas song in China. \n\nWhile Christmas may not hold religious significance for many in China, the festive atmosphere, decorations, and emerging traditions contribute to the celebration of this holiday in urban areas, especially among the younger generation."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_celebrate_portugal",
+			"patterns": [
+				"tell me christmas activities in portugal",
+				"how do portugal celebrate christmas",
+				"how is christmas in portugal celebrated",
+				"portugal christmas celebration",
+				"do you know how portugal celebrate christmas"
+			],
+			"responses": [
+				"In Portugal, the traditional Christmas meal, known as 'Consoada,' is enjoyed on Christmas Eve, featuring salted cod with vegetables, boiled potatoes, and eggs. This festive feast is followed by indulgent foods like shellfish, wild meats, and assorted treats, including roast Turkey, cakes, fried cookies, and nuts. \n\nChristmas traditions in Portugal involve unique desserts from different regions, such as the rich 'Lampreia de ovos' in the north and the popular 'Bolo Rei' (King Cake) placed at the center of the table. A fun tradition involves hiding a broad bean and a gift in the cake, with finding the broad bean requiring the finder to pay for the next year's cake. The celebration continues with porto wine, traditional liquors, and 'azevias' and 'felhozes' as people attend the 'Missa do Galo' service before returning home to open presents. \n\nChristmas Trees have become common, but the traditional Nativity Scene (Presépio) remains a staple decoration. The festive season extends to Epiphany on January 6th, marked by the 'Janeiras' tradition, where groups visit homes singing songs and enjoying snacks, creating a lively atmosphere of celebration and gratitude."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_promotion",
+			"patterns": [
+				"any suggestion on promotion",
+				"show me christmas promotion",
+				"recommend promotion for christmas",
+				"promotions",
+				"christmas promotion",
+				"promo"
+			],
+			"responses": [
+				"Here are some christmas promotions you can get from Lazada through this link \n https://pages.lazada.com.my/wow/gcp/route/lazada/my/upr_1000345_lazada/channel/my/upr-router/my?spm=a2o4k.home-my.9451080930.1.3e6f4065yNV26U&hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/my/Daily-Sales/Br4GCFiz2n",
+				"There are many things to buy under christmas promotions in Shopee, you can have a look from the following link \n https://shopee.com.my/m/christmas-sale-2023",
+				"Grab offers many christmas promotions and deals in 'The Grab Christmas Store', check it from the link below \n https://www.grab.com/sg/xmasrewards/",
+				"Ebay have limited time deals and promotions for christmas and you can even get free shipping on it. There are also many christmas decoration with discount. Check the promotions and deals from the following link \n https://www.ebay.com/b/Holiday-Seasonal-Decor/170090/bn_1849734"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_activities",
+			"patterns": [
+				"activities during christmas",
+				"what activities can i do in christmas",
+				"is there any activites to do during christmas",
+				"what can i do during christmas"
+			],
+			"responses": [
+				"There are a lot of things you can do. Here are the activities:-\nCaroling: Caroling is a communal activity, and it is usually done in groups. People gather together, often in festive attire, and sing the chosen songs in harmony. The group dynamic adds to the joy and spirit of the occasion. \nOpen house: Guests have the opportunity to socialize, mingle, and connect with the hosts and other visitors. It's a time for conversation, sharing stories, and building community bonds.\nSecret Santa: Secret Santa is a festive tradition where participants draw names to exchange gifts. The giver's identity remains a secret until the gift is revealed. Participants can individually buy gifts, contribute to a shared budget, or exchange gift cards.It adds an element of surprise and joy to holiday celebrations.\nShopping: Many people engage in Christmas shopping to purchase gifts for their loved ones, friends, and colleagues. The festive atmosphere, holiday decorations, and special sales make shopping during Christmas a unique and enjoyable experience for many. Additionally, shopping for decorations, festive attire, and holiday-themed items is also a common part of the Christmas season."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "christmas_events",
+			"patterns": [
+				"what are the christmas events",
+				"any christmas events",
+				"christmas events",
+				"events during christmas",
+				"what events can i attend during christmas",
+				"what events are there during christmas",
+				"what events are there for christmas",
+				"tell me about christmas events"
+				
+			],
+			"responses": [
+				"There is a Christmas concert at Wesley Methodist School Penang International. The event starts at 9th December 2023 7.00PM\n To join ,go to this link and press 'going': https://www.facebook.com/events/299174062935197/",
+				"There is a Christmas Giveaway happening right now at Renu Hair House \nTo go in the draw you MUST: \n- Like this photo on fb & insta \n- Be following our page (Renu Hair House) on Facebook & Instagram\n- Tag 1 friend down below in comments (1 Comment = 1 entry) More comments means more entries\nHere is their Facebook post- https://www.facebook.com/LisaDilsen/posts/876056704521230 ",
+				"There is a Christmas Get together hosted by Church of Divine Mercy Sg Ara \nHere are the details: CDM Christmas Party on Sat, 16 Dec 2023. Sunset Mass at 5.30pm followed by the party thereafter. Weekly Advent-themed activities (Advent-ure to the Manger) for you to fully immerse yourself in the spirit of the season. \nFor more information here is the link :https://fb.me/e/1tMPg36hA",
+				"There is a Christmas Lucky Draw created by Bonjour - Fashion # Beauty.For this Christmas, they have prepared A Big Lucky Draw Event for you\nGrand Prize : RM 1000\nSecond Prize : RM 300\nThird Prize : RM 200\nConsolation Prize : An Extraordinary Gift x 10\nPurchases any RM199 to get a ticket for Lucky Draw Event\nPurchases any RM398 to get two ticket for Lucky Draw Event And so on......\nEvent will be beginning from 15-11-2023 until 23-12-2023.\nThey will be undergoing the Lucky Draw Event at 24-12-2023 through their FB Live.\n\n For more information click on their Facebook post: https://www.facebook.com/permalink.php?story_fbid=331471339528361&id=100079964918478"
+			],
+			"context_set": ""
 		}
-		
 	]
 }
