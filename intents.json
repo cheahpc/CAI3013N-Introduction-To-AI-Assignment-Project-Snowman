@@ -1,6 +1,111 @@
 {
 	"intents": [
 		{
+			"tag": "what_can_you_do",
+			"patterns": [
+				"what can you do",
+				"what are you capable of",
+				"what are your capabilities",
+				"what can i ask",
+				"what can i ask you",
+				"what can i ask you to do",
+				"what do you know"
+			],
+			"responses": [
+				"I know all the Christmas Song!",
+				"I know all the Christmas Carol!",
+				"You can ask me about the Christmas color!",
+				"I know some great deals!",
+				"I can tell you how bright it is!",
+				"I can tell you how humid it is!",
+				"I can tell you how hot it is!",
+				"I can tell you how cold it is!",
+				"I can wish you a Merry Christmas!",
+				"I know some good Christmas wishes!",
+				"I can tell you what you are doing!",
+				"I know some fun events!",
+				"I know how other country celebrate Christmas!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "lightlevel",
+			"patterns": [
+				"how much light",
+				"how much light is there",
+				"how bright is it now",
+				"how bright is it",
+				"is it dark now",
+				"is it bright now",
+				"how dark is it",
+				"how bright is it",
+				"what is the luminosity",
+				"lumos"
+			],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "humidity",
+			"patterns": [
+				"how is the humidity now",
+				"what is the humidity now",
+				"what is the humidity",
+				"tell me the humidity",
+				"do you know what is the humidity now",
+				"do you know what is the current humidity"
+			],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "temperature",
+			"patterns": [
+				"what is the temperature",
+				"what is the temperature now",
+				"what is the temperature at this time",
+				"can you tell me what is the temperature",
+				"can you tell me what is the temperature now",
+				"do you know what is the temperature",
+				"do you know what is the temperature now",
+				"do you know what is the temperature at this time"
+			],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "go_out",
+			"patterns": [
+				"should i go out",
+				"can i go out",
+				"do you think it is a good idea to go out now",
+				"do you think it is a great idea to go out",
+				"do you think it is a good time to go out",
+				"should i go out at this time",
+				"should i go out now",
+				"can i go out now",
+				"can i go out at this time"
+			],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
+			"tag": "comfy",
+			"patterns": [
+				"are you comfortable",
+				"how comfortable are you",
+				"are you comfy",
+				"how comfy are you",
+				"are you feeling comfortable",
+				"are you feeling comfy",
+				"how are you feeling",
+				"how do you feel",
+				"how are you"
+			],
+			"responses": [""],
+			"context_set": ""
+		},
+		{
 			"tag": "action",
 			"patterns": [
 				"guess what am i doing now",
@@ -1326,7 +1431,9 @@
 				"recommend promotion for christmas",
 				"promotions",
 				"christmas promotion",
-				"promo"
+				"promo",
+				"any chrismast deals",
+				"christmas deals"
 			],
 			"responses": [
 				"Here are some christmas promotions you can get from Lazada through this link \n https://pages.lazada.com.my/wow/gcp/route/lazada/my/upr_1000345_lazada/channel/my/upr-router/my?spm=a2o4k.home-my.9451080930.1.3e6f4065yNV26U&hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/my/Daily-Sales/Br4GCFiz2n",
@@ -1360,7 +1467,6 @@
 				"what events are there during christmas",
 				"what events are there for christmas",
 				"tell me about christmas events"
-				
 			],
 			"responses": [
 				"There is a Christmas concert at Wesley Methodist School Penang International. The event starts at 9th December 2023 7.00PM\n To join ,go to this link and press 'going': https://www.facebook.com/events/299174062935197/",
